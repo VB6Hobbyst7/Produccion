@@ -1,0 +1,21 @@
+
+Trujillo, <<FECHA>>
+
+Señores
+ 
+    <<BANCO>>
+	
+Presente
+
+De nuestra mayor consideración:
+
+       Por medio de la presente solicitamos a Uds. ABONAR a nuestra cuenta corriente el
+importe de <<MONEDA>> <<MONTO>> (<<MONTOLETRAS>>)
+por nuestras ordenes de pago devueltas remitidas por uds. el día <<FECHA>>,
+según detalle:
+
+
+
+
+Atentamente.
+

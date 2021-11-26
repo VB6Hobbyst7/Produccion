@@ -1,0 +1,9 @@
+[History]
+B1=SICMACT/frmCredReportes
+[Workbench]
+0=18   SICMACT/MDISicmact10   MDISicmact11   CompMDIForm1    01    0
+1=25   SICMACT/frmCredPagoCuotas17   frmCredPagoCuotas8    CompForm1    01    0
+2=19   SICMACT/frmMntZonas11   frmMntZonas8    CompForm1    01    0
+3=23   SICMACT/frmCredReportes15   frmCredReportes8    CompForm1    01    0
+4=23   SICMACT/gCredConstantes15   gCredConstantes10   CompModule1    01    0
+5=23   SICMACT/frmUbicacionGeo15   frmUbicacionGeo8    CompForm1    01    0

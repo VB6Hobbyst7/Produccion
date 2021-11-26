@@ -1,0 +1,8 @@
+uSpinner = 0, 0, 0, 0, C, 44, 44, 438, 354, C
+Imprimir = 154, 154, 548, 464, C
+ModLoadFile = 0, 0, 0, 0, C
+frmImpresora = 88, 88, 441, 406, C, 154, 154, 548, 464, C
+frmPrevioBus = 0, 0, 0, 0, C, 88, 88, 482, 398, C
+mPrincipal = 0, 0, 394, 310, Z
+clsPrevio = 66, 66, 460, 376, C
+frmPrevio = 0, 0, 394, 310, C, 44, 44, 438, 354, C

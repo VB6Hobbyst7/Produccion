@@ -1,0 +1,6 @@
+ClassDescObjeto = 128, 135, 616, 517, 
+ModDescObjeto = 101, 103, 707, 542, C
+frmBusqDiversa = 66, 66, 644, 425, C, 88, 88, 368, 408, C
+frmBuscaDatoGrd = 22, 22, 611, 377, C, 0, 0, 280, 320, C
+frmSeleCuentas = 0, 0, 0, 0, C, 0, 0, 427, 444, C
+frmDescObjeto = 107, 92, 595, 474, Z, 132, 132, 412, 452, C

@@ -1,0 +1,44 @@
+E  CMAC - ICA                                               13/06/2005-18:36:20
+                                                                        Pag. 001
+E              M A Y O R   D E   C U E N T A S    C O N T A B L E S              F
+E                          Del 01/02/2005 al 28/02/2005                          
+
+ ==============================================================================================================================================================
+  Número                    DOCUMENTO                                                                                 MOVIMIENTO                         
+  de                    ------------------------------------ DESCRIPCION                                     --------------------------        S A L D O 
+  Movimiento            Tipo  Número              Fecha                                                            DEBE          HABER                   
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
+ECUENTA CONTABLE : 51140103200201   Agencia Ica                                                 F
+
+ 20050201-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 0                              56.45
+E                                                                                       TOTAL DIARIO  :                              56.45          5,112.48F
+
+ 20050205-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 0                              11.11
+E                                                                                       TOTAL DIARIO  :                              11.11          5,123.59F
+
+ 20050208-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 0                              33.62
+E                                                                                       TOTAL DIARIO  :                              33.62          5,157.21F
+
+ 20050214-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 1                           2,216.06
+E                                                                                       TOTAL DIARIO  :                           2,216.06          7,373.27F
+
+ 20050217-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 1                              32.32
+E                                                                                       TOTAL DIARIO  :                              32.32          7,405.59F
+
+ 20050218-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 1                              52.02
+E                                                                                       TOTAL DIARIO  :                              52.02          7,457.61F
+
+ 20050223-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 2                               8.91
+E                                                                                       TOTAL DIARIO  :                               8.91          7,466.52F
+
+ 20050225-000000 XXX1                                       Asiento Contable Agencia Ica en M.N. del 2                           2,157.65
+E                                                                                       TOTAL DIARIO  :                           2,157.65          9,624.17F
+
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------
+E                                                                                       TOTAL CUENTA  :                           4,568.14F
+
+                                                                                       SALDO INICIAL :         5,056.03
+                                                                                       SALDO FINAL   :         9,624.17
+F
+ =============================================================================================================================================================
+                                                  F,66  

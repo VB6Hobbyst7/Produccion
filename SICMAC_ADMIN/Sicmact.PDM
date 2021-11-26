@@ -1,0 +1,733 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 4
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Software\Centralizado\Sicmac_Admin\Install\Nuevo
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=
+C:\Archivos de programa\Microsoft Visual Studio\SicmactClases.dll=
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=
+E:\Migracion_Nmodelo\RRHH\Jomark\SicmactAdmin\ActiveX\DescObjeto.dll=
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=
+E:\Software\Centralizado\ActiveX\DllIni\Encrypt.dll=
+C:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+e:\software\distribuido\requerimiento\dll\sicmact.ini=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+C:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnes.dll=Yes
+E:\Software\Centralizado\ActiveX\DllIni\Encrypt.dll=Yes
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=Yes
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=Yes
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=Yes
+E:\Migracion_Nmodelo\RRHH\Jomark\SicmactAdmin\ActiveX\DescObjeto.dll=Yes
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=Yes
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSHFGES.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\TABCTES.DLL=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\RCHTXES.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKES.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGES.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\ADODCES.DLL=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\DBGRDES.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=Yes
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactClases.dll=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\SicmactAdmin.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnes.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DllIni\Encrypt.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=$(WinSysPath)
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=$(WinSysPath)
+E:\Migracion_Nmodelo\RRHH\Jomark\SicmactAdmin\ActiveX\DescObjeto.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\SicmactClases.dll=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTES.DLL=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\RCHTXES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\ADODCES.DLL=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=$(WinSysPath)
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=$(AppPath)
+E:\Software\Centralizado\Sicmac_Admin\SicmactClases.dll=$(WinSysPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\SicmactAdmin.exe=Yes
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Sicmact
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Sicmact
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Sicmact]
+Icon1=SicmactAdmin.exe
+Title1=SicmactAdmin
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=E:\Software\Centralizado\Sicmac_Admin\Install\Nuevo
+ProjectFolder=E:\Software\Centralizado\Sicmac_Admin
+ServerSideCab=
+File1=E:\Software\Centralizado\Sicmac_Admin\Install\Nuevo\setup.exe
+File2=E:\Software\Centralizado\Sicmac_Admin\Install\Nuevo\Setup.Lst
+File3=E:\Software\Centralizado\Sicmac_Admin\Install\Nuevo\SicmactAdmin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Paquete de instalación estándar 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Install
+
+[Package|Paquete de instalación estándar 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 2|Files Found]
+
+[Package|Paquete de instalación estándar 2|Files Released]
+
+[Package|Paquete de instalación estándar 2|Missing Dependency Information]
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=
+
+[Package|Paquete de instalación estándar 2|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Paquete de instalación estándar 2|Files Added]
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=
+
+[Package|Paquete de instalación estándar 2|Files Removed]
+
+[Package|Paquete de instalación estándar 2|Files In Project]
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+C:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnes.dll=Yes
+E:\Software\Centralizado\ActiveX\DllIni\Encrypt.dll=Yes
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=Yes
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=Yes
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=Yes
+E:\Migracion_Nmodelo\RRHH\Jomark\SicmactAdmin\ActiveX\DescObjeto.dll=Yes
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=Yes
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactClases.dll=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSHFGES.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\TABCTES.DLL=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\RCHTXES.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKES.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGES.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\ADODCES.DLL=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\DBGRDES.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=Yes
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=Yes
+
+[Package|Paquete de instalación estándar 2|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 2|Install Locations]
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnes.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DllIni\Encrypt.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=$(WinSysPath)
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=$(WinSysPath)
+E:\Migracion_Nmodelo\RRHH\Jomark\SicmactAdmin\ActiveX\DescObjeto.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=$(WinSysPath)
+E:\Software\Centralizado\Sicmac_Admin\SicmactClases.dll=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTES.DLL=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\RCHTXES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\ADODCES.DLL=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=$(AppPath)
+
+[Package|Paquete de instalación estándar 2|Configure Shared Files]
+Applicable=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+E:\Software\Distribuido\Requerimiento\Dll\Sicmact.Ini=Yes
+
+[Package|Paquete de instalación estándar 2|Distribution]
+Type=single
+Size=
+Title=SicmactAdmin
+
+[Package|Paquete de instalación estándar 2|IconGroups]
+Group0=Sicmact
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 2|Sicmact]
+Icon1=SicmactAdmin.exe
+Title1=SicmactAdmin
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 2|Package]
+PackageFolder=d:\Install
+ProjectFolder=E:\Software\Centralizado\Sicmac_Admin
+ServerSideCab=
+File1=d:\Install\setup.exe
+File2=d:\Install\Setup.Lst
+File3=d:\Install\SicmactAdmin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Paquete de instalación estándar 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Instalador
+
+[Package|Paquete de instalación estándar 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 3|Files Found]
+
+[Package|Paquete de instalación estándar 3|Files Released]
+
+[Package|Paquete de instalación estándar 3|Missing Dependency Information]
+E:\Software\Centralizado\ActiveX\PryImage\PryImage.ocx=
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=
+E:\Software\Centralizado\SicmactClases.dll=
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=
+E:\Software\Centralizado\ActiveX\DescObjeto\DescObjeto.dll=
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=
+
+[Package|Paquete de instalación estándar 3|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Paquete de instalación estándar 3|Files Added]
+
+[Package|Paquete de instalación estándar 3|Files Removed]
+
+[Package|Paquete de instalación estándar 3|Files In Project]
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+D:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnes.dll=Yes
+C:\WINNT\system32\Encrypt.dll=Yes
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=Yes
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=Yes
+E:\Software\Centralizado\ActiveX\DescObjeto\DescObjeto.dll=Yes
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=Yes
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=Yes
+C:\Archivos de programa\SICMACT\DLLWinNT.dll=Yes
+C:\Archivos de programa\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=Yes
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=Yes
+E:\Software\Centralizado\SicmactClases.dll=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSHFGES.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\TABCTES.DLL=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\RCHTXES.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKES.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\CMDLGES.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\ADODCES.DLL=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\DBGRDES.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=Yes
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=Yes
+E:\Software\Centralizado\ActiveX\PryImage\PryImage.ocx=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 3|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 3|Install Locations]
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+D:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnes.dll=$(WinSysPath)
+C:\WINNT\system32\Encrypt.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=$(WinSysPath)
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=$(AppPath)
+E:\Software\Centralizado\ActiveX\DescObjeto\DescObjeto.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=$(WinSysPath)
+C:\Archivos de programa\SICMACT\DLLWinNT.dll=$(WinSysPath)
+C:\Archivos de programa\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=$(AppPath)
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=$(WinSysPath)
+E:\Software\Centralizado\SicmactClases.dll=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTES.DLL=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\RCHTXES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\ADODCES.DLL=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\PryImage\PryImage.ocx=$(WinSysPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 3|Configure Shared Files]
+Applicable=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=Yes
+C:\Archivos de programa\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Paquete de instalación estándar 3|Distribution]
+Type=single
+Size=
+Title=SicmactAdmin
+
+[Package|Paquete de instalación estándar 3|IconGroups]
+Group0=SicmactAdmin
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 3|SicmactAdmin]
+Icon1=SicmactAdmin.exe
+Title1=SicmactAdmin
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 3|Package]
+PackageFolder=E:\Instalador
+ProjectFolder=E:\Software\Centralizado\Sicmac_Admin
+ServerSideCab=
+File1=E:\Instalador\setup.exe
+File2=E:\Instalador\Setup.Lst
+File3=E:\Instalador\SicmactAdmin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Paquete de instalación estándar 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\iNSTALL
+
+[Package|Paquete de instalación estándar 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 4|Files Found]
+
+[Package|Paquete de instalación estándar 4|Files Released]
+
+[Package|Paquete de instalación estándar 4|Missing Dependency Information]
+E:\Software\Centralizado\ActiveX\PryImage\PryImage.ocx=
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=
+\\07logistica04\c$\Archivos de programa\SicmactAdmin\SicmactClases.dll=
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=
+E:\Software\Centralizado\ActiveX\DescObjeto\DescObjeto.dll=
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=
+
+[Package|Paquete de instalación estándar 4|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Paquete de instalación estándar 4|Files Added]
+
+[Package|Paquete de instalación estándar 4|Files Removed]
+
+[Package|Paquete de instalación estándar 4|Files In Project]
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+D:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnes.dll=Yes
+C:\WINNT\system32\Encrypt.dll=Yes
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=Yes
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=Yes
+E:\Software\Centralizado\ActiveX\DescObjeto\DescObjeto.dll=Yes
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=Yes
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=Yes
+C:\Archivos de programa\SICMACT\DLLWinNT.dll=Yes
+C:\Archivos de programa\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=Yes
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=Yes
+\\07logistica04\c$\Archivos de programa\SicmactAdmin\SicmactClases.dll=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSHFGES.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\TABCTES.DLL=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\RCHTXES.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKES.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\CMDLGES.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\ADODCES.DLL=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\DBGRDES.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=Yes
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=Yes
+E:\Software\Centralizado\ActiveX\PryImage\PryImage.ocx=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 4|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 4|Install Locations]
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+D:\Archivos de programa\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnes.dll=$(WinSysPath)
+C:\WINNT\system32\Encrypt.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Flash\SWFLASH.OCX=$(WinSysPath)
+E:\Software\Distribuido\Requerimiento\Dll\ClasIni.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DescObjeto\DescObjeto.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\ProgressBar\ProgressBar.dll=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\DllPrevio\Previo.dll=$(WinSysPath)
+C:\Archivos de programa\SICMACT\DLLWinNT.dll=$(WinSysPath)
+C:\Archivos de programa\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=$(AppPath)
+E:\Software\Centralizado\ActiveX\Constantes\Constantes.dll=$(WinSysPath)
+\\07logistica04\c$\Archivos de programa\SicmactAdmin\SicmactClases.dll=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTES.DLL=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\RCHTXES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\ADODCES.DLL=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\Spinner\Spinner.ocx=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\VertMenu\VertMenu.ocx=$(WinSysPath)
+E:\Software\Centralizado\ActiveX\PryImage\PryImage.ocx=$(WinSysPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 4|Configure Shared Files]
+Applicable=Yes
+E:\Software\Centralizado\Sicmac_Admin\SicmactAdmin.exe=Yes
+C:\Archivos de programa\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Paquete de instalación estándar 4|Distribution]
+Type=single
+Size=
+Title=SicmactAdmin
+
+[Package|Paquete de instalación estándar 4|IconGroups]
+Group0=SicmactAdmin
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 4|SicmactAdmin]
+Icon1=SicmactAdmin.exe
+Title1=SicmactAdmin
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 4|Package]
+PackageFolder=E:\iNSTALL
+ProjectFolder=E:\Software\Centralizado\Sicmac_Admin
+ServerSideCab=
+File1=E:\iNSTALL\setup.exe
+File2=E:\iNSTALL\Setup.Lst
+File3=E:\iNSTALL\SicmactAdmin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

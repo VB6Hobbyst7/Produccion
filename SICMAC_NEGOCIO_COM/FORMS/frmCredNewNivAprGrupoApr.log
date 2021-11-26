@@ -1,0 +1,8 @@
+Línea 269: la clase SICMACT.TxtBuscar del control txtBuscarUsuario no era una clase de control cargada.
+Línea 288: la clase SICMACT.FlexEdit del control fePorUsuario no era una clase de control cargada.
+Línea 330: la clase SICMACT.EditMoney del control txtNumFirmasPorUsuario no era una clase de control cargada.
+Línea 410: la clase SICMACT.TxtBuscar del control txtBuscarCargo no era una clase de control cargada.
+Línea 429: la clase SICMACT.FlexEdit del control fePorCargo no era una clase de control cargada.
+Línea 471: la clase SICMACT.EditMoney del control txtNumFirmasPorCargo no era una clase de control cargada.
+Línea 507: la clase SICMACT.FlexEdit del control feNivApr no era una clase de control cargada.
+Línea 753: la clase SICMACT.FlexEdit del control feGrupos no era una clase de control cargada.

@@ -1,0 +1,11 @@
+Línea 247: la clase SICMACT.FlexEdit del control fgVentasSem no era una clase de control cargada.
+Línea 345: la clase SICMACT.FlexEdit del control fgGastoNeg no era una clase de control cargada.
+Línea 462: la clase SICMACT.FlexEdit del control fgGastoFam no era una clase de control cargada.
+Línea 579: la clase SICMACT.FlexEdit del control fgOtrosIng no era una clase de control cargada.
+Línea 679: la clase SICMACT.EditMoney del control txtCalcMonto no era una clase de control cargada.
+Línea 699: la clase SICMACT.EditMoney del control txtCalcTEM no era una clase de control cargada.
+Línea 1078: la clase SICMACT.FlexEdit del control fgRef no era una clase de control cargada.
+Línea 1364: la clase SICMACT.EditMoney del control txtMontoSol no era una clase de control cargada.
+Línea 1384: la clase SICMACT.EditMoney del control txtCuotaPagar no era una clase de control cargada.
+Línea 1449: la clase SICMACT.EditMoney del control txtUltEndeuda no era una clase de control cargada.
+Línea 1681: la clase SICMACT.ActXCodCta del control ActXCodCta no era una clase de control cargada.

@@ -1,0 +1,39 @@
+
+
+                                                  <<FECHA>>
+
+ Sr. <<NOMBRE>>
+
+     <<DIRECCION>>
+     <<ZONA>>  
+
+
+ Referencia :  Credito Nro :  <<CREDITO>>
+
+
+ De nuestra consideración :
+
+        Nos dirigimos  a usted(es) para comunicarle(s) que, al estar cerca de cumplirse 
+ el pago Total de su Credito <<CREDITO>>, Ud se encuentra en condicion
+ de obtener Otro Credito, con todas las facilidades que le otorga dicha condicion.
+
+
+        Por lo que le solicitamos se acerque a nuestras oficinas y/o a su analista el 
+ Sr. <<ANALISTA>>  
+ con la finalidad informarse sobre las ventajas de un Credito en paralelo. 
+
+
+         Lo(s) esperamos en nuestra red de Agencias.
+
+ 
+
+
+ Sin otro particular, quedamos de Usted(es).
+
+
+                                Atentamente,
+
+
+
+
+		                              CAJA MUNICIPAL DE TRUJILLO 

@@ -1,0 +1,29 @@
+
+
+
+
+
+
+	Trujillo,  <<FECHA>>
+
+	Señor(a)(ita)
+
+		<<CLIENTE>>
+		<<DIRECCION>>
+		<<ZONA>>
+		Presente.-
+
+	Estimado Cliente:
+
+	Es grato dirigirnos a Ud. para saludarlo y a la vez informarle que durante el mes de
+	<<MESANT>> del presente, ha mantenido en su(s) cuenta(s) de Ahorros:
+
+<<CUENTAS>>
+
+	, un promedio superior al monto mínimo exigido para tener beneficio de nuestro SEGURO
+	DE SEPELIO, durante el mes de <<MES>>.
+
+	Agradeceremos se sirva firmar su  Declaración Jurada de  Beneficiarios  en  nuestras 
+	oficinas, donde gustosamente lo atenderemos.
+
+		Atentamente.

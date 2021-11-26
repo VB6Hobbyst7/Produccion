@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\SICMACT.vbp
+Project=..\..\..\Componentes\Sicmac_Negocio_Com\COMPONENTES\COMNCredito.vbp

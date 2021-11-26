@@ -1,0 +1,12 @@
+Línea 251: la clase SICMACT.EditMoney del control txtPR1Desde no era una clase de control cargada.
+Línea 270: la clase SICMACT.EditMoney del control txtPR1Hasta no era una clase de control cargada.
+Línea 314: la clase SICMACT.EditMoney del control txtPR2Desde no era una clase de control cargada.
+Línea 333: la clase SICMACT.EditMoney del control txtPR2Hasta no era una clase de control cargada.
+Línea 540: la clase SICMACT.EditMoney del control txtDesdeR1 no era una clase de control cargada.
+Línea 559: la clase SICMACT.EditMoney del control txtHastaR1 no era una clase de control cargada.
+Línea 603: la clase SICMACT.EditMoney del control txtDesdeR2 no era una clase de control cargada.
+Línea 622: la clase SICMACT.EditMoney del control txtHastaR2 no era una clase de control cargada.
+Línea 686: la clase SICMACT.FlexEdit del control feParam no era una clase de control cargada.
+Línea 730: la clase SICMACT.FlexEdit del control FlexEdit1 no era una clase de control cargada.
+Línea 774: la clase SICMACT.FlexEdit del control fePParam no era una clase de control cargada.
+Línea 818: la clase SICMACT.FlexEdit del control FlexEdit3 no era una clase de control cargada.

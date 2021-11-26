@@ -1,0 +1,45 @@
+
+
+
+
+
+
+	Trujillo,  <<FECHA>>
+
+	Señor(a)(ita)
+
+		<<CLIENTE>>
+		<<DIRECCION>>
+		<<ZONA>>
+		Presente.-
+
+
+
+	Estimado Cliente:
+
+	Agradecemos la confianza depositada en la Caja Municipal de Ahorro y Crédito de Trujillo,
+	institución que  día a día sigue demostrando  solidez en el sistema financiero regional y
+	nacional. Nos comprometemos a seguir trabajando para Ud. brindándole el mejor servicio.
+
+	Nuestra misiva es para comunicarle que Ud.  ha sido beneficiado con el  SEGURO DE SEPELIO
+	GRATUITO que ofrece nuestra entidad para el presente mes de <<MES>>.
+
+	En el transcurso de los próximos días podrá  dejarnos en cualquiera de nuestras  oficinas,
+	la  DECLARACION  DE  BENEFICIARIOS que  le estamos adjuntando;  si desea continuar con el 
+	seguro en mención, deberá mantener en ahorros S/. 500 soles ó US$ 150 dólares. La(s) 
+	cuenta(s) que han mantenido este promedio son:
+
+<<CUENTAS>>
+
+	Sin otro particular, nos despedimos y le deseamos exitos en su gestión.
+
+
+		Atentamente.
+
+
+
+
+
+
+
+	Caja Municipal de Ahorro y Crédito de Trujillo, Sólido Respaldo para el Nuevo Milenio.

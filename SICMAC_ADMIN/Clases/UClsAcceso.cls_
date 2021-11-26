@@ -1,0 +1,578 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
+END
+Attribute VB_Name = "UAcceso"
+Attribute VB_GlobalNameSpace = True
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
+'Para Cargar Usuarios
+Private Type JoinLong
+   x As Long
+   Dummy As Integer
+End Type
+
+Private Type JoinInt
+   Bottom As Integer
+   Top As Integer
+   Dummy As Integer
+End Type
+
+Private Type NETRESOURCE
+        dwScope As Long
+        dwType As Long
+        dwDisplayType As Long
+        dwUsage As Long
+        lpLocalName As Long
+        lpRemoteName As Long
+        lpComment As Long
+        lpProvider As Long
+End Type
+
+Private Espaciado As Integer
+Private Declare Function NetGetDCName Lib "netapi32.dll" (ByRef servername As Byte, ByRef DomainName As Byte, ByRef buffer As Long) As Long
+Private Declare Function NetUserGetInfo Lib "NETAPI32" (ByRef servername As Byte, ByRef UserName As Byte, ByVal level As Long, ByRef buffer As Long) As Long
+Private Declare Function NetQueryDisplayInformation Lib "netapi32.dll" (ByRef servername As Byte, ByVal level As Long, ByVal Index As Long, ByVal EntriesRequested As Long, ByVal PreferredMaximumLength As Long, ByRef ReturnedEntryCount As Long, ByRef SortedBuffer As Long) As Long
+Private Declare Function PtrToInt Lib "kernel32" Alias "lstrcpynW" (RetVal As Any, ByVal Ptr As Long, ByVal nCharCount As Long) As Long
+Private Declare Function PtrToStr Lib "kernel32" Alias "lstrcpyW" (RetVal As Byte, ByVal Ptr As Long) As Long
+Private Declare Function StrLen Lib "kernel32" Alias "lstrlenW" (ByVal Ptr As Long) As Long
+Private Declare Function NetAPIBufferFree Lib "netapi32.dll" Alias "NetApiBufferFree" (ByVal Ptr As Long) As Long
+Private Users$(), typRootResourses() As NETRESOURCE, typDomainResourses() As NETRESOURCE
+
+'Para Cambiar el Password
+Private Declare Function NetUserChangePassword Lib "netapi32.dll" ( _
+     ByVal DomainName As String, ByVal UserName As String, _
+     ByVal OldPassword As String, ByVal NewPassword As String) As Long
+     
+'Para Obtener el Usuario Logeado
+Private Declare Function GetComputerName Lib "kernel32" Alias "GetComputerNameA" (ByVal lpbuffer As String, nSize As Long) As Long
+Private Declare Function GetUserName Lib "advapi32.dll" Alias "GetUserNameA" (ByVal lpbuffer As String, nSize As Long) As Long
+
+Private sGrupoUsu() As String
+Private nNumGrupos As Integer
+
+Private LstUsuarios() As String
+Private LstUsuariosNameFull() As String
+Private LstUsuariosLoged() As String
+Public nNumUsu As Integer
+
+Public MenuItems As String
+Public nNumMenus As Integer
+
+Public sCadCon As String
+Public sCadMenu As String
+Public sCadMenuGrp As String
+Public sCadMenuSql As String
+Public vError As Boolean
+Public sMsgError As String
+
+Private vsTipoPermisoUsu As String
+Private vsTipoPermisoGrp As String
+Private nPosUsuGrp As Integer
+
+'Para Trabajo con Grupos Globales de NT
+Private Type MungeLong
+  x As Long
+  Dummy As Integer
+End Type
+
+Private Type MungeInt
+  XLo As Integer
+  XHi As Integer
+  Dummy As Integer
+End Type
+
+Private Declare Function StrLenW Lib "kernel32.dll" Alias "lstrlenW" (ByVal Ptr As Long) As Long
+Private Declare Function NetGroupEnum Lib "netapi32.dll" (servername As Byte, ByVal level As Long, buffer As Long, ByVal PrefMaxLen As Long, EntriesRead As Long, TotalEntries As Long, ResumeHandle As Long) As Long
+Private Declare Function NetUserGetGroups Lib "netapi32.dll" (servername As Byte, UserName As Byte, ByVal level As Long, buffer As Long, ByVal PrefMaxLen As Long, EntriesRead As Long, TotalEntries As Long) As Long
+
+'Para Guardar Los Grupos Globales de NT
+Dim Groups() As String
+Dim Pass As Long
+  
+Private Sub EnumGlobalGroups(ByVal Server As String, Optional ByVal UserName As String)
+  ' Enumerates global groups only - not local groups
+  ' Returns an array of global groups
+  ' If a username is specified, it only returns
+  ' groups that that user is a member of
+  Dim Result As Long
+  Dim bufptr As Long
+  Dim EntriesRead As Long
+  Dim TotalEntries As Long
+  Dim ResumeHandle As Long
+  Dim BufLen As Long
+  Dim SNArray() As Byte
+  Dim GNArray(99) As Byte
+  Dim UNArray() As Byte
+  Dim GName As String
+  Dim i As Integer
+  Dim UNPtr As Long
+  Dim TempPtr As MungeLong
+  Dim TempStr As MungeInt
+
+  If Server <> "" And Left(Server, 2) <> "\\" Then Server = "\\" & Server
+
+  SNArray = Server & vbNullChar      ' Move to byte array
+  UNArray = UserName & vbNullChar    ' Move to Byte array
+  BufLen = 255                       ' Buffer size
+  ResumeHandle = 0                   ' Start with the first entry
+
+  Pass = 0
+  Do
+    If UserName = "" Then
+      Result = NetGroupEnum(SNArray(0), 0, bufptr, BufLen, EntriesRead, TotalEntries, ResumeHandle)
+    Else
+      Result = NetUserGetGroups(SNArray(0), UNArray(0), 0, bufptr, BufLen, EntriesRead, TotalEntries)
+    End If
+    If Result <> 0 And Result <> 234 Then    ' 234 means multiple reads required
+      'Err.Raise Result, "EnumGlobalGroups", "Error enumerating global group " & EntriesRead & " of " & TotalEntries
+      Exit Sub
+    End If
+    For i = 1 To EntriesRead
+      ' Get pointer to string from beginning of buffer
+      ' Copy 4 byte block of memory in 2 steps
+      PtrToInt TempStr.XLo, bufptr + (i - 1) * 4, 2
+      PtrToInt TempStr.XHi, bufptr + (i - 1) * 4 + 2, 2
+      LSet TempPtr = TempStr ' munge 2 Integers to a Long
+      ' Copy string to array and convert to a string
+      Result = PtrToStr(GNArray(0), TempPtr.x)
+      GName = Left(GNArray, StrLenW(TempPtr.x))
+      ReDim Preserve Groups(0 To Pass) As String
+      Groups(Pass) = GName
+      Pass = Pass + 1
+    Next i
+  Loop Until EntriesRead = TotalEntries
+  ' The above condition only valid for reading accounts on NT
+  ' but not OK for OS/2 or LanMan
+  NetAPIBufferFree bufptr         ' Don't leak memory
+  
+End Sub
+
+Public Sub DameItemsMenu()
+Dim Conn As DConecta
+Dim sSQL As String
+Dim R As ADODB.Recordset
+Dim i As Integer
+        Set Conn = New DConecta
+        If Not Conn.AbreConexion() Then
+            vError = True
+            sMsgError = "No se pudo Conectar al Servidor, Consulte con el Area de Sistemas"
+            Set Conn = Nothing
+            Exit Sub
+        End If
+        sSQL = "Select right(cName,8) as cCodigo,cDescrip,cName from Menu Order By right(cName,8)"
+        Set R = Conn.CargaRecordSet(sSQL, adLockReadOnly)
+        nNumMenus = R.RecordCount
+        i = 0
+        sCadMenu = ""
+        sCadMenuSql = "('"
+        MenuItems = ""
+        Do While Not R.EOF
+            sCadMenu = sCadMenu & Trim(R!cName)
+            MenuItems = MenuItems & Trim(R!cCodigo) & Space(Espaciado - Len(Trim(R!cCodigo)))
+            MenuItems = MenuItems & Trim(R!cDescrip) & Space(Espaciado - Len(Trim(R!cDescrip)))
+            MenuItems = MenuItems & Trim(R!cName) & Space(Espaciado - Len(Trim(R!cName)))
+            sCadMenuSql = sCadMenuSql & Trim(R!cName) & "','"
+            i = i + 1
+            R.MoveNext
+        Loop
+        R.Close
+        sCadMenuSql = Mid(sCadMenuSql, 1, Len(sCadMenuSql) - 2)
+        sCadMenuSql = sCadMenuSql & ")"
+        Set R = Nothing
+        Set Conn = Nothing
+End Sub
+
+Public Function DameUsuario() As String
+    If nNumUsu > nPosUsuGrp Then
+        DameUsuario = LstUsuarios(nPosUsuGrp)
+        nPosUsuGrp = nPosUsuGrp + 1
+    Else
+        DameUsuario = ""
+    End If
+End Function
+Public Function DameLogedUsuario() As String
+    DameLogedUsuario = LstUsuariosLoged(nPosUsuGrp - 1)
+End Function
+
+Public Function DameUsuarioNameFull() As String
+    DameUsuarioNameFull = LstUsuariosNameFull(nPosUsuGrp - 1)
+End Function
+
+Public Sub DenegarAcceso(ByVal psUsuGrp As String, ByVal psItemMenuName As String, ByVal psTipoUsu As String)
+Dim sSQL As String
+Dim Conn As DConecta
+    vError = False
+    sSQL = "DELETE Permiso where cGrupoUsu = '" & psUsuGrp & "' And cName = '" & psItemMenuName & "' And cTipo = '" & psTipoUsu & "'"
+    Set Conn = New DConecta
+    If Not Conn.AbreConexion() Then
+        vError = True
+        sMsgError = "No se pudo Conectar al Servidor"
+        Exit Sub
+    End If
+    Conn.Ejecutar sSQL
+    Conn.CierraConexion
+    Set Conn = Nothing
+End Sub
+Public Sub OtorgarAcceso(ByVal psUsuGrp As String, ByVal psItemMenuName As String, ByVal psTipoUsu As String)
+Dim sSQL As String
+Dim Conn As DConecta
+    vError = False
+    sSQL = "INSERT INTO PERMISO(cName,cGrupoUsu,cTipo) VALUES('" & psItemMenuName & "','" & psUsuGrp & "','" & psTipoUsu & "')"
+    Set Conn = New DConecta
+    If Not Conn.AbreConexion() Then
+        vError = True
+        sMsgError = "No se pudo Conectar al Servidor"
+        Exit Sub
+    End If
+    Conn.Ejecutar sSQL
+    Conn.CierraConexion
+    Set Conn = Nothing
+End Sub
+Public Function GetPDC(pdc As String) As Long
+   Dim Result As Long, Server As String, domain As String
+   Dim SNArray() As Byte
+   Dim DArray() As Byte
+   Dim DCNPtr As Long
+   Dim StrArray(100) As Byte
+   SNArray = Server & vbNullChar      ' Move to byte array
+   DArray = domain & vbNullChar       ' Move to byte array
+   Result = NetGetDCName(SNArray(0), DArray(0), DCNPtr)
+   GetPDC = Result
+   If Result = 0 Then
+      Result = PtrToStr(StrArray(0), DCNPtr)
+      pdc = Left(StrArray(), StrLen(DCNPtr))
+   Else
+      pdc = ""
+   End If
+   NetAPIBufferFree (DCNPtr)
+End Function
+Private Sub GetUserInfo(ByVal psPDC As String, User As String, UserName, Logged)
+    On Error Resume Next
+    Dim Result&, bufptr&, LOn As Long, LOff As Long
+    Dim SNArray() As Byte, UNArray() As Byte, StrArray(500) As Byte
+    Dim TempPtr As JoinLong, TempStr As JoinInt, x&, pdc$
+    Let x = GetPDC(psPDC)
+    pdc = psPDC
+    SNArray = pdc & vbNullChar
+    UNArray = User & vbNullChar
+    Result = NetUserGetInfo(SNArray(0), UNArray(0), 3, bufptr)
+    DoEvents
+    If Result = 0 Then
+        Result = PtrToInt(TempStr.Bottom, bufptr + 36, 2)
+        Result = PtrToInt(TempStr.Top, bufptr + 38, 2)
+        LSet TempPtr = TempStr
+        Result = PtrToStr(StrArray(0), TempPtr.x)
+        UserName = Left(StrArray, StrLen(TempPtr.x))
+        Result = PtrToInt(TempStr.Bottom, bufptr + 52, 2)
+        Result = PtrToInt(TempStr.Top, bufptr + 54, 2)
+        LSet TempPtr = TempStr
+        LOn = TempPtr.x
+        Result = PtrToInt(TempStr.Bottom, bufptr + 56, 2)
+        Result = PtrToInt(TempStr.Top, bufptr + 58, 2)
+        LSet TempPtr = TempStr
+        LOff = TempPtr.x
+        If LOn > LOff Then
+            Logged = "On"
+        Else
+            Logged = "Off"
+        End If
+        Result = NetAPIBufferFree(bufptr)
+    End If
+End Sub
+
+Private Sub GetUsers(ByVal domain As String)
+    On Error Resume Next
+    Dim SNArray() As Byte, level&, Index&, EntriesRequested&, _
+    PreferredMaximumLength&, ReturnedEntryCount&, SortedBuffer&, _
+    APIResult As Long, StrArray(500) As Byte, i&, TempPtr As JoinLong, _
+    TempStr As JoinInt, data$(), Result&, Size%
+    Let level = 1
+    Let SNArray = domain & vbNullChar
+    Let Index = 0
+    Let EntriesRequested = 500
+    Let PreferredMaximumLength = 6000
+    Do
+        DoEvents
+        APIResult = NetQueryDisplayInformation(SNArray(0), level, Index, _
+        EntriesRequested, PreferredMaximumLength, ReturnedEntryCount, _
+        SortedBuffer)
+        If ReturnedEntryCount = 0 Then Exit Do
+        For i = 1 To ReturnedEntryCount
+            Let Size = Size + 1
+            APIResult = PtrToInt(TempStr.Bottom, SortedBuffer + (i - 1) * 24, 2)
+            APIResult = PtrToInt(TempStr.Top, SortedBuffer + (i - 1) * 24 + 2, 2)
+            LSet TempPtr = TempStr
+            APIResult = PtrToStr(StrArray(0), TempPtr.x)
+            ReDim Preserve Users$(1 To Size)
+            Users(Size) = Left(StrArray, StrLen(TempPtr.x))
+            APIResult = PtrToInt(TempStr.Bottom, SortedBuffer + (i - 1) * 24 + 20, 2)
+            APIResult = PtrToInt(TempStr.Top, SortedBuffer + (i - 1) * 24 + 22, 2)
+            LSet TempPtr = TempStr
+            Index = TempPtr.x
+            DoEvents
+        Next i
+        Result = NetAPIBufferFree(SortedBuffer)
+    Loop Until APIResult = 0
+End Sub
+
+Public Sub CargaControlUsuarios(ByVal psPDC As String, ByVal PsDominio As String)
+Dim i As Integer
+    'Recuperar Los Usuarios del Dominio
+    Call GetUsers(psPDC)
+    For i = 1 To UBound(Users)
+        nNumUsu = nNumUsu + 1
+        ReDim Preserve LstUsuarios(nNumUsu)
+        ReDim Preserve LstUsuariosNameFull(nNumUsu)
+        ReDim Preserve LstUsuariosLoged(nNumUsu)
+        LstUsuarios(nNumUsu - 1) = Users(i)
+        Call GetUserInfo(psPDC, LstUsuarios(nNumUsu - 1), LstUsuariosNameFull(nNumUsu - 1), LstUsuariosLoged(nNumUsu - 1))
+    Next
+End Sub
+Public Sub CargaControlGrupos(ByVal psPDC As String, ByVal PsDominio As String)
+Dim i As Integer
+
+    Call EnumGlobalGroups(psPDC)
+    For i = 0 To Pass - 1
+        nNumUsu = nNumUsu + 1
+        ReDim Preserve LstUsuarios(nNumUsu)
+        LstUsuarios(nNumUsu - 1) = Groups(i)
+    Next
+End Sub
+Public Sub RegeneraMenu(ByVal psMenuActual As String, ByVal psMenuSql As String)
+Dim Ctl As Control
+Dim sSQL As String
+Dim Conn As DConecta
+Dim R As ADODB.Recordset
+Dim sCriterio As String
+Dim sCadMenu As String
+Dim i As Integer
+Dim j As Integer
+Dim sTemp As String
+
+    On Error GoTo ErrRegeneraMenu
+    vError = False
+    sMsgError = ""
+    
+    Set Conn = New DConecta
+    If Not Conn.AbreConexion() Then
+        vError = True
+        sMsgError = "No se pudo Conectar al Servidor"
+        Set Conn = Nothing
+        Exit Sub
+    End If
+    Call DameItemsMenu
+    'Eliminar los que ya no estan en el Menu
+    sSQL = "Delete Permiso where cName in (Select cName from Menu where cName not in " & psMenuSql & ")"
+    Conn.AdicionaCmdBatch sSQL
+    sSQL = "Delete Menu where cName in (Select cName from Menu where cName not in " & psMenuSql & ")"
+    Conn.AdicionaCmdBatch sSQL
+    
+    'Ingresa Nuevos Menus
+    sCadMenu = ""
+    sSQL = "Select cName,cDescrip from Menu where cName in " & sCadMenuSql
+    If Len(Trim(sCadMenuSql)) > 1 Then
+        Set R = Conn.CargaRecordSet(sSQL, adLockOptimistic)
+        Do While Not R.EOF
+            sCadMenu = sCadMenu & R!cName
+            R.MoveNext
+        Loop
+        R.Close
+        Set R = Nothing
+    End If
+    nNumMenus = Len(psMenuActual) / (2 * Espaciado)
+    For i = 0 To nNumMenus - 1
+        sTemp = Trim(Mid(psMenuActual, (i * (2 * Espaciado)) + 1, Espaciado))
+        If InStr(sCadMenu, sTemp) <= 0 Then
+            sSQL = "INSERT INTO MENU(CNAME,CDescrip) VALUES('" & Trim(Mid(psMenuActual, (i * (2 * Espaciado)) + 1, Espaciado)) & "','" & Trim(Mid(psMenuActual, (i * (2 * Espaciado)) + Espaciado + 1, Espaciado)) & "')"
+            Conn.AdicionaCmdBatch sSQL
+        End If
+    Next i
+    Conn.EjecutarBatch
+    Set Conn = Nothing
+    Exit Sub
+    
+ErrRegeneraMenu:
+    vError = True
+    sMsgError = Err.Description
+    Conn = Nothing
+    Exit Sub
+End Sub
+Public Function ObtenerNombreComputadora() As String
+Dim buffMaq As String
+Dim lSizeMaq As Long
+
+    buffMaq = Space(255)
+    lSizeMaq = Len(buffMaq)
+    Call GetComputerName(buffMaq, lSizeMaq)
+    ObtenerNombreComputadora = buffMaq
+End Function
+Public Function ObtenerUsuario() As String
+Dim buffUsu As String
+Dim lSizeUsu As Long
+
+    buffUsu = Space(255)
+    lSizeUsu = Len(buffUsu)
+    Call GetUserName(buffUsu, lSizeUsu)
+    ObtenerUsuario = Mid(Trim(buffUsu), 1, Len(Trim(buffUsu)) - 1)
+       
+End Function
+
+
+Private Sub CargaGruposUsuario(ByVal psPDC As String, ByVal sUsuario As String, ByVal PsDominio As String)
+Dim i As Integer
+    
+    Call EnumGlobalGroups(psPDC, sUsuario)
+    
+    For i = 0 To Pass - 1
+        nNumGrupos = nNumGrupos + 1
+        ReDim Preserve sGrupoUsu(nNumGrupos)
+        sGrupoUsu(nNumGrupos - 1) = Groups(i)
+    Next i
+    
+End Sub
+Private Function PerteneceAGrupo(ByVal sGrupoPerm As String) As Boolean
+Dim i As Integer
+    PerteneceAGrupo = False
+    For i = 0 To nNumGrupos - 1
+        If UCase(Trim(sGrupoPerm)) = UCase(sGrupoUsu(i)) Then
+            PerteneceAGrupo = True
+            Exit For
+        End If
+    Next i
+End Function
+Public Function CargaMenu(ByVal psPDC As String, ByVal PsDominio As String, Optional ByVal psUsuario As String = "", Optional ByVal sTipoUsu As String = "1")
+Dim sSQL As String
+Dim oConn As DConecta
+Dim RMenu As ADODB.Recordset
+Dim RPermisoUsu As ADODB.Recordset
+Dim RPermisoGrp As ADODB.Recordset
+Dim sUsuario As String
+Dim sCriterio As String
+Dim i As Integer
+
+    'Carga Grupos
+    If Len(Trim(psUsuario)) = 0 Then
+        sUsuario = ObtenerUsuario()
+    Else
+        sUsuario = psUsuario
+    End If
+    If sTipoUsu = "1" Then 'Si es un usuario de lo contrario un grupo
+        Call CargaGruposUsuario(psPDC, sUsuario, PsDominio)
+    End If
+            
+    Set oConn = New DConecta
+    If oConn.AbreConexion() Then
+        sSQL = "Select * from Menu"
+        Set RMenu = oConn.CargaRecordSet(sSQL)
+        'permisos por usuario
+        sSQL = "Select * from Permiso where cTipo='" & sTipoUsu & "' and upper(rtrim(ltrim(cGrupoUsu))) = '" & UCase(sUsuario) & "'"
+        Set RPermisoUsu = oConn.CargaRecordSet(sSQL)
+        'Permisos por Grupo
+        sSQL = "Select * from Permiso where cTipo='" & vsTipoPermisoGrp & "'"
+        Set RPermisoGrp = oConn.CargaRecordSet(sSQL)
+        oConn.CierraConexion
+        
+        sCadMenu = ""
+        sCadMenuGrp = ""
+        For i = 0 To nNumGrupos - 1
+            If UCase(sGrupoUsu(i)) = "SISTEMAS" Then
+                sCadMenu = "mnuSeguridad09000000mnuSegurPerm09010000"
+                sCadMenuGrp = "mnuSeguridad09000000mnuSegurPerm09010000"
+                Exit For
+            End If
+        Next i
+            
+        Do While Not RMenu.EOF
+            'Buscando por usuario
+            sCriterio = "cName = '" & Trim(RMenu!cName) & "'"
+            If RPermisoUsu.RecordCount > 0 Then
+                RPermisoUsu.MoveFirst
+                RPermisoUsu.Find sCriterio, , , 1
+            End If
+            If Not RPermisoUsu.EOF Then
+                sCadMenu = sCadMenu & Trim(RPermisoUsu!cName)
+            Else
+                'Buscando por Grupo
+                sCriterio = "cName = '" & Trim(RMenu!cName) & "'"
+                RPermisoGrp.Filter = sCriterio
+                If RPermisoGrp.RecordCount > 0 Then
+                    RPermisoGrp.MoveFirst
+                    Do While Not RPermisoGrp.EOF
+                        If PerteneceAGrupo(Trim(RPermisoGrp!cGrupoUsu)) Then
+                            sCadMenu = sCadMenu & Trim(RPermisoGrp!cName)
+                            sCadMenuGrp = sCadMenuGrp & Trim(RPermisoGrp!cName)
+                        End If
+                        RPermisoGrp.MoveNext
+                    Loop
+                End If
+                RPermisoGrp.Filter = adFilterNone
+            End If
+            RMenu.MoveNext
+        Loop
+        RMenu.Close
+        
+        RPermisoGrp.Close
+        Set RPermisoGrp = Nothing
+        RPermisoUsu.Close
+        Set RPermisoUsu = Nothing
+        Set RMenu = Nothing
+    End If
+    Set oConn = Nothing
+End Function
+Public Function InterconexionCorrecta() As Boolean
+Dim oConn As DConecta
+    Set oConn = New DConecta
+    If oConn.AbreConexion() Then
+       InterconexionCorrecta = True
+       oConn.CierraConexion
+    Else
+       InterconexionCorrecta = False
+    End If
+    Set oConn = Nothing
+End Function
+Private Function ChangePassword(ByVal psServer As String, ByVal psUser As String, ByVal psOldPass As String) As Boolean
+Dim sServer As String, sUser As String
+Dim sNewPass As String, sOldPass As String
+Dim mlLastReturnCode As Long
+
+On Error GoTo ErrorChangePassword
+    sServer = psServer
+    sUser = psUser
+    sOldPass = psOldPass
+    sNewPass = psOldPass
+    
+    sServer = StrConv(sServer, vbUnicode)
+    sUser = StrConv(sUser, vbUnicode)
+    sNewPass = StrConv(sNewPass, vbUnicode)
+    sOldPass = StrConv(sOldPass, vbUnicode)
+    mlLastReturnCode = NetUserChangePassword(sServer, sUser, sOldPass, sNewPass)
+    If mlLastReturnCode = 0 Then
+        ChangePassword = True
+    Else
+        ChangePassword = False
+    End If
+    Exit Function
+    
+ErrorChangePassword:
+    ChangePassword = False
+End Function
+Public Function ClaveIncorrectaNT(ByVal psPDC As String, ByVal sUsuario As String, ByVal psClave As String, ByVal PsDominio As String) As Boolean
+    ClaveIncorrectaNT = ChangePassword(psPDC, sUsuario, psClave)
+End Function
+Private Sub Class_Initialize()
+    vsTipoPermisoUsu = "1"
+    vsTipoPermisoGrp = "2"
+    nPosUsuGrp = 0
+    nNumMenus = 0
+    Espaciado = 60
+End Sub
+
+

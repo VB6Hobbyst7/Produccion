@@ -1,0 +1,16 @@
+[History]
+B0=clsSicmact/NCapMovimientos/CapExtornoAbonoCTS
+B1=clsSicmact/NCapMovimientos/CapCancelacionPF
+B2=clsSicmact/NCapMovimientos/ImprimeBoleta
+B3=clsSicmact/NCapMovimientos
+B4=clsSicmact/NCapMovimientos/CapRetiroInteresPF
+B5=clsSicmact/NCapMovimientos/CapExtornoCancelacion
+B6=clsSicmact/NCapMovimientos/CapExtornoCargoCTS
+B7=clsSicmact/NCapMovimientos/CapExtornoCargoAhoOPCertificada
+B8=clsSicmact/NCapMovimientos/CapConsultaSaldosMovimiento
+B9=clsSicmact/NCapMovimientos/CapExtornoCargoAho
+B10=clsSicmact/NCapMovimientos/CapExtornoAbonoAho
+B11=clsSicmact/NCapMovimientos/CapTransferenciaAho
+B12=clsSicmact/NCapMovimientos/CapCancelaCuentaCTS
+B13=clsSicmact/NCapMovimientos/CapCancelaCuentaAho
+B14=clsSicmact/NCapMovimientos/CapCargoCuentaCTS

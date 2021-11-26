@@ -1,0 +1,3 @@
+Línea 32: la clase SICMACT.FlexEdit del control fgDocs no era una clase de control cargada.
+Línea 80: la clase SICMACT.TxtBuscar del control txtBuscaPers no era una clase de control cargada.
+Línea 178: la clase SICMACT.EditMoney del control txtImporte no era una clase de control cargada.

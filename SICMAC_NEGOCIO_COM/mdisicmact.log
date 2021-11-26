@@ -1,0 +1,4 @@
+Línea 13: la clase SICMACT.Usuario del control Usuario no era una clase de control cargada.
+Línea 19: la clase MSComctlLib.ImageList del control ImageList1 no era una clase de control cargada.
+Línea 61: la clase MSComctlLib.Toolbar del control TlbMenu no era una clase de control cargada.
+Línea 108: la clase MSComctlLib.StatusBar del control SBBarra no era una clase de control cargada.

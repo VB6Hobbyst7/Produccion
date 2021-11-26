@@ -1,0 +1,29 @@
+Línea 165: la clase Sicmact.TxtBuscar del control txtBuscarAgenciaArea no era una clase de control cargada.
+Línea 245: la clase Sicmact.FlexEdit del control FEARendir no era una clase de control cargada.
+Línea 171: el nombre de la propiedad _ExtentX de txtBuscarAgenciaArea no es válido.
+Línea 172: el nombre de la propiedad _ExtentY de txtBuscarAgenciaArea no es válido.
+Línea 183: el nombre de la propiedad sTitulo de txtBuscarAgenciaArea no es válido.
+Línea 184: el nombre de la propiedad lbUltimaInstancia de txtBuscarAgenciaArea no es válido.
+Línea 251: el nombre de la propiedad _ExtentX de FEARendir no es válido.
+Línea 252: el nombre de la propiedad _ExtentY de FEARendir no es válido.
+Línea 253: el nombre de la propiedad Cols0 de FEARendir no es válido.
+Línea 254: el nombre de la propiedad HighLight de FEARendir no es válido.
+Línea 255: el nombre de la propiedad AllowUserResizing de FEARendir no es válido.
+Línea 256: el nombre de la propiedad EncabezadosNombres de FEARendir no es válido.
+Línea 257: el nombre de la propiedad EncabezadosAnchos de FEARendir no es válido.
+Línea 275: el nombre de la propiedad FontFixed de FEARendir no es válido.
+Línea 276: el nombre de la propiedad ColumnasAEditar de FEARendir no es válido.
+Línea 277: el nombre de la propiedad TextStyleFixed de FEARendir no es válido.
+Línea 278: el nombre de la propiedad ListaControles de FEARendir no es válido.
+Línea 279: el nombre de la propiedad BackColorControl de FEARendir no es válido.
+Línea 280: el nombre de la propiedad BackColorControl de FEARendir no es válido.
+Línea 281: el nombre de la propiedad BackColorControl de FEARendir no es válido.
+Línea 282: el nombre de la propiedad EncabezadosAlineacion de FEARendir no es válido.
+Línea 283: el nombre de la propiedad FormatosEdit de FEARendir no es válido.
+Línea 284: el nombre de la propiedad TextArray0 de FEARendir no es válido.
+Línea 285: el nombre de la propiedad lbUltimaInstancia de FEARendir no es válido.
+Línea 286: el nombre de la propiedad lbFormatoCol de FEARendir no es válido.
+Línea 287: el nombre de la propiedad lbPuntero de FEARendir no es válido.
+Línea 288: el nombre de la propiedad lbOrdenaCol de FEARendir no es válido.
+Línea 289: el nombre de la propiedad ColWidth0 de FEARendir no es válido.
+Línea 290: el nombre de la propiedad RowHeight0 de FEARendir no es válido.

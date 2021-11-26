@@ -1,0 +1,5 @@
+Línea 114: la clase SICMACT.FlexEdit del control feMinoYNoMino no era una clase de control cargada.
+Línea 158: la clase SICMACT.FlexEdit del control feConvenio no era una clase de control cargada.
+Línea 220: la clase SICMACT.EditMoney del control txtMinCartera no era una clase de control cargada.
+Línea 240: la clase SICMACT.EditMoney del control txtMontoMaxBon no era una clase de control cargada.
+Línea 260: la clase SICMACT.EditMoney del control txtTEM no era una clase de control cargada.

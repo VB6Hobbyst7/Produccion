@@ -1,0 +1,8 @@
+Línea 34: la clase SICMACT.EditMoney del control txtFrecuenciaEnvio no era una clase de control cargada.
+Línea 591: la clase SICMACT.ActXCodCta del control txtCuenta no era una clase de control cargada.
+Línea 688: la clase SICMACT.EditMoney del control txtCliente no era una clase de control cargada.
+Línea 699: la clase SICMACT.EditMoney del control txtEmpresa no era una clase de control cargada.
+Línea 780: la clase SICMACT.EditMoney del control txtMaximo no era una clase de control cargada.
+Línea 791: la clase SICMACT.EditMoney del control txtMinimo no era una clase de control cargada.
+Línea 802: la clase SICMACT.EditMoney del control txtPorcentaje no era una clase de control cargada.
+Línea 813: la clase SICMACT.EditMoney del control txtFijo no era una clase de control cargada.

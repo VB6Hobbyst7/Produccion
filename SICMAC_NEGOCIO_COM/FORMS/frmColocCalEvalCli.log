@@ -1,0 +1,4 @@
+Línea 704: la clase MSHierarchicalFlexGridLib.MSHFlexGrid del control fgCredCalif no era una clase de control cargada.
+Línea 771: la clase MSHierarchicalFlexGridLib.MSHFlexGrid del control fgCreditos no era una clase de control cargada.
+Línea 790: la clase MSHierarchicalFlexGridLib.MSHFlexGrid del control fgFuentes no era una clase de control cargada.
+Línea 805: la clase MSHierarchicalFlexGridLib.MSHFlexGrid del control fgGarantias no era una clase de control cargada.

@@ -1,0 +1,21 @@
+Línea 20: la clase MSComDlg.CommonDialog del control cmdprint no era una clase de control cargada.
+Línea 211: la clase RichTextLib.RichTextBox del control rtfImpre no era una clase de control cargada.
+Línea 236: la clase RichTextLib.RichTextBox del control rtfTexto no era una clase de control cargada.
+Línea 23: el nombre de la propiedad _ExtentX de cmdprint no es válido.
+Línea 24: el nombre de la propiedad _ExtentY de cmdprint no es válido.
+Línea 25: el nombre de la propiedad _Version de cmdprint no es válido.
+Línea 218: el nombre de la propiedad _ExtentX de rtfImpre no es válido.
+Línea 219: el nombre de la propiedad _ExtentY de rtfImpre no es válido.
+Línea 220: el nombre de la propiedad _Version de rtfImpre no es válido.
+Línea 222: el nombre de la propiedad ReadOnly de rtfImpre no es válido.
+Línea 223: el nombre de la propiedad ScrollBars de rtfImpre no es válido.
+Línea 224: el nombre de la propiedad RightMargin de rtfImpre no es válido.
+Línea 225: el nombre de la propiedad TextRTF de rtfImpre no es válido.
+Línea 242: el nombre de la propiedad _ExtentX de rtfTexto no es válido.
+Línea 243: el nombre de la propiedad _ExtentY de rtfTexto no es válido.
+Línea 244: el nombre de la propiedad _Version de rtfTexto no es válido.
+Línea 245: el nombre de la propiedad ReadOnly de rtfTexto no es válido.
+Línea 246: el nombre de la propiedad ScrollBars de rtfTexto no es válido.
+Línea 248: el nombre de la propiedad RightMargin de rtfTexto no es válido.
+Línea 249: el nombre de la propiedad TextRTF de rtfTexto no es válido.
+Línea 236: no se pudo establecer la propiedad MouseIcon de rtfTexto.

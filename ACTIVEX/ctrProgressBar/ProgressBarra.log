@@ -1,0 +1,6 @@
+Línea 16: la clase Sicmact.ctlProgress del control Barra no era una clase de control cargada.
+Línea 22: el nombre de la propiedad _ExtentX de Barra no es válido.
+Línea 23: el nombre de la propiedad _ExtentY de Barra no es válido.
+Línea 37: el nombre de la propiedad CaptionStyle de Barra no es válido.
+Línea 38: el nombre de la propiedad Caption de Barra no es válido.
+Línea 47: el nombre de la propiedad CaptionFont de Barra no es válido.

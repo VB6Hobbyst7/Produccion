@@ -1,0 +1,4 @@
+Línea 42: la clase SICMACT.FlexEdit del control FEHistorico no era una clase de control cargada.
+Línea 148: la clase SICMACT.EditMoney del control EdtSueldos no era una clase de control cargada.
+Línea 168: la clase SICMACT.TxtBuscar del control TxtBCodPers no era una clase de control cargada.
+Línea 293: la clase SICMACT.ActXCodCta del control txtCuenta no era una clase de control cargada.

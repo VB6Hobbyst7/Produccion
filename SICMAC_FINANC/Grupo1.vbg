@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=clsSicmact.vbp
+Project=..\ActiveX\DocPago\DocPago.vbp
+StartupProject=Sicmact.vbp

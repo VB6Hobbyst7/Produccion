@@ -1,0 +1,9 @@
+Línea 462: la clase SICMACT.ActXCodCta del control ActxCuenta no era una clase de control cargada.
+Línea 468: el nombre de la propiedad _ExtentX de ActxCuenta no es válido.
+Línea 469: el nombre de la propiedad _ExtentY de ActxCuenta no es válido.
+Línea 470: el nombre de la propiedad Texto de ActxCuenta no es válido.
+Línea 471: el nombre de la propiedad EnabledCMAC de ActxCuenta no es válido.
+Línea 472: el nombre de la propiedad EnabledCta de ActxCuenta no es válido.
+Línea 473: el nombre de la propiedad EnabledProd de ActxCuenta no es válido.
+Línea 474: el nombre de la propiedad EnabledAge de ActxCuenta no es válido.
+Línea 475: el nombre de la propiedad CMAC de ActxCuenta no es válido.

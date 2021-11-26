@@ -1,0 +1,4 @@
+Línea 65: la clase SICMACT.EditMoney del control txtPorcRecaudo no era una clase de control cargada.
+Línea 116: la clase SICMACT.EditMoney del control txtCuotaInicial no era una clase de control cargada.
+Línea 136: la clase SICMACT.EditMoney del control txtMontoAprobado no era una clase de control cargada.
+Línea 360: la clase SICMACT.ActXCodCta del control ActXCodCta no era una clase de control cargada.

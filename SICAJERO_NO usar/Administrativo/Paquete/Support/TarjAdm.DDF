@@ -1,0 +1,44 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="TarjAdm.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"TarjAdm.exe"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"VB6ES.DLL"
+"PINVerify.dll"
+"ContsImp.dll"
+"activeds.tlb"
+"MSWORD.OLB"
+"Previo.dll"
+"ClasIni.dll"
+"Encrypt.dll"
+"MSDATGRD.OCX"
+"MSSTDFMT.DLL"
+"stdftes.dll"
+"DATGDES.DLL"
+"MSCOMCTL.OCX"
+"MSCMCES.DLL"
+"COMDLG32.OCX"
+"CMDLGES.DLL"
+"MSMASK32.OCX"
+"MSMSKES.DLL"
+"OCXTarjeta.ocx"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"

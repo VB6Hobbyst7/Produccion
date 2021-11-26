@@ -1,0 +1,63 @@
+CMAC-ICA                                                 10/06/2005-13:31:56
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+ASIENTOS DESCUADRADOS 
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:01
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+ASIENTOS DE MONEDA EXTRANJERA 
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:03
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+ASIENTOS CON CUENTAS NO EXISTENTES 
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:05
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+ASIENTOS CON CUENTAS ** 
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:11
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+ASIENTOS CON CUENTAS ANALITICAS 
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:17
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+VALIDACION DE CUENTAS DE ORDEN  
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:25
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+VALIDACION DE SALDOS CONTABLES 
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+  CMAC-ICA                                                 10/06/2005-13:32:26
+                                                                        Pag. 001
+E            V A L I D A C I O N   D E   A S I E N T O S           F
+
+ *** NO SE ENCONTRARON OBSERVACIONES *** 
+
+                                                  F,66  

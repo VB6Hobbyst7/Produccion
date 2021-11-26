@@ -1,0 +1,1594 @@
+VERSION 5.00
+Begin {78E93846-85FD-11D0-8487-00A0C90DC8A9} DRContratoOP 
+   Caption         =   "Clases - DRContratoOP (DataReport)"
+   ClientHeight    =   11115
+   ClientLeft      =   585
+   ClientTop       =   1725
+   ClientWidth     =   15240
+   _ExtentX        =   26882
+   _ExtentY        =   19606
+   _Version        =   393216
+   _DesignerVersion=   100685828
+   ReportWidth     =   10890
+   BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+      Name            =   "Arial"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   GridX           =   20
+   GridY           =   20
+   LeftMargin      =   300
+   RightMargin     =   300
+   TopMargin       =   300
+   BottomMargin    =   300
+   _Settings       =   30
+   NumSections     =   3
+   SectionCode0    =   2
+   BeginProperty Section0 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section2"
+      Object.Height          =   285
+      NumControls     =   1
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta3"
+         Object.Width           =   10830
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CONTRATO DE PRESTACION DE SERVICIOS DE AHORROS CON ORDENES DE PAGO                                                                "
+         Alignment       =   2
+      EndProperty
+   EndProperty
+   SectionCode1    =   4
+   BeginProperty Section1 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section1"
+      Object.Height          =   16125
+      NumControls     =   65
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblSegundo"
+         Object.Top             =   1304
+         Object.Width           =   10830
+         Object.Height          =   915
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0000
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausulaInicio"
+         Object.Top             =   1
+         Object.Width           =   10830
+         Object.Height          =   900
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":02BB
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblPrimero"
+         Object.Top             =   907
+         Object.Width           =   10830
+         Object.Height          =   390
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":052A
+      EndProperty
+      ItemType3       =   4
+      BeginProperty Item3 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Texto1"
+         Object.Left            =   55
+         Object.Top             =   227
+         Object.Width           =   6873
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Nombre"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType4       =   4
+      BeginProperty Item4 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtNroID"
+         Object.Left            =   340
+         Object.Top             =   368
+         Object.Width           =   1470
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "NroID"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType5       =   4
+      BeginProperty Item5 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtDireccion"
+         Object.Left            =   2484
+         Object.Top             =   368
+         Object.Width           =   5490
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Direccion"
+         Alignment       =   2
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType6       =   4
+      BeginProperty Item6 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtcCtaCod"
+         Object.Left            =   7823
+         Object.Top             =   1218
+         Object.Width           =   1911
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "cCtaCod"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType7       =   3
+      BeginProperty Item7 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula1"
+         Object.Left            =   624
+         Object.Top             =   2210
+         Object.Width           =   10200
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Las Ordenes de Pago serán giradas nominativamente, constituyendo documento no negociable y no endosable"
+      EndProperty
+      ItemType8       =   3
+      BeginProperty Item8 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula2"
+         Object.Left            =   624
+         Object.Top             =   2381
+         Object.Width           =   10200
+         Object.Height          =   345
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":063A
+      EndProperty
+      ItemType9       =   3
+      BeginProperty Item9 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta7"
+         Object.Left            =   226
+         Object.Top             =   2210
+         Object.Width           =   390
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "1.-"
+      EndProperty
+      ItemType10      =   3
+      BeginProperty Item10 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta8"
+         Object.Left            =   228
+         Object.Top             =   2381
+         Object.Width           =   405
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "2.-"
+      EndProperty
+      ItemType11      =   3
+      BeginProperty Item11 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta9"
+         Object.Left            =   228
+         Object.Top             =   2721
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "3.-"
+      EndProperty
+      ItemType12      =   3
+      BeginProperty Item12 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula3"
+         Object.Left            =   624
+         Object.Top             =   2721
+         Object.Width           =   10200
+         Object.Height          =   330
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0702
+      EndProperty
+      ItemType13      =   3
+      BeginProperty Item13 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula4"
+         Object.Left            =   624
+         Object.Top             =   3061
+         Object.Width           =   10200
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Los titulares de las cuentas de Ahorro con Ordenes de Pago deberán mantener el saldo mínimo establecido por LA CAJA"
+      EndProperty
+      ItemType14      =   3
+      BeginProperty Item14 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta12"
+         Object.Left            =   228
+         Object.Top             =   3061
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "4.-"
+      EndProperty
+      ItemType15      =   3
+      BeginProperty Item15 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta13"
+         Object.Left            =   228
+         Object.Top             =   3231
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "5.-"
+      EndProperty
+      ItemType16      =   3
+      BeginProperty Item16 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula5"
+         Object.Left            =   624
+         Object.Top             =   3231
+         Object.Width           =   10200
+         Object.Height          =   330
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":07B5
+      EndProperty
+      ItemType17      =   3
+      BeginProperty Item17 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula6"
+         Object.Left            =   624
+         Object.Top             =   3628
+         Object.Width           =   10200
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Los titulares de las cuentas de Ahorro con Ordenes de Pago deberán mantener el saldo mínimo establecido por LA CAJA"
+      EndProperty
+      ItemType18      =   3
+      BeginProperty Item18 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta16"
+         Object.Left            =   227
+         Object.Top             =   3628
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "6.-"
+      EndProperty
+      ItemType19      =   3
+      BeginProperty Item19 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta17"
+         Object.Left            =   1587
+         Object.Top             =   3798
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "a)A solicitud expresa del titular"
+      EndProperty
+      ItemType20      =   3
+      BeginProperty Item20 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta18"
+         Object.Left            =   1587
+         Object.Top             =   3968
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "b)Por el giro de una Orden de Pago sin fondos"
+      EndProperty
+      ItemType21      =   3
+      BeginProperty Item21 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta19"
+         Object.Left            =   1587
+         Object.Top             =   4138
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "c)Por muerte, disolución o liquidación del titular"
+      EndProperty
+      ItemType22      =   3
+      BeginProperty Item22 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula6x"
+         Object.Left            =   624
+         Object.Top             =   4307
+         Object.Width           =   10200
+         Object.Height          =   330
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":086D
+      EndProperty
+      ItemType23      =   3
+      BeginProperty Item23 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula7"
+         Object.Left            =   625
+         Object.Top             =   4705
+         Object.Width           =   10200
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "LA CAJA no hará efectiva una Orden de Pago del cliente cuando:"
+      EndProperty
+      ItemType24      =   3
+      BeginProperty Item24 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta22"
+         Object.Left            =   1588
+         Object.Top             =   4874
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "a)	Presente diferencias en el monto consignado en cifras y el monto consignado en letras."
+      EndProperty
+      ItemType25      =   3
+      BeginProperty Item25 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta23"
+         Object.Left            =   1588
+         Object.Top             =   5044
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "b)	La firma del titular de la cuenta no coincida con la de los registros"
+      EndProperty
+      ItemType26      =   3
+      BeginProperty Item26 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta24"
+         Object.Left            =   1588
+         Object.Top             =   5214
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "c)	La cuenta no tenga saldo disponible"
+      EndProperty
+      ItemType27      =   3
+      BeginProperty Item27 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta25"
+         Object.Left            =   284
+         Object.Top             =   4705
+         Object.Width           =   405
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "7.-"
+      EndProperty
+      ItemType28      =   3
+      BeginProperty Item28 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta26"
+         Object.Left            =   1588
+         Object.Top             =   5383
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "d)	La cuenta se encuentre bloqueada"
+      EndProperty
+      ItemType29      =   3
+      BeginProperty Item29 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta27"
+         Object.Left            =   1588
+         Object.Top             =   5553
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "e)	Esté deteriorada"
+      EndProperty
+      ItemType30      =   3
+      BeginProperty Item30 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta28"
+         Object.Left            =   1588
+         Object.Top             =   5723
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "f)Presente borrones o enmendaduras"
+      EndProperty
+      ItemType31      =   3
+      BeginProperty Item31 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta29"
+         Object.Left            =   1588
+         Object.Top             =   5893
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "g)	La identificación del cobrador no concuerde con la consignada en la Orden de Pago"
+      EndProperty
+      ItemType32      =   3
+      BeginProperty Item32 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta30"
+         Object.Left            =   1588
+         Object.Top             =   6063
+         Object.Width           =   9240
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "h)	Cualquier otra irregularidad que a criterio de LA CAJA aparezca en las Ordenes de Pago"
+      EndProperty
+      ItemType33      =   3
+      BeginProperty Item33 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula8"
+         Object.Left            =   624
+         Object.Top             =   6290
+         Object.Width           =   10200
+         Object.Height          =   570
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":093A
+      EndProperty
+      ItemType34      =   3
+      BeginProperty Item34 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta32"
+         Object.Left            =   227
+         Object.Top             =   6290
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "8.-"
+      EndProperty
+      ItemType35      =   3
+      BeginProperty Item35 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula9"
+         Object.Left            =   624
+         Object.Top             =   6857
+         Object.Width           =   10200
+         Object.Height          =   555
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0ACA
+      EndProperty
+      ItemType36      =   3
+      BeginProperty Item36 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta34"
+         Object.Left            =   227
+         Object.Top             =   6856
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "9.-"
+      EndProperty
+      ItemType37      =   3
+      BeginProperty Item37 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula10"
+         Object.Left            =   624
+         Object.Top             =   7424
+         Object.Width           =   10200
+         Object.Height          =   345
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0BF2
+      EndProperty
+      ItemType38      =   3
+      BeginProperty Item38 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta36"
+         Object.Left            =   228
+         Object.Top             =   7422
+         Object.Width           =   405
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "10.-"
+      EndProperty
+      ItemType39      =   3
+      BeginProperty Item39 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula11"
+         Object.Left            =   624
+         Object.Top             =   7764
+         Object.Width           =   10215
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "La Orden de Pago no puede ser emitida con fecha adelantada ni ser entregada en garantía."
+      EndProperty
+      ItemType40      =   3
+      BeginProperty Item40 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta38"
+         Object.Left            =   228
+         Object.Top             =   7763
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "11.-"
+      EndProperty
+      ItemType41      =   3
+      BeginProperty Item41 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbltercerax"
+         Object.Left            =   57
+         Object.Top             =   12696
+         Object.Width           =   10830
+         Object.Height          =   510
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0C9E
+      EndProperty
+      ItemType42      =   4
+      BeginProperty Item42 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtdia"
+         Object.Left            =   9579
+         Object.Top             =   12641
+         Object.Width           =   285
+         Object.Height          =   135
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "dia"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType43      =   4
+      BeginProperty Item43 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtMes"
+         Object.Left            =   57
+         Object.Top             =   12782
+         Object.Width           =   1530
+         Object.Height          =   135
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Mes"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType44      =   4
+      BeginProperty Item44 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtaño"
+         Object.Left            =   2434
+         Object.Top             =   12782
+         Object.Width           =   570
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "año"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+      EndProperty
+      ItemType45      =   3
+      BeginProperty Item45 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula12"
+         Object.Left            =   624
+         Object.Top             =   7935
+         Object.Width           =   10215
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0D73
+      EndProperty
+      ItemType46      =   3
+      BeginProperty Item46 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta40"
+         Object.Left            =   228
+         Object.Top             =   7934
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "12.-"
+      EndProperty
+      ItemType47      =   3
+      BeginProperty Item47 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula13"
+         Object.Left            =   624
+         Object.Top             =   8104
+         Object.Width           =   10215
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "EL CLIENTE está obligado a comunicar oportunamente cualquier variación de su domicilio legal"
+      EndProperty
+      ItemType48      =   3
+      BeginProperty Item48 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta42"
+         Object.Left            =   228
+         Object.Top             =   8103
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "13.-"
+      EndProperty
+      ItemType49      =   3
+      BeginProperty Item49 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula14"
+         Object.Left            =   624
+         Object.Top             =   8272
+         Object.Width           =   10200
+         Object.Height          =   510
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0DFD
+      EndProperty
+      ItemType50      =   3
+      BeginProperty Item50 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta44"
+         Object.Left            =   227
+         Object.Top             =   8272
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "14.-"
+      EndProperty
+      ItemType51      =   3
+      BeginProperty Item51 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula15"
+         Object.Left            =   624
+         Object.Top             =   8839
+         Object.Width           =   10200
+         Object.Height          =   525
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":0F6F
+      EndProperty
+      ItemType52      =   3
+      BeginProperty Item52 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta46"
+         Object.Left            =   227
+         Object.Top             =   8839
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "15.-"
+      EndProperty
+      ItemType53      =   3
+      BeginProperty Item53 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula16"
+         Object.Left            =   624
+         Object.Top             =   9404
+         Object.Width           =   10200
+         Object.Height          =   735
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":10B2
+      EndProperty
+      ItemType54      =   3
+      BeginProperty Item54 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta48"
+         Object.Left            =   227
+         Object.Top             =   9404
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "16.-"
+      EndProperty
+      ItemType55      =   3
+      BeginProperty Item55 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula17"
+         Object.Left            =   624
+         Object.Top             =   10144
+         Object.Width           =   10200
+         Object.Height          =   915
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":1252
+      EndProperty
+      ItemType56      =   3
+      BeginProperty Item56 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta50"
+         Object.Left            =   227
+         Object.Top             =   10142
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "17.-"
+      EndProperty
+      ItemType57      =   3
+      BeginProperty Item57 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula18"
+         Object.Left            =   624
+         Object.Top             =   11048
+         Object.Width           =   10200
+         Object.Height          =   915
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":14BF
+      EndProperty
+      ItemType58      =   3
+      BeginProperty Item58 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta52"
+         Object.Left            =   227
+         Object.Top             =   11048
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "18.-"
+      EndProperty
+      ItemType59      =   3
+      BeginProperty Item59 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula19"
+         Object.Left            =   624
+         Object.Top             =   11960
+         Object.Width           =   10200
+         Object.Height          =   330
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":173E
+      EndProperty
+      ItemType60      =   3
+      BeginProperty Item60 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta54"
+         Object.Left            =   228
+         Object.Top             =   11957
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "19.-"
+      EndProperty
+      ItemType61      =   3
+      BeginProperty Item61 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblTercera"
+         Object.Left            =   57
+         Object.Top             =   12300
+         Object.Width           =   10830
+         Object.Height          =   390
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":17E5
+      EndProperty
+      ItemType62      =   3
+      BeginProperty Item62 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta57"
+         Object.Top             =   14118
+         Object.Width           =   10830
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":1894
+      EndProperty
+      ItemType63      =   3
+      BeginProperty Item63 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta58"
+         Object.Top             =   14345
+         Object.Width           =   10830
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DRContratoOP.dsx":191C
+      EndProperty
+      ItemType64      =   3
+      BeginProperty Item64 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta60"
+         Object.Left            =   57
+         Object.Top             =   14912
+         Object.Width           =   10830
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "                                                                                       .CMAC ICA S.A. __________________________"
+      EndProperty
+   EndProperty
+   SectionCode2    =   7
+   BeginProperty Section2 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section3"
+      ForcePageBreak  =   2
+      NumControls     =   0
+   EndProperty
+End
+Attribute VB_Name = "DRContratoOP"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Public Sub inicio()
+
+    Dim lsAuxiliar As String
+    
+'    DRContratoOP.WindowState = vbMaximized
+'    DRContratoOP.Title = "CARTA FIANZA"
+    
+    
+
+'lsAuxiliar = "123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+
+
+    lsAuxiliar = "*************Conste por el presente documento el Contrato que celebran " & _
+                 "de una parte la CAJA MUNICIPAL DE AHORRO Y CREDITO DE ICA S.A., " & _
+                 "con RUC 20104888934, con domicilio en Av. Municipalidad 152 de la " & _
+                 "ciudad de Ica, a quien adelante se denominará LA CAJA y de la otra " & _
+                 "parte ___________________________________________________________________________________________________ " & _
+                 "identificado (s) con DOI Nº_____________________domiciliado(s)en " & _
+                 "______________________________________________________________________ " & _
+                 "a quien adelante se le (s) denomina EL CLIENTE, bajo los términos y condiciones siguientes:"
+
+    
+    
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 150)
+    lsAuxiliar = Replace(lsAuxiliar, "*", " ")
+    DRContratoOP.Sections("Section1").Controls("lblClausulaInicio").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "PRIMERO: LA CAJA mediante Acuerdo de Directorio del 19 de mayo de 1991 " & _
+                "aprobó la implementación de la modalidad de servicios a sus clientes denominada " & _
+                "“ORDENES DE PAGO”, reguladas por las estipulaciones del presente Contrato y las " & _
+                "reglas generales de depósitos"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 150)
+    DRContratoOP.Sections("Section1").Controls("lblPrimero").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "SEGUNDO: LA CAJA a solicitud del cliente le abre una cuenta especial de Ahorros con Ordenes de " & _
+                "Pago N° _______________________________, cuenta que tendrá los mismos derechos y obligaciones que una cuenta " & _
+                "de Ahorro Corriente, salvo el caso de los intereses, con el adicional que se le otorgará  un Talonario " & _
+                "de Ordenes de Pago a fin que el cliente sin necesidad de estar físicamente en las oficinas y/o agencias " & _
+                "de LA CAJA pueda depositar y/o efectuar retiros con cargo a su cuenta por medio de terceras personas " & _
+                "debidamente señaladas en dichas Ordenes de Pago siendo identificados al momento de la cobranza de dicho " & _
+                "documento. Las partes asimismo, convienen en establecer las siguientes condiciones: "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 150)
+    DRContratoOP.Sections("Section1").Controls("lblSegundo").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "PRIMERO: LA CAJA mediante Acuerdo de Directorio del 19 de mayo de 1991 " & _
+                "aprobó la implementación de la modalidad de servicios a sus clientes denominada " & _
+                "“ORDENES DE PAGO”, reguladas por las estipulaciones del presente Contrato y las " & _
+                "reglas generales de depósitos "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 150)
+    DRContratoOP.Sections("Section1").Controls("lblPrimero").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "Las Ordenes de Pago serán giradas nominativamente, constituyendo documento " & _
+                 "no negociable y no endosable"
+
+    
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula1").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "LA CAJA abonará intereses en este tipo de cuentas sobre los saldos acreedores, " & _
+                "considerando las tasas aprobadas en el Tarifario vigente, pudiendo variar en cualquier " & _
+                "momento por decisión de LA CAJA"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula2").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "LA CAJA se reserva el derecho de cargar en cuenta el valor del talonario de Ordenes " & _
+                "de Pago, el costo de mantenimiento de cuenta y otros cargos si así lo estimara conveniente "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula3").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "Los titulares de las cuentas de Ahorro con Ordenes de Pago deberán mantener el saldo mínimo establecido por LA CAJA "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula4").Caption = lsAuxiliar
+    
+    
+    
+    
+    lsAuxiliar = "LA CAJA proporcionará a EL CLIENTE el estado mensual de su cuenta, el cual estará a su " & _
+                "disposición en las oficinas de la entidad o remitiéndolo a su domicilio a criterio de LA CAJA "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula5").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "La cuenta podrá cancelarse por las siguientes razones:"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula6").Caption = lsAuxiliar
+    
+
+    lsAuxiliar = "En todos los casos, EL CLIENTE herederos o representantes legales se obligan a devolver " & _
+                 "inmediatamente todas las Ordenes de Pago que no hubiesen sido utilizadas hasta el momento de " & _
+                 "cierre de la cuenta"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula6x").Caption = lsAuxiliar
+
+
+    lsAuxiliar = "LA CAJA no hará efectiva una Orden de Pago del cliente cuando:"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula7").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "En el caso de sustracción o extravío de una o más Ordenes de Pago o el íntegro " & _
+                "del talonario, el titular de la cuenta debe comunicar por escrito y en forma inmediata " & _
+                "a LA CAJA y dentro de términos perentorios acompañar copia certificada de la denuncia policial " & _
+                "correspondiente. LA CAJA no se responsabiliza por las operaciones que se hubieran producido " & _
+                "antes de recibir la comunicación pertinente "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula8").Caption = lsAuxiliar
+        
+    
+    lsAuxiliar = "En caso del deterioro de un talonario de Ordenes de Pago, el titular de la cuenta puede solicitar " & _
+                "la sustitución del mismo. LA CAJA otorgará un nuevo talonario previa devolución del deteriorado, " & _
+                "cobrando el costo del nuevo talonario en efectivo o cargando dicho costo en la cuenta del cliente"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula9").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "Los depósitos en cheques que se efectúen en la cuenta de Ahorro con Ordenes de Pago, serán " & _
+                 "disponibles sólo cuando el banco girado abone a LA CAJA el importe del mismo"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula10").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "La Orden de Pago no puede ser emitida con fecha adelantada ni ser entregada en garantía."
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula11").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "La Orden de Pago tiene validez por un plazo de treinta días calendario contados a partir " & _
+                "de la fecha de emisión registrada en la misma"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula12").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "EL CLIENTE está obligado a comunicar oportunamente cualquier variación de su domicilio legal."
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula13").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "En caso de fallecimiento del titular o de alguno de los titulares sus herederos, albaceas o " & _
+                "legatarios, deberán comunicar inmediatamente por escrito a LA CAJA este hecho, mientras realizan " & _
+                "los trámites correspondientes. LA CAJA no se responsabiliza por las operaciones que se hubiesen " & _
+                "producido antes de recibir la comunicación o mandato judicial, según corresponda"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula14").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "LA CAJA no se responsabiliza por las Ordenes de Pago libradas por los representantes legales" & _
+                 "de personas jurídicas, cuyos poderes estén vencidos o hubieran sido revocados, si oportunamente " & _
+                 "no se hubiese dado aviso por escrito a LA CAJA, surtiendo efecto  desde la comunicación expresa " & _
+                 "del cliente, bajo responsabilidad"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula15").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "En la eventualidad de deudas o conflictos sobre la legitimidad o legalidad de la " & _
+                "representación o poder con la que se actúa, EL CLIENTE faculta a LA CAJA a suspender " & _
+                "la ejecución de todas las Ordenes de Pago giradas por el cliente hasta que tales deudas " & _
+                "o conflictos sean resueltos definitivamente o en su defecto mediante Orden Judicial que " & _
+                "señale la legitimidad, mientras tanto la cuenta se mantendrá bloqueada"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula16").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "Las partes manifiestan estar plenamente de acuerdo que el portador de una Orden de Pago, " & _
+                "debidamente señalado en la misma e identificado por el personal de LA CAJA, se encuentra " & _
+                "acreditado para recibir el pago, conforme se establece en el Art. 1226 del Codigo Civil, " & _
+                "por lo tanto se descontará de los saldos existentes en la cuenta del cliente el monto de " & _
+                "dichas Ordenes de Pago, sin responsabilidad alguna de LA CAJA por adulteración, pérdida, " & _
+                "sustracción, estafas u otros casos análogos, todos estos hechos que no hayan sido comunicados " & _
+                "a LA CAJA por escrito como mínimo con  72 horas de anticipación a su cobranza"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula17").Caption = lsAuxiliar
+    
+    
+    lsAuxiliar = "Cualquier variación de las condiciones que regulen el presente Contrato, surtirá plenos efectos " & _
+                "legales desde la comunicación que  LA CAJA dirigirá al CLIENTE salvo aquellas de variación automática. " & _
+                "La permanencia o prosecución del uso de la cuenta con Ordenes de Pago luego de comunicada la " & _
+                "variación significa su total aceptación. Caso contrario, el CLIENTE deberá comunicar por escrito " & _
+                "su disconformidad dentro de las 24 horas siguientes, resolviendo este contrato previa cancelación" & _
+                "de los saldos deudores y demás obligaciones directas o indirectas que puedan mantener con LA CAJA " & _
+                "para que surta  efecto la resolución del contrato"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula18").Caption = lsAuxiliar
+    
+    
+    
+    
+    lsAuxiliar = "Las cuentas Inactivas con Ordenes de Pago se les aplicará el mismo tratamiento que a las " & _
+                "cuentas de Ahorro corriente, aplicándoles los costos del tarifario vigente"
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 141)
+    DRContratoOP.Sections("Section1").Controls("lblClausula19").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "TERCERA: Ambas partes se someten a la jurisdicción de los jueces y tribunales de ICA " & _
+                "y señalan sus domicilios los consignados en la introducción del presente."
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 150)
+    DRContratoOP.Sections("Section1").Controls("lblTercera").Caption = lsAuxiliar
+    
+    
+    
+    lsAuxiliar = "En señal de conformidad, se procede a suscribir el presente contrato en original y copia " & _
+                "de igual tenor y efectos a los ____días del mes de ______________________del año ________ "
+    lsAuxiliar = JustificaTextoSinCarEsp(lsAuxiliar, 150)
+    DRContratoOP.Sections("Section1").Controls("lblTercerax").Caption = lsAuxiliar
+    
+
+            
+'    DRContratoOP.Refresh
+
+End Sub
+

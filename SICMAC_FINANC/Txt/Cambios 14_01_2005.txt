@@ -1,0 +1,18 @@
+Actividades:
+  - Capacitación a Usuarios de Tesoreria y Presupuesto
+  - Modificar Pago a Proveedores, para permitir pagos Parciales y pago con Letras
+  - Modificar Impresion de Orden de Pago y Cheques
+  - Cobro de ITF en Sustentacion de Arendir Cuenta y Viaticos
+
+--FINANCIERO
+nCajaGeneral
+nEstadisticas
+
+frmArendirEfectivo
+frmNotaCargoAbono
+frmOpePagoProv
+
+---DOCPAGO
+clsDocPago
+frmDocPago
+

@@ -1,0 +1,27 @@
+prfile21.zip    Send n-up text,
+PostScript & more to printer
+
+PrintFile is a Windows utility program
+that does n-up printing (with optional
+pretty printing) of text files
+e.g. source code files. It can also
+send files directly to a printer. This
+can be seen as a Windows replacement for
+the DOS command "copy/b file LPT1". As
+opposed to this DOS command, PrintFile
+works well with network printers which
+has no connection to any LPTx. This
+function is mainly intended for printing
+PostScript files but may just as well be
+used for any file created by a by the
+"Print to File" option available for
+most Windows printer drivers. The
+program also has several PostScript
+specific options (e.g. n-up).
+
+Both 16 bit (Win 3.1x) and 32 bit (Win
+95 and NT) versions included. Freeware.
+
+Peter Lerup
+ptlerup@hem1.passagen.se
+http://hem1.passagen.se/ptlerup/

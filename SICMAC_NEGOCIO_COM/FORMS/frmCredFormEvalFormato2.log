@@ -1,0 +1,4 @@
+Línea 225: la clase Spinner.uSpinner del control spnTiempoLocalAnio no era una clase de control cargada.
+Línea 247: la clase Spinner.uSpinner del control spnTiempoLocalMes no era una clase de control cargada.
+Línea 283: la clase Spinner.uSpinner del control spnExpEmpAnio no era una clase de control cargada.
+Línea 306: la clase Spinner.uSpinner del control spnExpEmpMes no era una clase de control cargada.

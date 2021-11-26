@@ -1,0 +1,140 @@
+[Root]
+Most Recent Package=Paquete de instalación de admin tarjeta
+
+
+[Package|Paquete de instalación de admin tarjeta|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\SoftwareCajeros\Administrativo\Paquete
+
+[Package|Paquete de instalación de admin tarjeta|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación de admin tarjeta|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación de admin tarjeta|Files Found]
+
+[Package|Paquete de instalación de admin tarjeta|Files Released]
+security=
+RQxDFTk.dll=
+
+[Package|Paquete de instalación de admin tarjeta|Missing Dependency Information]
+C:\SoftwareCajeros\Administrativo\Control Tarjeta\OCXTarjeta.ocx=
+C:\SICMACM\DLLComunes\Encrypt.dll=
+C:\SICMACM\DLLComunes\ClasIni.dll=
+C:\SoftwareCajeros\Administrativo1\Previo.dll=
+C:\Archivos de programa\Microsoft Office\OFFICE11\MSWORD.OLB=
+C:\WINDOWS\system32\activeds.tlb=
+C:\SICMACM\DLLComunes\ContsImp.dll=
+
+[Package|Paquete de instalación de admin tarjeta|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Paquete de instalación de admin tarjeta|Files Added]
+
+[Package|Paquete de instalación de admin tarjeta|Files Removed]
+
+[Package|Paquete de instalación de admin tarjeta|Files In Project]
+C:\SoftwareCajeros\Administrativo\TarjAdm.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\SoftwareCajeros\Administrativo\PINVerify.dll=Yes
+C:\SICMACM\DLLComunes\ContsImp.dll=Yes
+C:\WINDOWS\system32\activeds.tlb=Yes
+C:\Archivos de programa\Microsoft Office\OFFICE11\MSWORD.OLB=Yes
+C:\SoftwareCajeros\Administrativo1\Previo.dll=Yes
+C:\SICMACM\DLLComunes\ClasIni.dll=Yes
+C:\SICMACM\DLLComunes\Encrypt.dll=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\stdftes.dll=Yes
+C:\WINDOWS\system32\DATGDES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCES.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKES.DLL=Yes
+C:\SoftwareCajeros\Administrativo\Control Tarjeta\OCXTarjeta.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación de admin tarjeta|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación de admin tarjeta|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación de admin tarjeta|Install Locations]
+C:\SoftwareCajeros\Administrativo\TarjAdm.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\SoftwareCajeros\Administrativo\PINVerify.dll=$(AppPath)
+C:\SICMACM\DLLComunes\ContsImp.dll=$(WinSysPath)
+C:\WINDOWS\system32\activeds.tlb=$(WinSysPath)
+C:\Archivos de programa\Microsoft Office\OFFICE11\MSWORD.OLB=$(WinSysPath)
+C:\SoftwareCajeros\Administrativo1\Previo.dll=$(WinSysPath)
+C:\SICMACM\DLLComunes\ClasIni.dll=$(WinSysPath)
+C:\SICMACM\DLLComunes\Encrypt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\stdftes.dll=$(WinSysPath)
+C:\WINDOWS\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKES.DLL=$(WinSysPath)
+C:\SoftwareCajeros\Administrativo\Control Tarjeta\OCXTarjeta.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación de admin tarjeta|Configure Shared Files]
+Applicable=Yes
+C:\SoftwareCajeros\Administrativo\TarjAdm.exe=No
+C:\SoftwareCajeros\Administrativo\PINVerify.dll=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Paquete de instalación de admin tarjeta|Distribution]
+Type=single
+Size=
+Title=Admin Tarjetas
+
+[Package|Paquete de instalación de admin tarjeta|IconGroups]
+Group0=Admin Tarjetas
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación de admin tarjeta|Admin Tarjetas]
+Icon1=TarjAdm.exe
+Title1=Admin Tarjetas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación de admin tarjeta|Package]
+PackageFolder=C:\SoftwareCajeros\Administrativo\Paquete
+ProjectFolder=C:\SoftwareCajeros\Administrativo
+ServerSideCab=
+File1=C:\SoftwareCajeros\Administrativo\Paquete\setup.exe
+File2=C:\SoftwareCajeros\Administrativo\Paquete\Setup.Lst
+File3=C:\SoftwareCajeros\Administrativo\Paquete\TarjAdm.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

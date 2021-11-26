@@ -1,0 +1,210 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Software\Sicmac_Financ\InstaladorCuscoFinanciero
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\Software\Antiguos\Sicmac_Financ_Cusco\OcxLabelX.ocx=
+C:\Software\Antiguos\Sicmac_Financ_Cusco\PryOcxExplorer.ocx=
+C:\Software\ActiveX\VertMenu\VertMenu.ocx=
+C:\Software\Sicmac_Negocio_Com\Dll\Spinner.ocx=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSADODC.OCX=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\COMCTL32.OCX=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\TABCTL32.OCX=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSMASK32.OCX=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSHFLXGD.OCX=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSDATGRD.OCX=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\RICHTX32.OCX=
+C:\Software\Sicmac_Financ\clsSicmacFinan.dll=
+C:\Software\Sicmac_Negocio_Com\Dll\DescObjeto.dll=
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMDConstantes.dll=
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMConecta.dll=
+C:\Software\ActiveX\DocPago\DocPago.dll=
+C:\Software\ActiveX\ContsImp\ContsImp.dll=
+C:\Software\Sicmac_Negocio_Com\Dll\ProgressBar.dll=
+C:\Software\Sicmac_Negocio_Com\Dll\Previo.dll=
+C:\Software\ActiveX\Constantes\Constantes.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Software\ActiveX\Ini\ClasIni.dll=
+C:\WINNT\system32\activeds.tlb=
+C:\Software\ActiveX\Ini\Encrypt.dll=
+C:\Software\ActiveX\DllWinNt\DLLWinNT.dll=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\Flash8b.ocx=
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\scrrun.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCTL.OCX=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+c:\software\activex\contsimp\contsimp.dll=
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\Software\Sicmac_Financ\SicmacFinan.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\scrrun.dll=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\Flash8b.ocx=Yes
+C:\Software\ActiveX\DllWinNt\DLLWinNT.dll=Yes
+C:\Software\ActiveX\Ini\Encrypt.dll=Yes
+C:\WINNT\system32\activeds.tlb=Yes
+C:\Software\ActiveX\Ini\ClasIni.dll=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\Software\ActiveX\Constantes\Constantes.dll=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\Previo.dll=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\ProgressBar.dll=Yes
+C:\Software\ActiveX\ContsImp\ContsImp.dll=No
+C:\Software\ActiveX\DocPago\DocPago.dll=Yes
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMConecta.dll=Yes
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMDConstantes.dll=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\DescObjeto.dll=Yes
+C:\Software\Sicmac_Financ\clsSicmacFinan.dll=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\RICHTX32.OCX=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGES.DLL=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSHFLXGD.OCX=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\FLXGDES.DLL=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\TABCTL32.OCX=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\COMCTL32.OCX=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSADODC.OCX=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\Spinner.ocx=Yes
+C:\Software\ActiveX\VertMenu\VertMenu.ocx=Yes
+C:\Software\Antiguos\Sicmac_Financ_Cusco\PryOcxExplorer.ocx=Yes
+C:\Software\Antiguos\Sicmac_Financ_Cusco\OcxLabelX.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\Software\Sicmac_Financ\SicmacFinan.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\scrrun.dll=$(WinSysPath)
+C:\Software\ActiveX\DllWinNt\DLLWinNT.dll=$(WinSysPath)
+C:\WINNT\system32\activeds.tlb=$(WinSysPath)
+C:\Software\ActiveX\Ini\ClasIni.dll=$(AppPath)
+C:\Software\Sicmac_Financ\clsSicmacFinan.dll=$(AppPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\RICHTX32.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\TABCTL32.OCX=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\COMCTL32.OCX=$(AppPath)
+C:\Software\Sicmac_Negocio_Com\Dll\Spinner.ocx=$(AppPath)
+C:\Software\ActiveX\VertMenu\VertMenu.ocx=$(WinSysPath)
+C:\Software\Antiguos\Sicmac_Financ_Cusco\PryOcxExplorer.ocx=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\Flash8b.ocx=$(AppPath)
+C:\Software\ActiveX\Ini\Encrypt.dll=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Software\ActiveX\Constantes\Constantes.dll=$(AppPath)
+C:\Software\Sicmac_Negocio_Com\Dll\Previo.dll=$(AppPath)
+C:\Software\Sicmac_Negocio_Com\Dll\ProgressBar.dll=$(AppPath)
+C:\Software\ActiveX\DocPago\DocPago.dll=$(AppPath)
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMConecta.dll=$(AppPath)
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMDConstantes.dll=$(AppPath)
+C:\Software\Sicmac_Negocio_Com\Dll\DescObjeto.dll=$(AppPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSDATGRD.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSHFLXGD.OCX=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\FLXGDES.DLL=$(WinSysPath)
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSADODC.OCX=$(WinSysPath)
+C:\Software\Antiguos\Sicmac_Financ_Cusco\OcxLabelX.ocx=$(WinSysPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\Software\Sicmac_Financ\SicmacFinan.exe=No
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\Flash8b.ocx=Yes
+C:\Software\ActiveX\Ini\Encrypt.dll=Yes
+C:\Software\ActiveX\Ini\ClasIni.dll=Yes
+C:\Software\ActiveX\Constantes\Constantes.dll=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\Previo.dll=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\ProgressBar.dll=Yes
+C:\Software\ActiveX\DocPago\DocPago.dll=Yes
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMConecta.dll=Yes
+C:\Software\Sicmac_Negocio_Com\COMPONENTES\COMDConstantes.dll=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\DescObjeto.dll=Yes
+C:\Software\Sicmac_Financ\clsSicmacFinan.dll=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\MSDATGRD.OCX=Yes
+C:\Software\Sicmac_Admin\Instalador Cusco\Support\COMCTL32.OCX=Yes
+C:\Software\Sicmac_Negocio_Com\Dll\Spinner.ocx=Yes
+C:\Software\Antiguos\Sicmac_Financ_Cusco\PryOcxExplorer.ocx=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Sicmact
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Sicmact
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Sicmact]
+Icon1=SicmacFinan.exe
+Title1=Sicmact
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\Software\Sicmac_Financ\InstaladorCuscoFinanciero
+ProjectFolder=C:\Software\Sicmac_Financ
+ServerSideCab=
+File1=C:\Software\Sicmac_Financ\InstaladorCuscoFinanciero\setup.exe
+File2=C:\Software\Sicmac_Financ\InstaladorCuscoFinanciero\Setup.Lst
+File3=C:\Software\Sicmac_Financ\InstaladorCuscoFinanciero\SicmacFinan.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

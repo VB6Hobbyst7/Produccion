@@ -1,0 +1,31 @@
+Línea 65: la clase SICMACT.FlexEdit del control feRequisitos no era una clase de control cargada.
+Línea 120: la clase SICMACT.ActXCodCta_New del control ActXCodCta no era una clase de control cargada.
+Línea 71: el nombre de la propiedad _ExtentX de feRequisitos no es válido.
+Línea 72: el nombre de la propiedad _ExtentY de feRequisitos no es válido.
+Línea 73: el nombre de la propiedad Cols0 de feRequisitos no es válido.
+Línea 74: el nombre de la propiedad HighLight de feRequisitos no es válido.
+Línea 75: el nombre de la propiedad AllowUserResizing de feRequisitos no es válido.
+Línea 76: el nombre de la propiedad RowSizingMode de feRequisitos no es válido.
+Línea 77: el nombre de la propiedad EncabezadosNombres de feRequisitos no es válido.
+Línea 78: el nombre de la propiedad EncabezadosAnchos de feRequisitos no es válido.
+Línea 96: el nombre de la propiedad FontFixed de feRequisitos no es válido.
+Línea 97: el nombre de la propiedad ColumnasAEditar de feRequisitos no es válido.
+Línea 98: el nombre de la propiedad ListaControles de feRequisitos no es válido.
+Línea 99: el nombre de la propiedad BackColorControl de feRequisitos no es válido.
+Línea 100: el nombre de la propiedad BackColorControl de feRequisitos no es válido.
+Línea 101: el nombre de la propiedad BackColorControl de feRequisitos no es válido.
+Línea 102: el nombre de la propiedad EncabezadosAlineacion de feRequisitos no es válido.
+Línea 103: el nombre de la propiedad FormatosEdit de feRequisitos no es válido.
+Línea 104: el nombre de la propiedad TextArray0 de feRequisitos no es válido.
+Línea 105: el nombre de la propiedad lbEditarFlex de feRequisitos no es válido.
+Línea 106: el nombre de la propiedad lbUltimaInstancia de feRequisitos no es válido.
+Línea 107: el nombre de la propiedad ColWidth0 de feRequisitos no es válido.
+Línea 108: el nombre de la propiedad RowHeight0 de feRequisitos no es válido.
+Línea 109: el nombre de la propiedad ForeColorFixed de feRequisitos no es válido.
+Línea 126: el nombre de la propiedad _ExtentX de ActXCodCta no es válido.
+Línea 127: el nombre de la propiedad _ExtentY de ActXCodCta no es válido.
+Línea 128: el nombre de la propiedad Texto de ActXCodCta no es válido.
+Línea 129: el nombre de la propiedad EnabledCMAC de ActXCodCta no es válido.
+Línea 130: el nombre de la propiedad EnabledCta de ActXCodCta no es válido.
+Línea 131: el nombre de la propiedad EnabledProd de ActXCodCta no es válido.
+Línea 132: el nombre de la propiedad EnabledAge de ActXCodCta no es válido.

@@ -1,0 +1,5 @@
+[History]
+B0=PryImage/ImageDB
+B1=PryImage/ImageDB/UserControl_Initialize
+B2=PryImage/ImageDB/UserControl_Resize
+B3=PryImage/ImageDB/ActualizarImagen

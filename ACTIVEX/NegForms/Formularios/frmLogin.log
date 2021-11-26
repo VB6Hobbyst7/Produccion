@@ -1,0 +1,3 @@
+Línea 19: la clase SICMACT.Usuario del control ctlUsuario no era una clase de control cargada.
+Línea 22: el nombre de la propiedad _ExtentX de ctlUsuario no es válido.
+Línea 23: el nombre de la propiedad _ExtentY de ctlUsuario no es válido.

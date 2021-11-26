@@ -1,0 +1,10 @@
+NCOMCaptAutorizacion = -212, 128, 915, 580, 
+NCOMRCDProceso = 0, 0, 0, 0, C
+NCOMRCDReportes = 0, 0, 0, 0, C
+NCOMCaptaReportes = -11, 171, 1281, 640, 
+gDefiniciones = 0, 0, 0, 0, C
+NCOMSeguros = 22, 23, 1006, 501, 
+NCOMCaptaDefinicion = 54, -11, 1090, 749, C
+NCOMCaptaImpresion = -105, 82, 1283, 614, C
+NCOMCaptaGenerales = 217, 0, 434, 159, 
+NCOMCaptaMovimiento = -233, 44, 899, 743, 

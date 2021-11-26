@@ -1,0 +1,8 @@
+mPrincipal = 0, 0, 0, 0, C
+frmImpresora = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+Imprimir = 0, 0, 0, 0, C
+uSpinner = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ModLoadFile = 0, 0, 0, 0, C
+clsPrevioFinan = 0, 0, 0, 0, C
+frmPrevio = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmPrevioBus = 0, 0, 0, 0, C, 0, 0, 0, 0, C

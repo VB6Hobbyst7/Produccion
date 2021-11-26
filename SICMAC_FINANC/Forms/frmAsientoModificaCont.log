@@ -1,0 +1,6 @@
+Línea 116: la clase MSMask.MaskEdBox del control txtFecha no era una clase de control cargada.
+Línea 138: la clase MSMask.MaskEdBox del control txtFecha2 no era una clase de control cargada.
+Línea 201: la clase MSDataGridLib.DataGrid del control dgMov no era una clase de control cargada.
+Línea 606: la clase MSMask.MaskEdBox del control txtMovFecha no era una clase de control cargada.
+Línea 645: la clase Sicmact.TxtBuscar del control txtAgeCod no era una clase de control cargada.
+Línea 688: la clase Sicmact.TxtBuscar del control txtOpecod no era una clase de control cargada.

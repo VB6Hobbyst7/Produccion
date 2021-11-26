@@ -1,0 +1,10 @@
+Línea 130: la clase SICMACMOPEINTER.EditMoney del control txtSaldo no era una clase de control cargada.
+Línea 142: la clase SICMACMOPEINTER.EditMoney del control txtMonto no era una clase de control cargada.
+Línea 136: el nombre de la propiedad _extentx de txtSaldo no es válido.
+Línea 137: el nombre de la propiedad _extenty de txtSaldo no es válido.
+Línea 139: el nombre de la propiedad text de txtSaldo no es válido.
+Línea 130: no se pudo establecer la propiedad Font de txtSaldo.
+Línea 148: el nombre de la propiedad _extentx de txtMonto no es válido.
+Línea 149: el nombre de la propiedad _extenty de txtMonto no es válido.
+Línea 151: el nombre de la propiedad text de txtMonto no es válido.
+Línea 142: no se pudo establecer la propiedad Font de txtMonto.

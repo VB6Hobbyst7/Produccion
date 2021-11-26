@@ -1,0 +1,40 @@
+
+
+
+
+
+<<FECHA>>
+
+Señor (a) (es)	:
+
+<<NOMBRE>>
+
+Dirección : <<DIRECCION>>
+
+
+
+Referencia : Contrato No.:<<CONTRATO>>
+
+
+De nuestra consideración :
+
+         Nos dirigimos  a usted(es) para comunicarle(s) que, ante su incumplimiento
+en el pago del Crédito Prendario que le otorgáramos según el Contrato indicado en la 
+referencia, hemos procedido a efectuar el remate de las joyas que nos entregara(n)
+en prenda.
+
+         Producido el remate de los bienes prendados y aplicado su producto a la 
+cancelación de su obligación impaga, queda a usted(es) acercarse a nuestra 
+"Oficina Principal", ubicada en la calle Espinar 146, con la finalidad de recoger  
+el sobrante, ascendente a  S/. <<SOBRANTE>>, suma que resulta a favor, luego de deducir 
+del valor de venta, el saldo de capital, intereses adecuados, seguro y costos
+administrativos.
+
+         Lo(s) esperamos en la dirección indicada, portando su contrato No.:
+<<CONTRATO>>.
+Y su(s) documento(s) de identificación personal.
+
+
+Sin otro particular, quedamos de Usted(es).
+
+                               Atentamente,

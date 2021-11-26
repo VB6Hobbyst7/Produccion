@@ -1,0 +1,16 @@
+[History]
+B0=ControlAsistencia/frmVerAsistencia/FormatGrid
+B1=ControlAsistencia/frmAsistencia/GrabaHoraRef
+B2=ControlAsistencia/frmAsistencia/cmdIniciar_Click
+B3=ControlAsistencia/frmAsistencia/timerControlDia_Timer
+B4=ControlAsistencia/frmAsistencia/Form_Unload
+B5=ControlAsistencia/frmAsistencia/GetNumTarjeta
+B6=ControlAsistencia/gFunciones/GetClaveTarjeta
+B7=ControlAsistencia/gFunciones
+B8=ControlAsistencia/frmAsistencia/GetMovNro
+B9=ControlAsistencia/frmAsistencia/Demora
+B10=ControlAsistencia/frmAsistencia/ExisteTurno
+B11=ControlAsistencia/DConecta/Ejecutar
+B12=ControlAsistencia/frmAsistencia/VerificaClave
+B13=ControlAsistencia/frmAsistencia/Timer1_Timer
+B14=ControlAsistencia/DConecta/AbreConexion

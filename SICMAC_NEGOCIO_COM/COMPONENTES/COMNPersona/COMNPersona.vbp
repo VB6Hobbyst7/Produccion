@@ -1,0 +1,37 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{07F92BD8-4A9B-4B63-B797-B83EDFDFB980}#5.0#0#COMConecta.dll#
+Reference=*\G{694DDF5E-1658-4CDB-97DD-6EFF552D6E6F}#9.0#0#COMDConstantes.dll#
+Reference=*\G{C6B50C1F-2DB3-40C9-8755-A589E9761573}#7.0#0#COMDConstSistema.dll#
+Reference=*\G{7194CC1B-3721-461E-9824-438368C84EDB}#7.0#0#COMFunciones.dll#
+Class=NCOMPersona; COMNPersona\NCOMPersona.cls
+Startup="(None)"
+Command32=""
+Name="COMNPersona"
+HelpContextID="0"
+CompatibleMode="1"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="CAJA TRUJILLO S.A."
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1

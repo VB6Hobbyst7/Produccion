@@ -1,0 +1,39 @@
+
+
+                                                  <<FECHA>>
+
+ Sr. <<NOMBRE>>
+
+     <<DIRECCION>>
+     <<ZONA>>  
+
+
+ Referencia :  Credito Nro :  <<CREDITO>>
+
+
+ De nuestra consideración :
+
+        Nos dirigimos  a usted(es) para comunicarle(s) que, ante su incumplimiento en
+ el pago de la Cuota <<CUOTA>> de su Credito <<CREDITO>>, Ud se encuentra en condicion
+ de Moroso!!.   
+
+
+        Por lo que le solicitamos se acerque a nuestras oficinas y/o a su analista el 
+ Sr. <<ANALISTA>>  
+ con la finalidad de Subsanar la situacion morosa de se Credito. 
+
+
+         Lo(s) esperamos en nuestra red de Agencias.
+
+ 
+
+
+ Sin otro particular, quedamos de Usted(es).
+
+
+                                Atentamente,
+
+
+
+
+		                              CAJA MUNICIPAL DE TRUJILLO 

@@ -1,0 +1,4 @@
+Línea 16: la clase SICMACT.Usuario del control ctlUsuario no era una clase de control cargada.
+Línea 154: la clase SICMACT.FlexEdit del control grdRealiza no era una clase de control cargada.
+Línea 234: la clase SICMACT.FlexEdit del control grdOrdena no era una clase de control cargada.
+Línea 314: la clase SICMACT.FlexEdit del control grdBeneficiario no era una clase de control cargada.

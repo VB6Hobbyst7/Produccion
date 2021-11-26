@@ -1,0 +1,1381 @@
+VERSION 5.00
+Begin {78E93846-85FD-11D0-8487-00A0C90DC8A9} DataReport1 
+   Bindings        =   "DATARPTborrame.dsx":0000
+   Caption         =   "DataReport1"
+   ClientHeight    =   11115
+   ClientLeft      =   1650
+   ClientTop       =   1545
+   ClientWidth     =   15240
+   _ExtentX        =   26882
+   _ExtentY        =   19606
+   _Version        =   393216
+   _DesignerVersion=   100685828
+   ReportWidth     =   10890
+   BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+      Name            =   "Arial"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   GridX           =   10
+   GridY           =   10
+   LeftMargin      =   500
+   RightMargin     =   500
+   TopMargin       =   500
+   BottomMargin    =   500
+   _Settings       =   30
+   DataMember      =   "ConvenioOP"
+   NumSections     =   3
+   SectionCode0    =   2
+   BeginProperty Section0 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section2"
+      ForcePageBreak  =   2
+      NumControls     =   0
+   EndProperty
+   SectionCode1    =   4
+   BeginProperty Section1 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section1"
+      Object.Height          =   15600
+      NumControls     =   66
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblSegundo"
+         Object.Top             =   1587
+         Object.Width           =   10830
+         Object.Height          =   918
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0019
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausulaInicio"
+         Object.Top             =   284
+         Object.Width           =   10830
+         Object.Height          =   897
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":02D4
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblPrimero"
+         Object.Top             =   1190
+         Object.Width           =   10830
+         Object.Height          =   390
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0543
+      EndProperty
+      ItemType3       =   3
+      BeginProperty Item3 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbltercerax"
+         Object.Left            =   57
+         Object.Top             =   12980
+         Object.Width           =   10830
+         Object.Height          =   510
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0653
+      EndProperty
+      ItemType4       =   3
+      BeginProperty Item4 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta3"
+         Object.Width           =   10830
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0728
+      EndProperty
+      ItemType5       =   4
+      BeginProperty Item5 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtdia"
+         Object.Left            =   397
+         Object.Top             =   13096
+         Object.Width           =   279
+         Object.Height          =   135
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "dia"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType6       =   4
+      BeginProperty Item6 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtMes"
+         Object.Left            =   2041
+         Object.Top             =   13096
+         Object.Width           =   1530
+         Object.Height          =   138
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Mes"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType7       =   4
+      BeginProperty Item7 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtaño"
+         Object.Left            =   4252
+         Object.Top             =   13096
+         Object.Width           =   564
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "año"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType8       =   4
+      BeginProperty Item8 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Texto1"
+         Object.Left            =   454
+         Object.Top             =   567
+         Object.Width           =   6357
+         Object.Height          =   183
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Nombre"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType9       =   4
+      BeginProperty Item9 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtNroID"
+         Object.Left            =   9298
+         Object.Top             =   567
+         Object.Width           =   1476
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "NroID"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType10      =   4
+      BeginProperty Item10 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtDireccion"
+         Object.Left            =   1361
+         Object.Top             =   737
+         Object.Width           =   5499
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Direccion"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType11      =   4
+      BeginProperty Item11 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtcCtaCod"
+         Object.Left            =   7881
+         Object.Top             =   1530
+         Object.Width           =   1455
+         Object.Height          =   183
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "cCtaCod"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   10250
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "ConvenioOP"
+      EndProperty
+      ItemType12      =   3
+      BeginProperty Item12 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula1"
+         Object.Left            =   624
+         Object.Top             =   2493
+         Object.Width           =   10200
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Las Ordenes de Pago serán giradas nominativamente, constituyendo documento no negociable y no endosable"
+      EndProperty
+      ItemType13      =   3
+      BeginProperty Item13 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula2"
+         Object.Left            =   624
+         Object.Top             =   2664
+         Object.Width           =   10200
+         Object.Height          =   333
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":07D7
+      EndProperty
+      ItemType14      =   3
+      BeginProperty Item14 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta7"
+         Object.Left            =   226
+         Object.Top             =   2493
+         Object.Width           =   398
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "1.-"
+      EndProperty
+      ItemType15      =   3
+      BeginProperty Item15 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta8"
+         Object.Left            =   228
+         Object.Top             =   2664
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "2.-"
+      EndProperty
+      ItemType16      =   3
+      BeginProperty Item16 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta9"
+         Object.Left            =   228
+         Object.Top             =   3004
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "3.-"
+      EndProperty
+      ItemType17      =   3
+      BeginProperty Item17 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula3"
+         Object.Left            =   624
+         Object.Top             =   3004
+         Object.Width           =   10200
+         Object.Height          =   333
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":089F
+      EndProperty
+      ItemType18      =   3
+      BeginProperty Item18 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula4"
+         Object.Left            =   624
+         Object.Top             =   3344
+         Object.Width           =   10200
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Los titulares de las cuentas de Ahorro con Ordenes de Pago deberán mantener el saldo mínimo establecido por LA CAJA"
+      EndProperty
+      ItemType19      =   3
+      BeginProperty Item19 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta12"
+         Object.Left            =   228
+         Object.Top             =   3344
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "4.-"
+      EndProperty
+      ItemType20      =   3
+      BeginProperty Item20 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta13"
+         Object.Left            =   228
+         Object.Top             =   3514
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "5.-"
+      EndProperty
+      ItemType21      =   3
+      BeginProperty Item21 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula5"
+         Object.Left            =   624
+         Object.Top             =   3514
+         Object.Width           =   10200
+         Object.Height          =   333
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0952
+      EndProperty
+      ItemType22      =   3
+      BeginProperty Item22 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula6"
+         Object.Left            =   624
+         Object.Top             =   3911
+         Object.Width           =   10200
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Los titulares de las cuentas de Ahorro con Ordenes de Pago deberán mantener el saldo mínimo establecido por LA CAJA"
+      EndProperty
+      ItemType23      =   3
+      BeginProperty Item23 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta16"
+         Object.Left            =   227
+         Object.Top             =   3911
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "6.-"
+      EndProperty
+      ItemType24      =   3
+      BeginProperty Item24 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta17"
+         Object.Left            =   1587
+         Object.Top             =   4081
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "a)A solicitud expresa del titular"
+      EndProperty
+      ItemType25      =   3
+      BeginProperty Item25 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta18"
+         Object.Left            =   1587
+         Object.Top             =   4251
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "b)Por el giro de una Orden de Pago sin fondos"
+      EndProperty
+      ItemType26      =   3
+      BeginProperty Item26 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta19"
+         Object.Left            =   1587
+         Object.Top             =   4421
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "c)Por muerte, disolución o liquidación del titular"
+      EndProperty
+      ItemType27      =   3
+      BeginProperty Item27 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula6x"
+         Object.Left            =   624
+         Object.Top             =   4590
+         Object.Width           =   10200
+         Object.Height          =   333
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0A0A
+      EndProperty
+      ItemType28      =   3
+      BeginProperty Item28 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula7"
+         Object.Left            =   625
+         Object.Top             =   4988
+         Object.Width           =   10200
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "LA CAJA no hará efectiva una Orden de Pago del cliente cuando:"
+      EndProperty
+      ItemType29      =   3
+      BeginProperty Item29 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta22"
+         Object.Left            =   1588
+         Object.Top             =   5157
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "a)	Presente diferencias en el monto consignado en cifras y el monto consignado en letras."
+      EndProperty
+      ItemType30      =   3
+      BeginProperty Item30 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta23"
+         Object.Left            =   1588
+         Object.Top             =   5327
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "b)	La firma del titular de la cuenta no coincida con la de los registros"
+      EndProperty
+      ItemType31      =   3
+      BeginProperty Item31 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta24"
+         Object.Left            =   1588
+         Object.Top             =   5497
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "c)	La cuenta no tenga saldo disponible"
+      EndProperty
+      ItemType32      =   3
+      BeginProperty Item32 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta25"
+         Object.Left            =   284
+         Object.Top             =   4988
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "7.-"
+      EndProperty
+      ItemType33      =   3
+      BeginProperty Item33 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta26"
+         Object.Left            =   1588
+         Object.Top             =   5666
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "d)	La cuenta se encuentre bloqueada"
+      EndProperty
+      ItemType34      =   3
+      BeginProperty Item34 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta27"
+         Object.Left            =   1588
+         Object.Top             =   5836
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "e)	Esté deteriorada"
+      EndProperty
+      ItemType35      =   3
+      BeginProperty Item35 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta28"
+         Object.Left            =   1588
+         Object.Top             =   6006
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "f)Presente borrones o enmendaduras"
+      EndProperty
+      ItemType36      =   3
+      BeginProperty Item36 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta29"
+         Object.Left            =   1588
+         Object.Top             =   6176
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "g)	La identificación del cobrador no concuerde con la consignada en la Orden de Pago"
+      EndProperty
+      ItemType37      =   3
+      BeginProperty Item37 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta30"
+         Object.Left            =   1588
+         Object.Top             =   6346
+         Object.Width           =   9240
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "h)	Cualquier otra irregularidad que a criterio de LA CAJA aparezca en las Ordenes de Pago"
+      EndProperty
+      ItemType38      =   3
+      BeginProperty Item38 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula8"
+         Object.Left            =   624
+         Object.Top             =   6573
+         Object.Width           =   10200
+         Object.Height          =   570
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0AD7
+      EndProperty
+      ItemType39      =   3
+      BeginProperty Item39 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta32"
+         Object.Left            =   227
+         Object.Top             =   6573
+         Object.Width           =   405
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "8.-"
+      EndProperty
+      ItemType40      =   3
+      BeginProperty Item40 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula9"
+         Object.Left            =   624
+         Object.Top             =   7140
+         Object.Width           =   10200
+         Object.Height          =   561
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0C67
+      EndProperty
+      ItemType41      =   3
+      BeginProperty Item41 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta34"
+         Object.Left            =   227
+         Object.Top             =   7139
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "9.-"
+      EndProperty
+      ItemType42      =   3
+      BeginProperty Item42 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula10"
+         Object.Left            =   624
+         Object.Top             =   7707
+         Object.Width           =   10200
+         Object.Height          =   351
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0D8F
+      EndProperty
+      ItemType43      =   3
+      BeginProperty Item43 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta36"
+         Object.Left            =   228
+         Object.Top             =   7705
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "10.-"
+      EndProperty
+      ItemType44      =   3
+      BeginProperty Item44 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula11"
+         Object.Left            =   624
+         Object.Top             =   8047
+         Object.Width           =   10215
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "La Orden de Pago no puede ser emitida con fecha adelantada ni ser entregada en garantía."
+      EndProperty
+      ItemType45      =   3
+      BeginProperty Item45 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta38"
+         Object.Left            =   228
+         Object.Top             =   8046
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "11.-"
+      EndProperty
+      ItemType46      =   3
+      BeginProperty Item46 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula12"
+         Object.Left            =   624
+         Object.Top             =   8217
+         Object.Width           =   10215
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0E3B
+      EndProperty
+      ItemType47      =   3
+      BeginProperty Item47 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta40"
+         Object.Left            =   228
+         Object.Top             =   8216
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "12.-"
+      EndProperty
+      ItemType48      =   3
+      BeginProperty Item48 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula13"
+         Object.Left            =   624
+         Object.Top             =   8386
+         Object.Width           =   10215
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "EL CLIENTE está obligado a comunicar oportunamente cualquier variación de su domicilio legal"
+      EndProperty
+      ItemType49      =   3
+      BeginProperty Item49 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta42"
+         Object.Left            =   228
+         Object.Top             =   8385
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "13.-"
+      EndProperty
+      ItemType50      =   3
+      BeginProperty Item50 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula14"
+         Object.Left            =   624
+         Object.Top             =   8556
+         Object.Width           =   10200
+         Object.Height          =   504
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":0EC5
+      EndProperty
+      ItemType51      =   3
+      BeginProperty Item51 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta44"
+         Object.Left            =   227
+         Object.Top             =   8556
+         Object.Width           =   405
+         Object.Height          =   168
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "14.-"
+      EndProperty
+      ItemType52      =   3
+      BeginProperty Item52 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula15"
+         Object.Left            =   624
+         Object.Top             =   9123
+         Object.Width           =   10200
+         Object.Height          =   519
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":1037
+      EndProperty
+      ItemType53      =   3
+      BeginProperty Item53 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta46"
+         Object.Left            =   227
+         Object.Top             =   9123
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "15.-"
+      EndProperty
+      ItemType54      =   3
+      BeginProperty Item54 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula16"
+         Object.Left            =   624
+         Object.Top             =   9688
+         Object.Width           =   10200
+         Object.Height          =   744
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":117A
+      EndProperty
+      ItemType55      =   3
+      BeginProperty Item55 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta48"
+         Object.Left            =   227
+         Object.Top             =   9688
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "16.-"
+      EndProperty
+      ItemType56      =   3
+      BeginProperty Item56 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula17"
+         Object.Left            =   624
+         Object.Top             =   10428
+         Object.Width           =   10200
+         Object.Height          =   912
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":131A
+      EndProperty
+      ItemType57      =   3
+      BeginProperty Item57 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta50"
+         Object.Left            =   227
+         Object.Top             =   10426
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "17.-"
+      EndProperty
+      ItemType58      =   3
+      BeginProperty Item58 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula18"
+         Object.Left            =   624
+         Object.Top             =   11332
+         Object.Width           =   10200
+         Object.Height          =   918
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":1587
+      EndProperty
+      ItemType59      =   3
+      BeginProperty Item59 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta52"
+         Object.Left            =   227
+         Object.Top             =   11332
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "18.-"
+      EndProperty
+      ItemType60      =   3
+      BeginProperty Item60 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblClausula19"
+         Object.Left            =   624
+         Object.Top             =   12244
+         Object.Width           =   10200
+         Object.Height          =   336
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":1806
+      EndProperty
+      ItemType61      =   3
+      BeginProperty Item61 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta54"
+         Object.Left            =   228
+         Object.Top             =   12241
+         Object.Width           =   405
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "19.-"
+      EndProperty
+      ItemType62      =   3
+      BeginProperty Item62 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblTercera"
+         Object.Left            =   57
+         Object.Top             =   12584
+         Object.Width           =   10830
+         Object.Height          =   396
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":18AD
+      EndProperty
+      ItemType63      =   3
+      BeginProperty Item63 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta57"
+         Object.Top             =   14117
+         Object.Width           =   10830
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":195C
+      EndProperty
+      ItemType64      =   3
+      BeginProperty Item64 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta58"
+         Object.Top             =   14344
+         Object.Width           =   10830
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"DATARPTborrame.dsx":19E4
+      EndProperty
+      ItemType65      =   3
+      BeginProperty Item65 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta60"
+         Object.Left            =   57
+         Object.Top             =   14911
+         Object.Width           =   10830
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Courier New"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "                                                                                       .CMAC ICA S.A. __________________________"
+      EndProperty
+   EndProperty
+   SectionCode2    =   7
+   BeginProperty Section2 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section3"
+      ForcePageBreak  =   2
+      NumControls     =   0
+   EndProperty
+End
+Attribute VB_Name = "DataReport1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+Private Sub DataReport_Initialize()
+    DataReport1.WindowState = vbMaximized
+    DataReport1.Title = "Convenio De Ordenes de Pago"
+    DataReport1.Refresh
+End Sub

@@ -1,0 +1,38 @@
+CMAC-ICA                                                 13/06/2005-18:48:41
+                                                                        Pag. 001
+E                  C A L C U L O   D E   L A   U T I L I D A D                   F
+
+                              C O N S O L I D A D O                             
+                                  AL 31/05/2005                                 
+
+
+
+
+     UTILIDAD ACUMULADA AL 30/04/2005        :     1,852,844.61
+     UTILIDAD DEL MES DE 05/2005             :       598,082.24
+                                             --------------------
+     UTILIDAD ACUMULADA AL 31/05/2005        :     2,450,926.85
+     R.E.I. 2005                             :             0.00
+                                             ====================
+     UTILIDAD ANTES DE IMPUESTO              :     2,450,926.85
+     PARTICIPACION LABORAL                   :      -176,744.73
+     IMPUESTO A LA RENTA                     :    -1,007,444.98
+                                             --------------------
+     UTILIDAD(PERDIDA) NETA AL 31/05/2005    :     1,266,737.14
+                                             ====================
+
+E                       CONSISTENCIA DE CUADRE DEL BALANCE                       F
+                                ( CONSOLIDADO )                                 
+
+ACTIVO                                    117,412,618.46
+PASIVO                                                       99,725,562.44
+PATRIMONIO                                                   16,420,318.87
+UTILIDAD (PERDIDA) NETA                                       1,266,737.14
+                                       ------------------------------------
+                                          117,412,618.46    117,412,618.45
+                                       ====================================
+
+                                       ------------------
+DIFERENCIA                                          0.01
+                                       ------------------
+                                                  F,66  

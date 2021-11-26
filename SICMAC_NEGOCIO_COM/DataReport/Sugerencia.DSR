@@ -1,0 +1,4373 @@
+VERSION 5.00
+Begin {78E93846-85FD-11D0-8487-00A0C90DC8A9} DRSugerencia 
+   BorderStyle     =   1  'Fixed Single
+   Caption         =   "Clases - DRSugerencia (DataReport)"
+   ClientHeight    =   12060
+   ClientLeft      =   0
+   ClientTop       =   390
+   ClientWidth     =   17280
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   _ExtentX        =   21908
+   _ExtentY        =   15372
+   _Version        =   393216
+   _DesignerVersion=   100688210
+   ReportWidth     =   10770
+   BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+      Name            =   "Arial"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   GridX           =   10
+   GridY           =   10
+   LeftMargin      =   500
+   RightMargin     =   500
+   TopMargin       =   100
+   BottomMargin    =   200
+   _Settings       =   30
+   Title           =   "Sugerencia y resolucion de Creditos"
+   NumSections     =   3
+   SectionCode0    =   2
+   BeginProperty Section0 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section2"
+      NumControls     =   0
+   EndProperty
+   SectionCode1    =   4
+   BeginProperty Section1 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section1"
+      Object.Height          =   15390
+      ForcePageBreak  =   2
+      NumControls     =   251
+      ItemType0       =   6
+      BeginProperty Item0 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma5"
+         Object.Left            =   3118
+         Object.Top             =   7428
+         Object.Width           =   7545
+         Object.Height          =   225
+      EndProperty
+      ItemType1       =   6
+      BeginProperty Item1 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma10"
+         Object.Left            =   170
+         Object.Top             =   12529
+         Object.Width           =   10500
+         Object.Height          =   2550
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblNOAnalista"
+         Object.Left            =   10205
+         Object.Top             =   9807
+         Object.Width           =   165
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType3       =   3
+      BeginProperty Item3 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblOKAnalista"
+         Object.Left            =   8277
+         Object.Top             =   9807
+         Object.Width           =   165
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType4       =   6
+      BeginProperty Item4 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma12"
+         Object.Left            =   10148
+         Object.Top             =   9807
+         Object.Width           =   225
+         Object.Height          =   180
+      EndProperty
+      ItemType5       =   6
+      BeginProperty Item5 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma11"
+         Object.Left            =   8220
+         Object.Top             =   9808
+         Object.Width           =   225
+         Object.Height          =   165
+      EndProperty
+      ItemType6       =   3
+      BeginProperty Item6 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblOKComite"
+         Object.Left            =   6520
+         Object.Top             =   12245
+         Object.Width           =   165
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType7       =   3
+      BeginProperty Item7 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblNOComite"
+         Object.Left            =   8447
+         Object.Top             =   12245
+         Object.Width           =   165
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType8       =   3
+      BeginProperty Item8 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblkTrabajo"
+         Object.Left            =   2324
+         Object.Top             =   8050
+         Object.Width           =   225
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType9       =   3
+      BeginProperty Item9 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta1"
+         Object.Left            =   170
+         Object.Width           =   7830
+         Object.Height          =   283
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "SUGERENCIA Y RESOLUCION DE CREDITOS PEQUEÑA EMPRESA"
+      EndProperty
+      ItemType10      =   3
+      BeginProperty Item10 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta2"
+         Object.Left            =   227
+         Object.Top             =   851
+         Object.Width           =   4650
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DATOS DEL TITULAR / REPRESENTANTE"
+      EndProperty
+      ItemType11      =   3
+      BeginProperty Item11 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta3"
+         Object.Left            =   227
+         Object.Top             =   1077
+         Object.Width           =   5160
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "NOMBRE Y APELLIDO  DEL TITULAR / REPRESENTANTE"
+      EndProperty
+      ItemType12      =   3
+      BeginProperty Item12 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta4"
+         Object.Left            =   227
+         Object.Top             =   1645
+         Object.Width           =   5160
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PROFESION/ACTIVIDAD QUE DESEMPEÑA"
+      EndProperty
+      ItemType13      =   3
+      BeginProperty Item13 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta5"
+         Object.Left            =   227
+         Object.Top             =   2155
+         Object.Width           =   3615
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DIRECCION DEL DOMICILIO"
+      EndProperty
+      ItemType14      =   3
+      BeginProperty Item14 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta6"
+         Object.Left            =   5386
+         Object.Top             =   1077
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "D.N.I./L.E./C.I.P."
+         Alignment       =   2
+      EndProperty
+      ItemType15      =   3
+      BeginProperty Item15 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta7"
+         Object.Left            =   7257
+         Object.Top             =   1077
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "FECHA DE NAC."
+         Alignment       =   2
+      EndProperty
+      ItemType16      =   3
+      BeginProperty Item16 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta8"
+         Object.Left            =   9128
+         Object.Top             =   1077
+         Object.Width           =   1530
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CARGA FAMILIAR	"
+         Alignment       =   2
+      EndProperty
+      ItemType17      =   3
+      BeginProperty Item17 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta9"
+         Object.Left            =   5386
+         Object.Top             =   1645
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ESTADO CIVIL"
+         Alignment       =   2
+      EndProperty
+      ItemType18      =   3
+      BeginProperty Item18 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta10"
+         Object.Left            =   7257
+         Object.Top             =   1645
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "TELEFONO"
+         Alignment       =   2
+      EndProperty
+      ItemType19      =   3
+      BeginProperty Item19 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta11"
+         Object.Left            =   9128
+         Object.Top             =   1645
+         Object.Width           =   1530
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CONDICION DE VIV."
+         Alignment       =   2
+      EndProperty
+      ItemType20      =   3
+      BeginProperty Item20 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta12"
+         Object.Left            =   5386
+         Object.Top             =   2155
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PROVINCIA"
+         Alignment       =   2
+      EndProperty
+      ItemType21      =   3
+      BeginProperty Item21 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta13"
+         Object.Left            =   7257
+         Object.Top             =   2155
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DISTRITO"
+         Alignment       =   2
+      EndProperty
+      ItemType22      =   3
+      BeginProperty Item22 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta14"
+         Object.Left            =   9128
+         Object.Top             =   2155
+         Object.Width           =   1530
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ZONA	"
+         Alignment       =   2
+      EndProperty
+      ItemType23      =   3
+      BeginProperty Item23 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta15"
+         Object.Left            =   3847
+         Object.Top             =   2155
+         Object.Width           =   1545
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DEPARTAMENTO"
+         Alignment       =   2
+      EndProperty
+      ItemType24      =   5
+      BeginProperty Item24 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea1"
+         Object.Left            =   170
+         Object.Top             =   1304
+         Object.Width           =   10485
+      EndProperty
+      ItemType25      =   5
+      BeginProperty Item25 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea2"
+         Object.Left            =   170
+         Object.Top             =   1589
+         Object.Width           =   10485
+      EndProperty
+      ItemType26      =   5
+      BeginProperty Item26 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea3"
+         Object.Left            =   170
+         Object.Top             =   1874
+         Object.Width           =   10485
+      EndProperty
+      ItemType27      =   5
+      BeginProperty Item27 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea4"
+         Object.Left            =   170
+         Object.Top             =   2155
+         Object.Width           =   10500
+      EndProperty
+      ItemType28      =   5
+      BeginProperty Item28 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea5"
+         Object.Left            =   5386
+         Object.Top             =   1021
+         Object.Height          =   1590
+      EndProperty
+      ItemType29      =   5
+      BeginProperty Item29 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea6"
+         Object.Left            =   7267
+         Object.Top             =   1021
+         Object.Height          =   1590
+      EndProperty
+      ItemType30      =   5
+      BeginProperty Item30 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea7"
+         Object.Left            =   9148
+         Object.Top             =   1021
+         Object.Height          =   1590
+      EndProperty
+      ItemType31      =   5
+      BeginProperty Item31 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea8"
+         Object.Left            =   170
+         Object.Top             =   2325
+         Object.Width           =   10500
+      EndProperty
+      ItemType32      =   5
+      BeginProperty Item32 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea9"
+         Object.Left            =   3854
+         Object.Top             =   2150
+         Object.Height          =   465
+      EndProperty
+      ItemType33      =   3
+      BeginProperty Item33 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta16"
+         Object.Left            =   227
+         Object.Top             =   2722
+         Object.Width           =   4650
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DATOS DEL CONYUGUE / REPRESENTANTE / CODEUDOR"
+      EndProperty
+      ItemType34      =   3
+      BeginProperty Item34 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta17"
+         Object.Left            =   227
+         Object.Top             =   2948
+         Object.Width           =   5160
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "NOMBRE Y APELLIDO"
+      EndProperty
+      ItemType35      =   3
+      BeginProperty Item35 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta18"
+         Object.Left            =   227
+         Object.Top             =   3516
+         Object.Width           =   5160
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PROFESION/ACTIVIDAD QUE DESEMPEÑA"
+      EndProperty
+      ItemType36      =   3
+      BeginProperty Item36 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta19"
+         Object.Left            =   227
+         Object.Top             =   4026
+         Object.Width           =   3615
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DIRECCION DEL DOMICILIO"
+      EndProperty
+      ItemType37      =   3
+      BeginProperty Item37 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta20"
+         Object.Left            =   5386
+         Object.Top             =   2948
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "D.N.I./L.E./C.I.P."
+         Alignment       =   2
+      EndProperty
+      ItemType38      =   3
+      BeginProperty Item38 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta21"
+         Object.Left            =   7257
+         Object.Top             =   2948
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "FECHA DE NAC."
+         Alignment       =   2
+      EndProperty
+      ItemType39      =   3
+      BeginProperty Item39 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta22"
+         Object.Left            =   9128
+         Object.Top             =   2948
+         Object.Width           =   1530
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "REL. CON TITULAR"
+         Alignment       =   2
+      EndProperty
+      ItemType40      =   3
+      BeginProperty Item40 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta23"
+         Object.Left            =   5386
+         Object.Top             =   3516
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ESTADO CIVIL"
+         Alignment       =   2
+      EndProperty
+      ItemType41      =   3
+      BeginProperty Item41 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta24"
+         Object.Left            =   7257
+         Object.Top             =   3516
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "TELEFONO"
+         Alignment       =   2
+      EndProperty
+      ItemType42      =   3
+      BeginProperty Item42 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta25"
+         Object.Left            =   9128
+         Object.Top             =   3516
+         Object.Width           =   1530
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CONDICION DE VIV."
+         Alignment       =   2
+      EndProperty
+      ItemType43      =   3
+      BeginProperty Item43 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta26"
+         Object.Left            =   5386
+         Object.Top             =   4026
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PROVINCIA"
+         Alignment       =   2
+      EndProperty
+      ItemType44      =   3
+      BeginProperty Item44 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta27"
+         Object.Left            =   7257
+         Object.Top             =   4026
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DISTRITO"
+         Alignment       =   2
+      EndProperty
+      ItemType45      =   3
+      BeginProperty Item45 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta28"
+         Object.Left            =   9128
+         Object.Top             =   4026
+         Object.Width           =   1530
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ZONA	"
+         Alignment       =   2
+      EndProperty
+      ItemType46      =   3
+      BeginProperty Item46 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta29"
+         Object.Left            =   3847
+         Object.Top             =   4026
+         Object.Width           =   1530
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DEPARTAMENTO"
+         Alignment       =   2
+      EndProperty
+      ItemType47      =   5
+      BeginProperty Item47 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea10"
+         Object.Left            =   170
+         Object.Top             =   3175
+         Object.Width           =   10500
+      EndProperty
+      ItemType48      =   5
+      BeginProperty Item48 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea11"
+         Object.Left            =   170
+         Object.Top             =   3460
+         Object.Width           =   10500
+      EndProperty
+      ItemType49      =   5
+      BeginProperty Item49 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea12"
+         Object.Left            =   170
+         Object.Top             =   3745
+         Object.Width           =   10500
+      EndProperty
+      ItemType50      =   5
+      BeginProperty Item50 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea13"
+         Object.Left            =   170
+         Object.Top             =   4025
+         Object.Width           =   10500
+      EndProperty
+      ItemType51      =   5
+      BeginProperty Item51 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea14"
+         Object.Left            =   5386
+         Object.Top             =   2892
+         Object.Height          =   1590
+      EndProperty
+      ItemType52      =   5
+      BeginProperty Item52 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea15"
+         Object.Left            =   7267
+         Object.Top             =   2892
+         Object.Height          =   1590
+      EndProperty
+      ItemType53      =   5
+      BeginProperty Item53 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea16"
+         Object.Left            =   9148
+         Object.Top             =   2892
+         Object.Height          =   1590
+      EndProperty
+      ItemType54      =   5
+      BeginProperty Item54 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea17"
+         Object.Left            =   170
+         Object.Top             =   4196
+         Object.Width           =   10500
+      EndProperty
+      ItemType55      =   5
+      BeginProperty Item55 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea18"
+         Object.Left            =   3854
+         Object.Top             =   4021
+         Object.Height          =   465
+      EndProperty
+      ItemType56      =   6
+      BeginProperty Item56 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma3"
+         Object.Left            =   170
+         Object.Top             =   4762
+         Object.Width           =   10500
+         Object.Height          =   1305
+      EndProperty
+      ItemType57      =   3
+      BeginProperty Item57 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta30"
+         Object.Left            =   227
+         Object.Top             =   4592
+         Object.Width           =   4650
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "OTRAS PERSONAS RELACIONADAS AL CREDITO"
+      EndProperty
+      ItemType58      =   3
+      BeginProperty Item58 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta31"
+         Object.Left            =   227
+         Object.Top             =   4818
+         Object.Width           =   5160
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "NOMBRES Y APELLIDOS"
+      EndProperty
+      ItemType59      =   3
+      BeginProperty Item59 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta32"
+         Object.Left            =   5386
+         Object.Top             =   4818
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "D.N.I./L.E./C.I.P."
+         Alignment       =   2
+      EndProperty
+      ItemType60      =   3
+      BeginProperty Item60 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta34"
+         Object.Left            =   7304
+         Object.Top             =   4818
+         Object.Width           =   3300
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "REL. CON TITULAR"
+         Alignment       =   2
+      EndProperty
+      ItemType61      =   5
+      BeginProperty Item61 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea19"
+         Object.Left            =   5386
+         Object.Top             =   4762
+         Object.Height          =   1305
+      EndProperty
+      ItemType62      =   5
+      BeginProperty Item62 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea20"
+         Object.Left            =   7267
+         Object.Top             =   4762
+         Object.Height          =   1305
+      EndProperty
+      ItemType63      =   6
+      BeginProperty Item63 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma4"
+         Object.Left            =   170
+         Object.Top             =   6350
+         Object.Width           =   10500
+         Object.Height          =   1050
+      EndProperty
+      ItemType64      =   3
+      BeginProperty Item64 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta33"
+         Object.Left            =   227
+         Object.Top             =   6180
+         Object.Width           =   4650
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DATOS DE LA GARANTIA"
+      EndProperty
+      ItemType65      =   3
+      BeginProperty Item65 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta35"
+         Object.Left            =   227
+         Object.Top             =   6406
+         Object.Width           =   3912
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DESCRIPCION"
+      EndProperty
+      ItemType66      =   3
+      BeginProperty Item66 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta36"
+         Object.Left            =   5386
+         Object.Top             =   6406
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "TASACION"
+         Alignment       =   2
+      EndProperty
+      ItemType67      =   3
+      BeginProperty Item67 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta37"
+         Object.Left            =   9356
+         Object.Top             =   6406
+         Object.Width           =   1185
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "GRAVAMEN"
+         Alignment       =   2
+      EndProperty
+      ItemType68      =   5
+      BeginProperty Item68 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea21"
+         Object.Left            =   5386
+         Object.Top             =   6350
+         Object.Height          =   1305
+      EndProperty
+      ItemType69      =   5
+      BeginProperty Item69 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea22"
+         Object.Left            =   7267
+         Object.Top             =   6350
+         Object.Height          =   1305
+      EndProperty
+      ItemType70      =   3
+      BeginProperty Item70 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta38"
+         Object.Left            =   7314
+         Object.Top             =   6406
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "REALIZACION"
+         Alignment       =   2
+      EndProperty
+      ItemType71      =   5
+      BeginProperty Item71 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea23"
+         Object.Left            =   9205
+         Object.Top             =   6350
+         Object.Height          =   1305
+      EndProperty
+      ItemType72      =   3
+      BeginProperty Item72 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblTGarantia"
+         Object.Left            =   3231
+         Object.Top             =   7485
+         Object.Width           =   2098
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "TOTAL GARANTIA"
+      EndProperty
+      ItemType73      =   3
+      BeginProperty Item73 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta40"
+         Object.Left            =   283
+         Object.Top             =   9354
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "OTROS"
+      EndProperty
+      ItemType74      =   3
+      BeginProperty Item74 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta41"
+         Object.Left            =   283
+         Object.Top             =   9014
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MIXTO"
+      EndProperty
+      ItemType75      =   3
+      BeginProperty Item75 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta42"
+         Object.Left            =   283
+         Object.Top             =   8673
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ADQ. DE INMUEBLE"
+      EndProperty
+      ItemType76      =   3
+      BeginProperty Item76 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta43"
+         Object.Left            =   283
+         Object.Top             =   8389
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ACTIVO FIJO"
+      EndProperty
+      ItemType77      =   3
+      BeginProperty Item77 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta44"
+         Object.Left            =   283
+         Object.Top             =   8105
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "K.  DE TRABAJO"
+      EndProperty
+      ItemType78      =   3
+      BeginProperty Item78 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta45"
+         Object.Left            =   227
+         Object.Top             =   7483
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DESTINO"
+      EndProperty
+      ItemType79      =   5
+      BeginProperty Item79 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea24"
+         Object.Left            =   2154
+         Object.Top             =   7710
+         Object.Height          =   1920
+      EndProperty
+      ItemType80      =   5
+      BeginProperty Item80 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea25"
+         Object.Left            =   227
+         Object.Top             =   8332
+         Object.Width           =   2490
+      EndProperty
+      ItemType81      =   5
+      BeginProperty Item81 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea26"
+         Object.Left            =   227
+         Object.Top             =   9297
+         Object.Width           =   2490
+      EndProperty
+      ItemType82      =   5
+      BeginProperty Item82 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea27"
+         Object.Left            =   227
+         Object.Top             =   8957
+         Object.Width           =   2490
+      EndProperty
+      ItemType83      =   5
+      BeginProperty Item83 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea28"
+         Object.Left            =   227
+         Object.Top             =   8616
+         Object.Width           =   2490
+      EndProperty
+      ItemType84      =   6
+      BeginProperty Item84 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma7"
+         Object.Left            =   3061
+         Object.Top             =   8049
+         Object.Width           =   6240
+         Object.Height          =   570
+      EndProperty
+      ItemType85      =   5
+      BeginProperty Item85 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea29"
+         Object.Left            =   170
+         Object.Top             =   5045
+         Object.Width           =   10500
+      EndProperty
+      ItemType86      =   5
+      BeginProperty Item86 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea30"
+         Object.Left            =   170
+         Object.Top             =   6634
+         Object.Width           =   10500
+      EndProperty
+      ItemType87      =   5
+      BeginProperty Item87 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea32"
+         Object.Left            =   5386
+         Object.Top             =   8048
+         Object.Height          =   585
+      EndProperty
+      ItemType88      =   5
+      BeginProperty Item88 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea33"
+         Object.Left            =   7313
+         Object.Top             =   8049
+         Object.Height          =   585
+      EndProperty
+      ItemType89      =   3
+      BeginProperty Item89 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta46"
+         Object.Left            =   3288
+         Object.Top             =   8105
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "TOTAL DEUDA CMAC"
+         Alignment       =   2
+      EndProperty
+      ItemType90      =   3
+      BeginProperty Item90 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta48"
+         Object.Left            =   7392
+         Object.Top             =   8105
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "% COBERTURA"
+         Alignment       =   2
+      EndProperty
+      ItemType91      =   3
+      BeginProperty Item91 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta47"
+         Object.Left            =   5443
+         Object.Top             =   8105
+         Object.Width           =   1815
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "TOTAL GARANTIAS"
+         Alignment       =   2
+      EndProperty
+      ItemType92      =   3
+      BeginProperty Item92 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta49"
+         Object.Left            =   3061
+         Object.Top             =   7822
+         Object.Width           =   4260
+         Object.Height          =   180
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "COBERTURA GARANTIA"
+      EndProperty
+      ItemType93      =   6
+      BeginProperty Item93 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma8"
+         Object.Left            =   3118
+         Object.Top             =   9070
+         Object.Width           =   7545
+         Object.Height          =   570
+      EndProperty
+      ItemType94      =   5
+      BeginProperty Item94 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea34"
+         Object.Left            =   3118
+         Object.Top             =   9353
+         Object.Width           =   7545
+      EndProperty
+      ItemType95      =   5
+      BeginProperty Item95 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea35"
+         Object.Left            =   5386
+         Object.Top             =   9071
+         Object.Height          =   585
+      EndProperty
+      ItemType96      =   3
+      BeginProperty Item96 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta50"
+         Object.Left            =   3288
+         Object.Top             =   9128
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MONTO SOLICITADO"
+         Alignment       =   2
+      EndProperty
+      ItemType97      =   3
+      BeginProperty Item97 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta51"
+         Object.Left            =   5443
+         Object.Top             =   9128
+         Object.Width           =   1133
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "NRO. CUOTAS"
+         Alignment       =   2
+      EndProperty
+      ItemType98      =   3
+      BeginProperty Item98 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta52"
+         Object.Left            =   3118
+         Object.Top             =   8786
+         Object.Width           =   4245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "SOLICITUD DEL CLIENTE"
+      EndProperty
+      ItemType99      =   5
+      BeginProperty Item99 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea36"
+         Object.Left            =   6633
+         Object.Top             =   9071
+         Object.Height          =   585
+      EndProperty
+      ItemType100     =   3
+      BeginProperty Item100 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta53"
+         Object.Left            =   7994
+         Object.Top             =   9126
+         Object.Width           =   1304
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "GRACIA"
+         Alignment       =   2
+      EndProperty
+      ItemType101     =   3
+      BeginProperty Item101 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta54"
+         Object.Left            =   9193
+         Object.Top             =   9126
+         Object.Width           =   1410
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CUOTA SUGERIDA"
+         Alignment       =   2
+      EndProperty
+      ItemType102     =   5
+      BeginProperty Item102 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea37"
+         Object.Left            =   9240
+         Object.Top             =   9069
+         Object.Height          =   585
+      EndProperty
+      ItemType103     =   6
+      BeginProperty Item103 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma9"
+         Object.Left            =   170
+         Object.Top             =   10032
+         Object.Width           =   10500
+         Object.Height          =   2025
+      EndProperty
+      ItemType104     =   3
+      BeginProperty Item104 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta55"
+         Object.Left            =   227
+         Object.Top             =   9865
+         Object.Width           =   4650
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "SUGERENCIA DEL ANALISTA"
+      EndProperty
+      ItemType105     =   3
+      BeginProperty Item105 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta56"
+         Object.Left            =   227
+         Object.Top             =   10088
+         Object.Width           =   1587
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MONTO PROPUESTO"
+      EndProperty
+      ItemType106     =   3
+      BeginProperty Item106 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta57"
+         Object.Left            =   3231
+         Object.Top             =   10091
+         Object.Width           =   1022
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PLAZO"
+         Alignment       =   2
+      EndProperty
+      ItemType107     =   3
+      BeginProperty Item107 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta58"
+         Object.Left            =   7479
+         Object.Top             =   10088
+         Object.Width           =   3060
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "LINEA DE CREDITO"
+         Alignment       =   2
+      EndProperty
+      ItemType108     =   5
+      BeginProperty Item108 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea40"
+         Object.Left            =   170
+         Object.Top             =   10315
+         Object.Width           =   10500
+      EndProperty
+      ItemType109     =   3
+      BeginProperty Item109 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta59"
+         Object.Left            =   4365
+         Object.Top             =   10088
+         Object.Width           =   1080
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "GRACIA"
+         Alignment       =   2
+      EndProperty
+      ItemType110     =   3
+      BeginProperty Item110 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta60"
+         Object.Left            =   5440
+         Object.Top             =   10088
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CALENDARIO"
+         Alignment       =   2
+      EndProperty
+      ItemType111     =   5
+      BeginProperty Item111 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea41"
+         Object.Left            =   170
+         Object.Top             =   10657
+         Object.Width           =   10500
+      EndProperty
+      ItemType112     =   3
+      BeginProperty Item112 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta61"
+         Object.Left            =   227
+         Object.Top             =   10711
+         Object.Width           =   2160
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "COMENTARIO DEL ANALISTA :"
+      EndProperty
+      ItemType113     =   3
+      BeginProperty Item113 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta62"
+         Object.Left            =   8166
+         Object.Top             =   11787
+         Object.Width           =   2325
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "FIRMA Y SELLO DEL ANALISTA"
+      EndProperty
+      ItemType114     =   5
+      BeginProperty Item114 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea38"
+         Object.Left            =   7824
+         Object.Top             =   11731
+         Object.Width           =   2730
+      EndProperty
+      ItemType115     =   5
+      BeginProperty Item115 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea39"
+         Object.Left            =   1871
+         Object.Top             =   10035
+         Object.Height          =   645
+      EndProperty
+      ItemType116     =   5
+      BeginProperty Item116 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea42"
+         Object.Left            =   4309
+         Object.Top             =   10035
+         Object.Height          =   645
+      EndProperty
+      ItemType117     =   5
+      BeginProperty Item117 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea43"
+         Object.Left            =   5443
+         Object.Top             =   10037
+         Object.Height          =   645
+      EndProperty
+      ItemType118     =   5
+      BeginProperty Item118 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea44"
+         Object.Left            =   7381
+         Object.Top             =   10037
+         Object.Height          =   645
+      EndProperty
+      ItemType119     =   3
+      BeginProperty Item119 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta63"
+         Object.Left            =   227
+         Object.Top             =   12357
+         Object.Width           =   4650
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "RESOLUCION COMITE"
+      EndProperty
+      ItemType120     =   3
+      BeginProperty Item120 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta64"
+         Object.Left            =   227
+         Object.Top             =   12583
+         Object.Width           =   1635
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MONTO APROBADO"
+      EndProperty
+      ItemType121     =   3
+      BeginProperty Item121 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta65"
+         Object.Left            =   3231
+         Object.Top             =   12586
+         Object.Width           =   965
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PLAZO"
+         Alignment       =   2
+      EndProperty
+      ItemType122     =   3
+      BeginProperty Item122 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta66"
+         Object.Left            =   7365
+         Object.Top             =   12583
+         Object.Width           =   3240
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "LINEA DE CREDITO"
+         Alignment       =   2
+      EndProperty
+      ItemType123     =   5
+      BeginProperty Item123 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea45"
+         Object.Left            =   170
+         Object.Top             =   12810
+         Object.Width           =   10500
+      EndProperty
+      ItemType124     =   3
+      BeginProperty Item124 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta67"
+         Object.Left            =   4309
+         Object.Top             =   12586
+         Object.Width           =   1077
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "GRACIA"
+         Alignment       =   2
+      EndProperty
+      ItemType125     =   3
+      BeginProperty Item125 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta68"
+         Object.Left            =   5440
+         Object.Top             =   12583
+         Object.Width           =   1875
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CALENDARIO"
+         Alignment       =   2
+      EndProperty
+      ItemType126     =   5
+      BeginProperty Item126 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea46"
+         Object.Left            =   170
+         Object.Top             =   13152
+         Object.Width           =   10500
+      EndProperty
+      ItemType127     =   3
+      BeginProperty Item127 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta69"
+         Object.Left            =   227
+         Object.Top             =   13206
+         Object.Width           =   1305
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "OBSERVACIONES :"
+      EndProperty
+      ItemType128     =   3
+      BeginProperty Item128 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta70"
+         Object.Left            =   4707
+         Object.Top             =   14057
+         Object.Width           =   1290
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ADMINISTRADOR"
+      EndProperty
+      ItemType129     =   5
+      BeginProperty Item129 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea47"
+         Object.Left            =   4139
+         Object.Top             =   13999
+         Object.Width           =   2730
+      EndProperty
+      ItemType130     =   5
+      BeginProperty Item130 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea48"
+         Object.Left            =   3118
+         Object.Top             =   12529
+         Object.Height          =   645
+      EndProperty
+      ItemType131     =   5
+      BeginProperty Item131 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea49"
+         Object.Left            =   4252
+         Object.Top             =   12586
+         Object.Height          =   645
+      EndProperty
+      ItemType132     =   5
+      BeginProperty Item132 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea50"
+         Object.Left            =   5443
+         Object.Top             =   12532
+         Object.Height          =   645
+      EndProperty
+      ItemType133     =   5
+      BeginProperty Item133 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea51"
+         Object.Left            =   7381
+         Object.Top             =   12532
+         Object.Height          =   645
+      EndProperty
+      ItemType134     =   3
+      BeginProperty Item134 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta71"
+         Object.Left            =   1419
+         Object.Top             =   14057
+         Object.Width           =   1185
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "COORDINADOR"
+      EndProperty
+      ItemType135     =   5
+      BeginProperty Item135 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea52"
+         Object.Left            =   681
+         Object.Top             =   13999
+         Object.Width           =   2730
+      EndProperty
+      ItemType136     =   3
+      BeginProperty Item136 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta73"
+         Object.Left            =   1476
+         Object.Top             =   14852
+         Object.Width           =   1185
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "GERENTE"
+      EndProperty
+      ItemType137     =   5
+      BeginProperty Item137 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea54"
+         Object.Left            =   738
+         Object.Top             =   14794
+         Object.Width           =   2730
+      EndProperty
+      ItemType138     =   5
+      BeginProperty Item138 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea55"
+         Object.Left            =   4158
+         Object.Top             =   14794
+         Object.Width           =   2730
+      EndProperty
+      ItemType139     =   5
+      BeginProperty Item139 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea56"
+         Object.Left            =   7863
+         Object.Top             =   14851
+         Object.Width           =   2730
+      EndProperty
+      ItemType140     =   3
+      BeginProperty Item140 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta74"
+         Object.Left            =   7370
+         Object.Top             =   9807
+         Object.Width           =   855
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Aprobar"
+      EndProperty
+      ItemType141     =   3
+      BeginProperty Item141 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta75"
+         Object.Left            =   9307
+         Object.Top             =   9807
+         Object.Width           =   855
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Rechazar"
+      EndProperty
+      ItemType142     =   3
+      BeginProperty Item142 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta76"
+         Object.Left            =   5442
+         Object.Top             =   12245
+         Object.Width           =   1020
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Aprobado"
+      EndProperty
+      ItemType143     =   3
+      BeginProperty Item143 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta77"
+         Object.Left            =   7379
+         Object.Top             =   12245
+         Object.Width           =   1020
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Rechazado"
+      EndProperty
+      ItemType144     =   6
+      BeginProperty Item144 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma13"
+         Object.Left            =   6463
+         Object.Top             =   12245
+         Object.Width           =   225
+         Object.Height          =   180
+      EndProperty
+      ItemType145     =   6
+      BeginProperty Item145 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma14"
+         Object.Left            =   8391
+         Object.Top             =   12245
+         Object.Width           =   225
+         Object.Height          =   180
+      EndProperty
+      ItemType146     =   3
+      BeginProperty Item146 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta78"
+         Object.Left            =   9071
+         Object.Top             =   12245
+         Object.Width           =   570
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Fecha"
+      EndProperty
+      ItemType147     =   3
+      BeginProperty Item147 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta79"
+         Object.Left            =   8844
+         Object.Top             =   737
+         Object.Width           =   570
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Fecha"
+      EndProperty
+      ItemType148     =   3
+      BeginProperty Item148 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblFechaSug"
+         Object.Left            =   9411
+         Object.Top             =   737
+         Object.Width           =   1200
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "    /     /      "
+      EndProperty
+      ItemType149     =   3
+      BeginProperty Item149 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblFechaResol"
+         Object.Left            =   9694
+         Object.Top             =   12245
+         Object.Width           =   840
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "    /     /      "
+      EndProperty
+      ItemType150     =   3
+      BeginProperty Item150 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblActivos"
+         Object.Left            =   2324
+         Object.Top             =   8390
+         Object.Width           =   225
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType151     =   3
+      BeginProperty Item151 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblAdqInmuebles"
+         Object.Left            =   2324
+         Object.Top             =   8674
+         Object.Width           =   225
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType152     =   3
+      BeginProperty Item152 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblMixto"
+         Object.Left            =   2324
+         Object.Top             =   9014
+         Object.Width           =   225
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType153     =   3
+      BeginProperty Item153 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblOtros"
+         Object.Left            =   2324
+         Object.Top             =   9354
+         Object.Width           =   225
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType154     =   6
+      BeginProperty Item154 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma6"
+         Object.Left            =   227
+         Object.Top             =   7710
+         Object.Width           =   2490
+         Object.Height          =   1920
+      EndProperty
+      ItemType155     =   6
+      BeginProperty Item155 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma1"
+         Object.Left            =   170
+         Object.Top             =   1021
+         Object.Width           =   10500
+         Object.Height          =   1575
+      EndProperty
+      ItemType156     =   6
+      BeginProperty Item156 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma2"
+         Object.Left            =   170
+         Object.Top             =   2892
+         Object.Width           =   10500
+         Object.Height          =   1575
+      EndProperty
+      ItemType157     =   3
+      BeginProperty Item157 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1NomTitular"
+         Object.Left            =   227
+         Object.Top             =   1361
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType158     =   3
+      BeginProperty Item158 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1DNITitular"
+         Object.Left            =   5613
+         Object.Top             =   1361
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType159     =   3
+      BeginProperty Item159 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1NacTitular"
+         Object.Left            =   7654
+         Object.Top             =   1361
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType160     =   3
+      BeginProperty Item160 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1CargaFam"
+         Object.Left            =   9298
+         Object.Top             =   1361
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType161     =   3
+      BeginProperty Item161 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1ProfTitular"
+         Object.Left            =   227
+         Object.Top             =   1871
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType162     =   3
+      BeginProperty Item162 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1CivTitular"
+         Object.Left            =   5669
+         Object.Top             =   1928
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType163     =   3
+      BeginProperty Item163 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1TelfTitular"
+         Object.Left            =   7654
+         Object.Top             =   1928
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType164     =   3
+      BeginProperty Item164 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1VivTitular"
+         Object.Left            =   9298
+         Object.Top             =   1928
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType165     =   3
+      BeginProperty Item165 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1DirTitular"
+         Object.Left            =   227
+         Object.Top             =   2325
+         Object.Width           =   3465
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType166     =   3
+      BeginProperty Item166 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1DepTitular"
+         Object.Left            =   4025
+         Object.Top             =   2325
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType167     =   3
+      BeginProperty Item167 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1ProvTitular"
+         Object.Left            =   5726
+         Object.Top             =   2381
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType168     =   3
+      BeginProperty Item168 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1DisTitular"
+         Object.Left            =   7654
+         Object.Top             =   2325
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType169     =   3
+      BeginProperty Item169 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl1ZonaTitular"
+         Object.Left            =   9354
+         Object.Top             =   2325
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType170     =   3
+      BeginProperty Item170 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2NomGarante"
+         Object.Left            =   228
+         Object.Top             =   3232
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType171     =   3
+      BeginProperty Item171 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2DNIGarante"
+         Object.Left            =   5614
+         Object.Top             =   3232
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType172     =   3
+      BeginProperty Item172 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2NacGarante"
+         Object.Left            =   7655
+         Object.Top             =   3232
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType173     =   3
+      BeginProperty Item173 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2RelGarante"
+         Object.Left            =   9299
+         Object.Top             =   3232
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType174     =   3
+      BeginProperty Item174 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2ProfGarante"
+         Object.Left            =   228
+         Object.Top             =   3742
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType175     =   3
+      BeginProperty Item175 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2CivGarante"
+         Object.Left            =   5670
+         Object.Top             =   3799
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType176     =   3
+      BeginProperty Item176 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2TelfGarante"
+         Object.Left            =   7655
+         Object.Top             =   3799
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType177     =   3
+      BeginProperty Item177 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2VivGarante"
+         Object.Left            =   9299
+         Object.Top             =   3799
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType178     =   3
+      BeginProperty Item178 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2DirGarante"
+         Object.Left            =   228
+         Object.Top             =   4196
+         Object.Width           =   3450
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType179     =   3
+      BeginProperty Item179 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2DepGarante"
+         Object.Left            =   3969
+         Object.Top             =   4196
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType180     =   3
+      BeginProperty Item180 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2ProvGarante"
+         Object.Left            =   5727
+         Object.Top             =   4252
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType181     =   3
+      BeginProperty Item181 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2DisGarante"
+         Object.Left            =   7655
+         Object.Top             =   4196
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType182     =   3
+      BeginProperty Item182 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl2ZonaGarante"
+         Object.Left            =   9355
+         Object.Top             =   4196
+         Object.Width           =   1245
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType183     =   3
+      BeginProperty Item183 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3NomRelacionado1"
+         Object.Left            =   227
+         Object.Top             =   5101
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType184     =   3
+      BeginProperty Item184 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3NomRelacionado2"
+         Object.Left            =   226
+         Object.Top             =   5328
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType185     =   3
+      BeginProperty Item185 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3NomRelacionado3"
+         Object.Left            =   226
+         Object.Top             =   5556
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType186     =   3
+      BeginProperty Item186 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3DNIRelacionado1"
+         Object.Left            =   5669
+         Object.Top             =   5101
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType187     =   3
+      BeginProperty Item187 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3DNIRelacionado2"
+         Object.Left            =   5669
+         Object.Top             =   5329
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType188     =   3
+      BeginProperty Item188 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3DNIRelacionado3"
+         Object.Left            =   5669
+         Object.Top             =   5555
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType189     =   3
+      BeginProperty Item189 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3RelRelacionado1"
+         Object.Left            =   7370
+         Object.Top             =   5101
+         Object.Width           =   3120
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType190     =   3
+      BeginProperty Item190 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3RelRelacionado2"
+         Object.Left            =   7370
+         Object.Top             =   5329
+         Object.Width           =   3120
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType191     =   3
+      BeginProperty Item191 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3RelRelacionado3"
+         Object.Left            =   7370
+         Object.Top             =   5557
+         Object.Width           =   3120
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType192     =   3
+      BeginProperty Item192 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4DesGarantia1"
+         Object.Left            =   227
+         Object.Top             =   6691
+         Object.Width           =   3912
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType193     =   3
+      BeginProperty Item193 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4DesGarantia2"
+         Object.Left            =   226
+         Object.Top             =   6917
+         Object.Width           =   3913
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType194     =   3
+      BeginProperty Item194 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4DesGarantia3"
+         Object.Left            =   226
+         Object.Top             =   7145
+         Object.Width           =   3913
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType195     =   3
+      BeginProperty Item195 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4TasGarantia1"
+         Object.Left            =   5669
+         Object.Top             =   6690
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType196     =   3
+      BeginProperty Item196 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4TasGarantia2"
+         Object.Left            =   5669
+         Object.Top             =   6918
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType197     =   3
+      BeginProperty Item197 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4TasGarantia3"
+         Object.Left            =   5669
+         Object.Top             =   7144
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType198     =   3
+      BeginProperty Item198 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4ReaGarantia1"
+         Object.Left            =   7370
+         Object.Top             =   6690
+         Object.Width           =   1770
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType199     =   3
+      BeginProperty Item199 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4ReaGarantia2"
+         Object.Left            =   7370
+         Object.Top             =   6918
+         Object.Width           =   1770
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType200     =   3
+      BeginProperty Item200 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4ReaGarantia3"
+         Object.Left            =   7370
+         Object.Top             =   7146
+         Object.Width           =   1770
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType201     =   3
+      BeginProperty Item201 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4GraGarantia1"
+         Object.Left            =   9358
+         Object.Top             =   6690
+         Object.Width           =   1185
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType202     =   3
+      BeginProperty Item202 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4GraGarantia2"
+         Object.Left            =   9358
+         Object.Top             =   6918
+         Object.Width           =   1185
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType203     =   3
+      BeginProperty Item203 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4GraGarantia3"
+         Object.Left            =   9358
+         Object.Top             =   7146
+         Object.Width           =   1185
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType204     =   3
+      BeginProperty Item204 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4TasGarantiaT"
+         Object.Left            =   5670
+         Object.Top             =   7428
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType205     =   3
+      BeginProperty Item205 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4ReaGarantiaT"
+         Object.Left            =   7370
+         Object.Top             =   7428
+         Object.Width           =   1770
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType206     =   3
+      BeginProperty Item206 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl4GraGarantiaT"
+         Object.Left            =   9357
+         Object.Top             =   7428
+         Object.Width           =   1185
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   1
+      EndProperty
+      ItemType207     =   3
+      BeginProperty Item207 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl5DeudaCmac"
+         Object.Left            =   3288
+         Object.Top             =   8334
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType208     =   3
+      BeginProperty Item208 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl5TotalGarantia"
+         Object.Left            =   5443
+         Object.Top             =   8334
+         Object.Width           =   1815
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType209     =   3
+      BeginProperty Item209 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl5Cobertura"
+         Object.Left            =   7370
+         Object.Top             =   8334
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType210     =   3
+      BeginProperty Item210 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl6MontoSol"
+         Object.Left            =   3288
+         Object.Top             =   9411
+         Object.Width           =   1875
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType211     =   3
+      BeginProperty Item211 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl6PlazoSol"
+         Object.Left            =   6746
+         Object.Top             =   9411
+         Object.Width           =   1125
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType212     =   3
+      BeginProperty Item212 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl6GraciaSol"
+         Object.Left            =   7994
+         Object.Top             =   9411
+         Object.Width           =   1191
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType213     =   3
+      BeginProperty Item213 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl6CuotaSugeSol"
+         Object.Left            =   9298
+         Object.Top             =   9354
+         Object.Width           =   1308
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType214     =   3
+      BeginProperty Item214 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7MontoAna"
+         Object.Left            =   227
+         Object.Top             =   10375
+         Object.Width           =   1587
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType215     =   3
+      BeginProperty Item215 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7PlazoAna"
+         Object.Left            =   3231
+         Object.Top             =   10375
+         Object.Width           =   1012
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType216     =   3
+      BeginProperty Item216 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7GraciaAna"
+         Object.Left            =   4365
+         Object.Top             =   10375
+         Object.Width           =   963
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType217     =   3
+      BeginProperty Item217 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7CalenAna"
+         Object.Left            =   5499
+         Object.Top             =   10375
+         Object.Width           =   1800
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType218     =   3
+      BeginProperty Item218 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7LineaAna"
+         Object.Left            =   7483
+         Object.Top             =   10375
+         Object.Width           =   3060
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType219     =   3
+      BeginProperty Item219 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7ComenAna"
+         Object.Left            =   227
+         Object.Top             =   10942
+         Object.Width           =   7605
+         Object.Height          =   1065
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType220     =   3
+      BeginProperty Item220 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8MontoComi"
+         Object.Left            =   284
+         Object.Top             =   12870
+         Object.Width           =   1530
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType221     =   3
+      BeginProperty Item221 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8PlazoComi"
+         Object.Left            =   3231
+         Object.Top             =   12869
+         Object.Width           =   970
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType222     =   3
+      BeginProperty Item222 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8GraciaComi"
+         Object.Left            =   4309
+         Object.Top             =   12870
+         Object.Width           =   1076
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType223     =   3
+      BeginProperty Item223 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8CalenComi"
+         Object.Left            =   5556
+         Object.Top             =   12870
+         Object.Width           =   1815
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType224     =   3
+      BeginProperty Item224 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8LineaComi"
+         Object.Left            =   7597
+         Object.Top             =   12870
+         Object.Width           =   3015
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType225     =   3
+      BeginProperty Item225 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8ComenComi"
+         Object.Left            =   1587
+         Object.Top             =   13209
+         Object.Width           =   9015
+         Object.Height          =   735
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType226     =   5
+      BeginProperty Item226 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea31"
+         Object.Left            =   3061
+         Object.Top             =   8332
+         Object.Width           =   6240
+      EndProperty
+      ItemType227     =   3
+      BeginProperty Item227 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3NomRelacionado4"
+         Object.Left            =   227
+         Object.Top             =   5783
+         Object.Width           =   5040
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType228     =   3
+      BeginProperty Item228 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3DNIRelacionado4"
+         Object.Left            =   5670
+         Object.Top             =   5782
+         Object.Width           =   1410
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType229     =   3
+      BeginProperty Item229 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl3RelRelacionado4"
+         Object.Left            =   7371
+         Object.Top             =   5784
+         Object.Width           =   3120
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType230     =   3
+      BeginProperty Item230 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta80"
+         Object.Left            =   170
+         Object.Top             =   454
+         Object.Width           =   1247
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "COD. CREDITO"
+      EndProperty
+      ItemType231     =   3
+      BeginProperty Item231 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta81"
+         Object.Left            =   5386
+         Object.Top             =   454
+         Object.Width           =   964
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MONEDA"
+      EndProperty
+      ItemType232     =   3
+      BeginProperty Item232 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblCodCredito"
+         Object.Left            =   1587
+         Object.Top             =   454
+         Object.Width           =   3289
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType233     =   3
+      BeginProperty Item233 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblCredMoneda"
+         Object.Left            =   6406
+         Object.Top             =   454
+         Object.Width           =   4196
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType234     =   3
+      BeginProperty Item234 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta82"
+         Object.Left            =   4252
+         Object.Top             =   6406
+         Object.Width           =   1077
+         Object.Height          =   170
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MONEDA"
+      EndProperty
+      ItemType235     =   3
+      BeginProperty Item235 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblGarMoneda1"
+         Object.Left            =   4252
+         Object.Top             =   6690
+         Object.Width           =   1095
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType236     =   3
+      BeginProperty Item236 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblGarMoneda2"
+         Object.Left            =   4252
+         Object.Top             =   6917
+         Object.Width           =   1095
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType237     =   3
+      BeginProperty Item237 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblGarMoneda3"
+         Object.Left            =   4252
+         Object.Top             =   7143
+         Object.Width           =   1095
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType238     =   5
+      BeginProperty Item238 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea57"
+         Object.Left            =   4195
+         Object.Top             =   6350
+         Object.Height          =   1041
+      EndProperty
+      ItemType239     =   5
+      BeginProperty Item239 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea58"
+         Object.Left            =   227
+         Object.Top             =   8050
+         Object.Width           =   2490
+      EndProperty
+      ItemType240     =   3
+      BeginProperty Item240 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "LblConsumo"
+         Object.Left            =   2324
+         Object.Top             =   7767
+         Object.Width           =   225
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "X"
+      EndProperty
+      ItemType241     =   3
+      BeginProperty Item241 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta83"
+         Object.Left            =   283
+         Object.Top             =   7767
+         Object.Width           =   1815
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CONSUMO"
+      EndProperty
+      ItemType242     =   5
+      BeginProperty Item242 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea59"
+         Object.Left            =   7937
+         Object.Top             =   9071
+         Object.Height          =   585
+      EndProperty
+      ItemType243     =   3
+      BeginProperty Item243 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta84"
+         Object.Left            =   6746
+         Object.Top             =   9128
+         Object.Width           =   1125
+         Object.Height          =   165
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PLAZO"
+         Alignment       =   2
+      EndProperty
+      ItemType244     =   3
+      BeginProperty Item244 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl6CuotasSol"
+         Object.Left            =   5443
+         Object.Top             =   9411
+         Object.Width           =   1125
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType245     =   5
+      BeginProperty Item245 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea60"
+         Object.Left            =   3118
+         Object.Top             =   10035
+         Object.Height          =   645
+      EndProperty
+      ItemType246     =   3
+      BeginProperty Item246 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta85"
+         Object.Left            =   1984
+         Object.Top             =   10091
+         Object.Width           =   1020
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "NRO. CUOTAS"
+         Alignment       =   2
+      EndProperty
+      ItemType247     =   3
+      BeginProperty Item247 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl7CuotasAna"
+         Object.Left            =   1984
+         Object.Top             =   10375
+         Object.Width           =   1020
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+      ItemType248     =   5
+      BeginProperty Item248 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Línea61"
+         Object.Left            =   1909
+         Object.Top             =   12589
+         Object.Height          =   645
+      EndProperty
+      ItemType249     =   3
+      BeginProperty Item249 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta86"
+         Object.Left            =   1984
+         Object.Top             =   12586
+         Object.Width           =   1021
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   6.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "NRO. CUOTAS"
+         Alignment       =   2
+      EndProperty
+      ItemType250     =   3
+      BeginProperty Item250 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lbl8CuotasComi"
+         Object.Left            =   1984
+         Object.Top             =   12869
+         Object.Width           =   964
+         Object.Height          =   225
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Alignment       =   2
+      EndProperty
+   EndProperty
+   SectionCode2    =   7
+   BeginProperty Section2 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section3"
+      ForcePageBreak  =   2
+      NumControls     =   0
+   EndProperty
+End
+Attribute VB_Name = "DRSugerencia"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Attribute VB_Ext_KEY = "RVB_ModelStereotype" ,"DataReport"
+
+Public Sub inicio(psCtaCod As String, psOrigen As String, pdFecSis As Date)
+
+    DRSugerencia.WindowState = vbMaximized
+    DRSugerencia.Title = "SUGERENCIA Y RESOLUCION DE CREDITO PEQUEÑA EMPRESA"
+    
+    ' 18/12/2003
+    DRSugerencia.Sections("Section1").Controls("LblCodCredito").Caption = psCtaCod
+    Select Case Mid(psCtaCod, 9, 1)
+           Case "1"
+                DRSugerencia.Sections("Section1").Controls("LblCredMoneda").Caption = "SOLES"
+           Case "2"
+                DRSugerencia.Sections("Section1").Controls("LblCredMoneda").Caption = "DOLARES"
+    End Select
+    
+    '-----------------------------------------------------------------------------------
+    
+
+
+    Select Case psOrigen
+           Case "S"
+                DRSugerencia.Sections("Section1").Controls("lblOKAnalista").Caption = " "
+                DRSugerencia.Sections("Section1").Controls("lblNOAnalista").Caption = " "
+            
+                DRSugerencia.Sections("Section1").Controls("lblOKComite").Caption = " "
+                DRSugerencia.Sections("Section1").Controls("lblNOComite").Caption = " "
+           Case "A"
+                DRSugerencia.Sections("Section1").Controls("lblOKAnalista").Caption = " "
+                DRSugerencia.Sections("Section1").Controls("lblNOAnalista").Caption = " "
+            
+                DRSugerencia.Sections("Section1").Controls("lblOKComite").Caption = "X"
+                DRSugerencia.Sections("Section1").Controls("lblNOComite").Caption = " "
+           Case "R"
+                DRSugerencia.Sections("Section1").Controls("lblOKAnalista").Caption = " "
+                DRSugerencia.Sections("Section1").Controls("lblNOAnalista").Caption = " "
+            
+                DRSugerencia.Sections("Section1").Controls("lblOKComite").Caption = " "
+                DRSugerencia.Sections("Section1").Controls("lblNOComite").Caption = "X"
+    End Select
+
+    DRSugerencia.Sections("Section1").Controls("LblFechaSug").Caption = Format(pdFecSis, "dd/mm/yyyy")
+
+    'MsgBox DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption
+    Dim lnTasGarantia As Double
+    Dim lnReaGarantia As Double
+    Dim lnGraGarantia As Double
+    
+'    Dim lnMontoCredito As Double
+    Dim lnCobertura As Double
+    
+    Dim lnGarTotalDeudaCmac As Double
+    Dim lnGarCredTotalGravCmac As Double
+    
+    
+    Dim lsTipoDestino As ColocDestino
+    Dim lnumRel As Integer
+    Dim lnNumGar As Integer
+    
+    Dim lnumRel2 As Integer
+    
+    Dim lsTipo As String
+    
+    Dim sSQL As String
+    Dim oConec As DConecta
+    Dim rs As ADODB.Recordset
+    Set oConec = New DConecta
+    Set rs = New ADODB.Recordset
+    
+    oConec.AbreConexion
+    
+    
+    sSQL = "SP_COL_RPTERESUMENCOMITE  '" & psCtaCod & "', '" & Format(pdFecSis, "mm/dd/yyyy") & "'"
+    Set rs = oConec.CargaRecordSet(sSQL)
+    If rs.EOF Then Exit Sub
+    
+    
+    lnumRel = 0
+    lnumRel2 = 0
+    lnNumGar = 0
+    
+    lnTasGarantia = 0
+    lnReaGarantia = 0
+    lnGraGarantia = 0
+    
+    lnGarTotalDeudaCmac = 0
+    lnGarCredTotalGravCmac = 0
+    
+    
+    Do While Not rs.EOF
+        lsTipo = rs("cTipo")
+        Select Case lsTipo
+            Case "A" ' TITULAR
+            
+                DRSugerencia.Sections("Section1").Controls("lbl1NomTitular").Caption = rs("cTiTularNom")
+                DRSugerencia.Sections("Section1").Controls("lbl1DNITitular").Caption = IIf(IsNull(rs("cTiTularDNI")), "", rs("cTiTularDNI"))
+                DRSugerencia.Sections("Section1").Controls("lbl1NacTitular").Caption = Format(rs("dTiTularNacCreac"), "dd/mm/yyyy")
+                DRSugerencia.Sections("Section1").Controls("lbl1CargaFam").Caption = Format(rs("nTiTularNroHijos"), "##")
+                DRSugerencia.Sections("Section1").Controls("lbl1ProfTitular").Caption = IIf(IsNull(rs("cTiTularCiiuDes")), "", rs("cTiTularCiiuDes"))
+                DRSugerencia.Sections("Section1").Controls("lbl1CivTitular").Caption = IIf(IsNull(rs("cTiTularEstadoCivilDes")), "", rs("cTiTularEstadoCivilDes"))
+                DRSugerencia.Sections("Section1").Controls("lbl1TelfTitular").Caption = IIf(IsNull(rs("cTitularTelefono")), "", rs("cTitularTelefono"))
+                DRSugerencia.Sections("Section1").Controls("lbl1VivTitular").Caption = IIf(IsNull(rs("cTitularDireccCondicionDes")), "", rs("cTitularDireccCondicionDes"))
+                DRSugerencia.Sections("Section1").Controls("lbl1DirTitular").Caption = IIf(IsNull(rs("cTiTularDirDom")), "", rs("cTiTularDirDom"))
+                DRSugerencia.Sections("Section1").Controls("lbl1DepTitular").Caption = IIf(IsNull(rs("cTiTularDptoDes")), "", rs("cTiTularDptoDes"))
+                DRSugerencia.Sections("Section1").Controls("lbl1ProvTitular").Caption = IIf(IsNull(rs("cTiTularProvDes")), "", rs("cTiTularProvDes"))
+                DRSugerencia.Sections("Section1").Controls("lbl1DisTitular").Caption = IIf(IsNull(rs("cTiTularDistDes")), "", rs("cTiTularDistDes"))
+                DRSugerencia.Sections("Section1").Controls("lbl1ZonaTitular").Caption = IIf(IsNull(rs("cTiTularZonaDes")), "", rs("cTiTularZonaDes"))
+                            
+            Case "B" 'PERSONAS RELACIONADAS
+                'lnumRel = lnumRel + 1
+                
+                lnumRel = rs("nPersRelOrden")
+                
+                Select Case lnumRel
+                    Case 1, 2, 3
+                            If lnumRel2 = O Then
+                               lnumRel2 = lnumRel
+                               DRSugerencia.Sections("Section1").Controls("lbl2NomGarante").Caption = IIf(IsNull(rs("cPersRelNombre")), "", rs("cPersRelNombre"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2DNIGarante").Caption = IIf(IsNull(rs("cPersRelDNI")), "", rs("cPersRelDNI"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2NacGarante").Caption = Format(rs("dPersRelNacCreac"), "dd/mm/yyyy")
+                               DRSugerencia.Sections("Section1").Controls("lbl2RelGarante").Caption = IIf(IsNull(rs("cPersRelTipoDes")), "", rs("cPersRelTipoDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2ProfGarante").Caption = IIf(IsNull(rs("cPersRelCiiuDes")), "", rs("cPersRelCiiuDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2CivGarante").Caption = IIf(IsNull(rs("cPersRelNatEstadoCivilDes")), "", rs("cPersRelNatEstadoCivilDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2TelfGarante").Caption = IIf(IsNull(rs("cPersRelTelefono")), "", rs("cPersRelTelefono"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2VivGarante").Caption = IIf(IsNull(rs("cPersRelDireccCondicionDes")), "", rs("cPersRelDireccCondicionDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2DirGarante").Caption = IIf(IsNull(rs("cPersRelDirDom")), "", rs("cPersRelDirDom"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2DepGarante").Caption = IIf(IsNull(rs("cPersRelDptoDes")), "", rs("cPersRelDptoDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2ProvGarante").Caption = IIf(IsNull(rs("cPersRelProvDes")), "", rs("cPersRelProvDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2DisGarante").Caption = IIf(IsNull(rs("cPersRelDistDes")), "", rs("cPersRelDistDes"))
+                               DRSugerencia.Sections("Section1").Controls("lbl2ZonaGarante").Caption = IIf(IsNull(rs("cPersRelZonaDes")), "", rs("cPersRelZonaDes"))
+                            End If
+                    
+                    Case 2
+                            If lnumRel2 <> lnumRel Then
+                               DRSugerencia.Sections("Section1").Controls("lbl3NomRelacionado1").Caption = IIf(IsNull(rs("cPersRelNombre")), "", rs("cPersRelNombre"))
+                               DRSugerencia.Sections("Section1").Controls("lbl3DNIRelacionado1").Caption = IIf(IsNull(rs("cPersRelDNI")), "", rs("cPersRelDNI"))
+                               DRSugerencia.Sections("Section1").Controls("lbl3RelRelacionado1").Caption = IIf(IsNull(rs("cPersRelTipoDes")), "", rs("cPersRelTipoDes"))
+                            End If
+                    
+                    Case 3
+                            If lnumRel2 <> lnumRel Then
+                               DRSugerencia.Sections("Section1").Controls("lbl3NomRelacionado2").Caption = IIf(IsNull(rs("cPersRelNombre")), "", rs("cPersRelNombre"))
+                               DRSugerencia.Sections("Section1").Controls("lbl3DNIRelacionado2").Caption = IIf(IsNull(rs("cPersRelDNI")), "", rs("cPersRelDNI"))
+                               DRSugerencia.Sections("Section1").Controls("lbl3RelRelacionado2").Caption = IIf(IsNull(rs("cPersRelTipoDes")), "", rs("cPersRelTipoDes"))
+                            End If
+                    Case 4
+                            DRSugerencia.Sections("Section1").Controls("lbl3NomRelacionado3").Caption = IIf(IsNull(rs("cPersRelNombre")), "", rs("cPersRelNombre"))
+                            DRSugerencia.Sections("Section1").Controls("lbl3DNIRelacionado3").Caption = IIf(IsNull(rs("cPersRelDNI")), "", rs("cPersRelDNI"))
+                            DRSugerencia.Sections("Section1").Controls("lbl3RelRelacionado3").Caption = IIf(IsNull(rs("cPersRelTipoDes")), "", rs("cPersRelTipoDes"))
+                                    
+                    Case 5
+                            DRSugerencia.Sections("Section1").Controls("lbl3NomRelacionado4").Caption = IIf(IsNull(rs("cPersRelNombre")), "", rs("cPersRelNombre"))
+                            DRSugerencia.Sections("Section1").Controls("lbl3DNIRelacionado4").Caption = IIf(IsNull(rs("cPersRelDNI")), "", rs("cPersRelDNI"))
+                            DRSugerencia.Sections("Section1").Controls("lbl3RelRelacionado4").Caption = IIf(IsNull(rs("cPersRelTipoDes")), "", rs("cPersRelTipoDes"))
+                                    
+                End Select
+            
+            Case "C" ' GARANTIAS
+                lnNumGar = lnNumGar + 1
+                Select Case lnNumGar
+                        Case 1
+                            DRSugerencia.Sections("Section1").Controls("lbl4DesGarantia1").Caption = IIf(IsNull(rs("cGarDescripcion")), "", rs("cGarDescripcion"))
+
+                            DRSugerencia.Sections("Section1").Controls("LblGarMoneda1").Caption = IIf(IsNull(rs("cGarCredMonedaDes")), "", rs("cGarCredMonedaDes"))
+                            
+                            DRSugerencia.Sections("Section1").Controls("lbl4TasGarantia1").Caption = Format(rs("NGarTasacion"), "###,##0.00")
+                            DRSugerencia.Sections("Section1").Controls("lbl4ReaGarantia1").Caption = Format(rs("NGarRealizacion"), "###,##0.00")
+                            DRSugerencia.Sections("Section1").Controls("lbl4GraGarantia1").Caption = Format(rs("nGarGravaMent"), "###,##0.00")
+                        Case 2
+                            DRSugerencia.Sections("Section1").Controls("lbl4DesGarantia2").Caption = IIf(IsNull(rs("cGarDescripcion")), "", rs("cGarDescripcion"))
+                            
+
+                            DRSugerencia.Sections("Section1").Controls("LblGarMoneda2").Caption = IIf(IsNull(rs("cGarCredMonedaDes")), "", rs("cGarCredMonedaDes"))
+                            
+                            DRSugerencia.Sections("Section1").Controls("lbl4TasGarantia2").Caption = Format(rs("NGarTasacion"), "###,##0.00")
+                            DRSugerencia.Sections("Section1").Controls("lbl4ReaGarantia2").Caption = Format(rs("NGarRealizacion"), "###,##0.00")
+                            DRSugerencia.Sections("Section1").Controls("lbl4GraGarantia2").Caption = Format(rs("nGarGravaMent"), "###,##0.00")
+                        Case 3
+                            DRSugerencia.Sections("Section1").Controls("lbl4DesGarantia3").Caption = IIf(IsNull(rs("cGarDescripcion")), "", rs("cGarDescripcion"))
+                            
+
+                            DRSugerencia.Sections("Section1").Controls("LblGarMoneda3").Caption = IIf(IsNull(rs("cGarCredMonedaDes")), "", rs("cGarCredMonedaDes"))
+                            
+                            DRSugerencia.Sections("Section1").Controls("lbl4TasGarantia3").Caption = Format(rs("NGarTasacion"), "###,##0.00")
+                            DRSugerencia.Sections("Section1").Controls("lbl4ReaGarantia3").Caption = Format(rs("NGarRealizacion"), "###,##0.00")
+                            DRSugerencia.Sections("Section1").Controls("lbl4GraGarantia3").Caption = Format(rs("nGarGravaMent"), "###,##0.00")
+                            
+                End Select
+'                lnTasGarantia = lnTasGarantia + Rs("NGarTasacion")
+'                lnReaGarantia = lnReaGarantia + Rs("NGarRealizacion")
+'                lnGraGarantia = lnGraGarantia + Rs("nGarGravaMent")
+                            
+                lnTasGarantia = rs("nGarTotalTasa")
+                lnReaGarantia = rs("nGarTotalReal")
+                lnGraGarantia = rs("nGarCredTotalGrav")
+                
+                lnGarTotalDeudaCmac = rs("nGarTotalDeudaCmac")
+                lnGarCredTotalGravCmac = rs("nGarCredTotalGravCmac")
+                            
+            
+            Case "D" ' SOLICITUD
+                    lsTipoDestino = rs("nCredDestinoCodSol")
+                    DRSugerencia.Sections("Section1").Controls("lbl6MontoSol").Caption = Format(rs("nCredMontoSol"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl6PlazoSol").Caption = Format(rs("nCredPlazoSol"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl6CuotasSol").Caption = Format(rs("nCredCuotasSol"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl6GraciaSol").Caption = Format(rs("nCredPeriodoGraciaSol"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl6CuotaSugeSol").Caption = Format(rs("nCredMontoCuotaSug"), "###,##0.00")
+                    
+            Case "E" ' SUGERENCIA
+            
+                    DRSugerencia.Sections("Section1").Controls("lbl7MontoAna").Caption = Format(rs("nCredMontoSug"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl7PlazoAna").Caption = Format(rs("nCredPlazoSug"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl7CuotasAna").Caption = Format(rs("nCredCuotasSug"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl7GraciaAna").Caption = Format(rs("nCredPeriodoGraciaSug"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl7CalenAna").Caption = IIf(IsNull(rs("cCredCalendDinamicoDesSug")), "", rs("cCredCalendDinamicoDesSug"))
+                    DRSugerencia.Sections("Section1").Controls("lbl7LineaAna").Caption = IIf(IsNull(rs("cCredLineaDesSug")), "", rs("cCredLineaDesSug"))
+                    DRSugerencia.Sections("Section1").Controls("lbl7ComenAna").Caption = IIf(IsNull(rs("cCredDescripcionSug")), "", rs("cCredDescripcionSug"))
+            
+            
+            Case "F" ' APROBACION
+ '                   lnMontoCredito = Rs("nCredMontoApr")
+                    DRSugerencia.Sections("Section1").Controls("lbl8MontoComi").Caption = Format(rs("nCredMontoApr"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8PlazoComi").Caption = Format(rs("nCredPlazoApr"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8CuotasComi").Caption = Format(rs("nCredCuotasApr"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8GraciaComi").Caption = Format(rs("nCredPeriodoGraciaApr"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8CalenComi").Caption = IIf(IsNull(rs("cCredCalendDinamicoDesApr")), "", rs("cCredCalendDinamicoDesApr"))
+                    DRSugerencia.Sections("Section1").Controls("lbl8LineaComi").Caption = IIf(IsNull(rs("cCredLineaDesApr")), "", rs("cCredLineaDesApr"))
+                    DRSugerencia.Sections("Section1").Controls("lbl8ComenComi").Caption = ""
+                    DRSugerencia.Sections("Section1").Controls("lblFechaResol").Caption = Format(rs("dPrdEstadoApr"), "dd/mm/yyyy")
+                    
+                            
+            Case "G" ' RECHAZO
+  '                  lnMontoCredito = Rs("nCredMontoRec")
+                    DRSugerencia.Sections("Section1").Controls("lbl8MontoComi").Caption = Format(rs("nCredMontoRec"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8PlazoComi").Caption = Format(rs("nCredPlazoRec"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8CuotasComi").Caption = Format(rs("nCredCuotasRec"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8GraciaComi").Caption = Format(rs("nCredPeriodoGraciaRec"), "###,##0.00")
+                    DRSugerencia.Sections("Section1").Controls("lbl8CalenComi").Caption = IIf(IsNull(rs("cCredCalendDinamicoDesRec")), "", rs("cCredCalendDinamicoDesRec"))
+                    DRSugerencia.Sections("Section1").Controls("lbl8LineaComi").Caption = IIf(IsNull(rs("cCredLineaDesRec")), "", rs("cCredLineaDesRec"))
+                    DRSugerencia.Sections("Section1").Controls("lbl8ComenComi").Caption = IIf(IsNull(rs("cMotivoObservaRec")), "", rs("cMotivoObservaRec"))
+                    DRSugerencia.Sections("Section1").Controls("lblFechaResol").Caption = Format(rs("dPrdEstadoRec"), "dd/mm/yyyy")
+                            
+        End Select
+        rs.MoveNext
+    Loop
+    
+    
+    
+    Select Case lsTipoDestino
+        Case gColocDestinoConsumo
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = "X"
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = " "
+    
+        Case gColocDestinoCapTrab
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = "X"
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = " "
+        Case gColocDestinoActFijo
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = "X"
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = " "
+        
+        Case gColocDestinoAdqInmueble
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = "X"
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = " "
+        
+        Case gColocDestinoMixto
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = "X"
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = " "
+        
+        Case gColocDestinoOtros
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = "X"
+        
+        Case Else
+            DRSugerencia.Sections("Section1").Controls("lblconsumo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblkTrabajo").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblActivos").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblAdqInmuebles").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblMixto").Caption = " "
+            DRSugerencia.Sections("Section1").Controls("lblOtros").Caption = " "
+    End Select
+    
+   
+    DRSugerencia.Sections("Section1").Controls("lbl4TasGarantiaT").Caption = Format(lnTasGarantia, "###,##0.00")
+    DRSugerencia.Sections("Section1").Controls("lbl4ReaGarantiaT").Caption = Format(lnReaGarantia, "###,##0.00")
+    DRSugerencia.Sections("Section1").Controls("lbl4GraGarantiaT").Caption = Format(lnGraGarantia, "###,##0.00")
+
+    If lnGarTotalDeudaCmac > 0 Then lnCobertura = (lnGarCredTotalGravCmac / lnGarTotalDeudaCmac) * 100
+    
+    DRSugerencia.Sections("Section1").Controls("lbl5DeudaCmac").Caption = Format(lnGarTotalDeudaCmac, "###,##0.00")
+    DRSugerencia.Sections("Section1").Controls("lbl5TotalGarantia").Caption = Format(lnGarCredTotalGravCmac, "###,##0.00")
+    DRSugerencia.Sections("Section1").Controls("lbl5Cobertura").Caption = Format(lnCobertura, "###,##0.00")
+                                                        
+    
+    oConec.CierraConexion
+    'DRSugerencia.Refresh
+    If Mid(psCtaCod, 9, 1) = "1" Then 'Soles
+        DRSugerencia.Sections("Section1").Controls("lblTGarantia").Caption = "TOTAL GARANTIA SOLES"
+    Else
+        ' Dolares
+        DRSugerencia.Sections("Section1").Controls("lblTGarantia").Caption = "TOTAL GARANTIA DOLARES"
+    End If
+    
+'MODIFICADO POR LMMMD
+   'lbl7PlazoAna
+   
+End Sub
+
+
+

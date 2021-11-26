@@ -1,0 +1,8 @@
+COMDCaptAutorizacion = 110, 145, 922, 687, C
+DCOMRCD = 0, 0, 0, 0, C
+DCOMSorteo = 0, 0, 0, 0, C
+DCOMCampanas = 66, 87, 481, 328, C
+COMDCaptaReportes = 0, 0, 0, 0, C
+DCOMSeguros = 44, 58, 420, 378, C
+DCOMCaptaGenerales = 22, 29, 446, 265, C
+DCOMCaptaMovimiento = 44, 58, 468, 294, C

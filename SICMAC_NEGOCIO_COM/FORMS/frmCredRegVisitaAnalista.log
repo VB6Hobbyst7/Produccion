@@ -1,0 +1,5 @@
+Línea 104: la clase SICMACT.FlexEdit del control feDeudasCentral no era una clase de control cargada.
+Línea 167: la clase SICMACT.FlexEdit del control feDesarrolloCred no era una clase de control cargada.
+Línea 230: la clase SICMACT.FlexEdit del control feObservaciones no era una clase de control cargada.
+Línea 296: la clase SICMACT.FlexEdit del control feCreditosVigentes no era una clase de control cargada.
+Línea 531: la clase SICMACT.TxtBuscar del control txtPersona no era una clase de control cargada.

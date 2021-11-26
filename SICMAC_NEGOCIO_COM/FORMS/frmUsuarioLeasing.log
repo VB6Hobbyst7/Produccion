@@ -1,0 +1,14 @@
+Línea 45: la clase SICMACT.TxtBuscarGeneral del control TxtBuscarGeneral no era una clase de control cargada.
+Línea 105: la clase SICMACT.TxtBuscar del control TxtBCodPers no era una clase de control cargada.
+Línea 51: el nombre de la propiedad _ExtentX de TxtBuscarGeneral no es válido.
+Línea 52: el nombre de la propiedad _ExtentY de TxtBuscarGeneral no es válido.
+Línea 63: el nombre de la propiedad TipoBusqueda de TxtBuscarGeneral no es válido.
+Línea 64: el nombre de la propiedad sPersOcupa de TxtBuscarGeneral no es válido.
+Línea 65: el nombre de la propiedad sTitulo de TxtBuscarGeneral no es válido.
+Línea 66: el nombre de la propiedad lbUltimaInstancia de TxtBuscarGeneral no es válido.
+Línea 67: el nombre de la propiedad PersPersoneria de TxtBuscarGeneral no es válido.
+Línea 68: el nombre de la propiedad ColDesc de TxtBuscarGeneral no es válido.
+Línea 111: el nombre de la propiedad _ExtentX de TxtBCodPers no es válido.
+Línea 112: el nombre de la propiedad _ExtentY de TxtBCodPers no es válido.
+Línea 123: el nombre de la propiedad TipoBusqueda de TxtBCodPers no es válido.
+Línea 124: el nombre de la propiedad sTitulo de TxtBCodPers no es válido.

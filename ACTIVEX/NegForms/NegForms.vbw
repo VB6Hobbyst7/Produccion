@@ -1,0 +1,16 @@
+TxtBuscar = 0, 0, 606, 421, , 44, 58, 650, 479, C
+FlexPagePropiedades = 0, 0, 0, 0, C, 0, 0, 594, 421, C
+PageColumnas = 22, 29, 684, 450, , 22, 29, 616, 450, C
+frmColPRetasacionVigenteDiferida = 132, 174, 737, 595, , 110, 145, 715, 566, C
+frmColPRetasacionConsulta = 88, 116, 693, 537, , 132, 174, 737, 595, C
+FlexEdit = 154, 203, 816, 624, , 66, 87, 671, 508, C
+frmColPPreparacionRetasacionVigDif = 0, 0, 0, 0, C, 66, 87, 671, 508, C
+IniciaForm = 88, 116, 693, 537, 
+CodForms = 110, 145, 715, 566, 
+gFunFlex = 44, 58, 706, 479, 
+frmColPMiembrosRetasacion = 0, 0, 0, 0, C, 132, 174, 726, 595, C
+gGenerales = 110, 145, 772, 566, 
+modErrorHandling = 0, 0, 0, 0, C
+gVarPublicas = 66, 87, 728, 508, 
+gApis = 0, 0, 0, 0, C
+frmBuscaPersona = 66, 87, 660, 508, Z, 88, 116, 682, 537, C

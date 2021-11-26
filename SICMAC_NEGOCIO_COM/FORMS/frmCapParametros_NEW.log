@@ -1,0 +1,11 @@
+Línea 144: la clase SICMACT.EditMoney del control txtCTSSueldoMin no era una clase de control cargada.
+Línea 341: la clase SICMACT.EditMoney del control txtPFMontoMinApertSol no era una clase de control cargada.
+Línea 360: la clase SICMACT.EditMoney del control txtPFMontoMinApertDol no era una clase de control cargada.
+Línea 379: la clase SICMACT.EditMoney del control txtPFAumCapSol no era una clase de control cargada.
+Línea 398: la clase SICMACT.EditMoney del control txtPFAumCapDol no era una clase de control cargada.
+Línea 618: la clase SICMACT.EditMoney del control txtAhoMontoMinApertSol no era una clase de control cargada.
+Línea 637: la clase SICMACT.EditMoney del control txtAhoMontoMinApertDol no era una clase de control cargada.
+Línea 656: la clase SICMACT.EditMoney del control txtAhoMontoMinDepSol no era una clase de control cargada.
+Línea 675: la clase SICMACT.EditMoney del control txtAhoMontoMinDepDol no era una clase de control cargada.
+Línea 694: la clase SICMACT.EditMoney del control txtAhoSaldoMinSol no era una clase de control cargada.
+Línea 713: la clase SICMACT.EditMoney del control txtAhoSaldoMinDol no era una clase de control cargada.

@@ -1,0 +1,18 @@
+
+
+DIFERENCIAS ENCONTRADAS
+=======================
+
+Cuenta: 5114010206010101 Fecha: 01/05/2005 Saldo Ant: 1622597.83 Debe: 0.00 Haber: 2213.25 Saldo New: 1624811.08
+Cuenta: 5114010206010114 Fecha: 01/05/2005 Saldo Ant: 152518.80 Debe: 0.00 Haber: 766.96 Saldo New: 153285.76
+Cuenta: 5114010206010314 Fecha: 01/05/2005 Saldo Ant: 13631.85 Debe: 0.00 Haber: 65.34 Saldo New: 13697.19
+Cuenta: 5114010206010401 Fecha: 01/05/2005 Saldo Ant: 0.00 Debe: 0.00 Haber: 86.22 Saldo New: 86.22
+Cuenta: 5114010306010101 Fecha: 01/05/2005 Saldo Ant: 699198.80 Debe: 0.00 Haber: 545.93 Saldo New: 699744.73
+Cuenta: 5114010306010114 Fecha: 01/05/2005 Saldo Ant: 36526.43 Debe: 0.00 Haber: 299.48 Saldo New: 36825.91
+Cuenta: 511401031301 Fecha: 01/05/2005 Saldo Ant: 44788.42 Debe: 0.00 Haber: 186.96 Saldo New: 44975.38
+Cuenta: 511405031301 Fecha: 01/05/2005 Saldo Ant: 64670.79 Debe: 0.00 Haber: 151.05 Saldo New: 64821.84
+Cuenta: 511505090101 Fecha: 01/05/2005 Saldo Ant: 28525.00 Debe: 0.00 Haber: 60.00 Saldo New: 28585.00
+Cuenta: 511505090301 Fecha: 01/05/2005 Saldo Ant: 12799.51 Debe: 0.00 Haber: 12.00 Saldo New: 12811.51
+Cuenta: 511505090314 Fecha: 01/05/2005 Saldo Ant: 2236.76 Debe: 0.00 Haber: 4.00 Saldo New: 2240.76
+Cuenta: 5119190901 Fecha: 01/05/2005 Saldo Ant: 167.12 Debe: 0.00 Haber: 0.08 Saldo New: 167.12
+                                                  T,66  

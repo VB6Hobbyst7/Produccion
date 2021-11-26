@@ -1,0 +1,15 @@
+[History]
+B1=Sicmact/frmMdiMain/mnuCajaRep_Click
+B2=Sicmact/frmMntOperacion/tvOpe_NodeClick
+B3=Sicmact/frmMntOperacion/cmdbuscar_Click
+B4=Sicmact/frmOperaciones/cmdAceptar_Click
+B5=Sicmact/FlexEdit/TxtBuscar_Click
+B6=Sicmact/frmLogin/cmdAceptar_Click
+B7=Sicmact/frmViaticosSol/Form_Load
+B8=Sicmact/frmNotaCargoAbono/ValidaDatos
+B9=Sicmact/frmCajaGenOpeDivBancos/txtBuscarCtaOrig_EmiteDatos
+B10=Sicmact/frmCajaIntDeveng/cmdAceptar_Click
+B11=Sicmact/frmOpeRegDocs/cmdAgregar_Click
+B12=Sicmact/gFunGeneral/GetCaptionForm
+B13=Sicmact/frmContabMayor/cmdImprimir_Click
+B14=Sicmact/frmCajaGenHabilitacion/Form_Load

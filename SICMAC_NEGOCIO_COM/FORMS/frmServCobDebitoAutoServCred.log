@@ -1,0 +1,4 @@
+Línea 65: la clase SICMACT.uSpinner del control spnDia1 no era una clase de control cargada.
+Línea 104: la clase SICMACT.uSpinner del control spnDia2 no era una clase de control cargada.
+Línea 245: la clase SICMACT.EditMoney del control txtMontoMax no era una clase de control cargada.
+Línea 320: la clase SICMACT.ActXCodCta del control txtCuenta no era una clase de control cargada.

@@ -1,0 +1,45 @@
+
+
+
+
+<<FECHA>>
+
+
+SR(a).
+
+     <<NOMBRE>>
+     Cuenta Nro.: <<CUENTA>>
+
+Estimado(s) cliente(s) :
+
+
+NO ES GRATO INFORMARLE(S) QUE SU DEPOSITO A PLAZO FIJO HA SIDO RENOVADO
+DE ACUERDO A SUS INSTRUCCIONES. 
+SIENDO LAS CONDICIONES DE LA RENOVACION LAS SIGUIENTES:
+
+	
+  	CAPITAL INICIAL		: 	<<CAPITALINI>>
+	PLAZO		  	:	<<PLAZO>>
+	FECHA VENCIMIENTO	:	<<FECHAVENCANT>>
+	INTERES OBTENIDOS	:	<<INTGANADOS>>
+
+	CAPITAL ACTUAL		:	<<CAPITALACT>>
+	NUEVA FECHA VENCIM. 	:	<<FECHAVENCNUE>>
+
+
+EL NUEVO IMPORTE RENOVADO ES DE <<CAPITALACT>> A UNA TASA DE <<TASAINTACT>> 
+Y A UN PLAZO DE <<PLAZO>> DIAS.
+
+
+	AGRADECEMOS LA COFIANZA DEPOSITADA EN NUESTRA INSTITUCION
+
+                         
+	                                  Atentamente.
+
+
+                 CAJA MUNICIPAL DE CREDITO Y AHORRO DE CUSCO SA.
+
+
+___________________________________________________________________________________
+Dirección : <<DIRECCION>>
+Cuenta : <<CUENTA>>

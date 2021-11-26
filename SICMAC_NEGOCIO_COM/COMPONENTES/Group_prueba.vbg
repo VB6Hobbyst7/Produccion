@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\SICMACT.vbp
+Project=COMNCajaGeneral.vbp

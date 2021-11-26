@@ -1,0 +1,526 @@
+kE  CAJA MUNICIPAL DE AHORRO Y CREDITO DE MAYNAS            4Operación: 701258 # 202103311844241090100MARI5F
+Oficina Principal - DEPARTAMENTO DE CONTABILIDAD
+                        EASIENTO DE CAPITAL E INTERESESF
+                         EM O N E D A   N A C I O N A LF
+
+  Glosa                :ASIENTO  DE  CIERRE PROVISIONES DE CARTERA REPROGRAMADA
+                        COVID 31/03/2021 EN M.N.                               
+
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+E EN MONEDA NACIONAL 
+--------------------F
+
+1 141902070101           >> Capital >> Oficina Principal                                                 2,579.39                 
+2 4312020106010101       >> Recursos Propios >> Oficina Principal                                                         2,579.39
+3 141902070101           >> Capital >> Oficina Principal                                                                  3,384.10
+4 431202070101           >> Capital >> Oficina Principal                                                 3,384.10                 
+5 141902070102           >> Capital >> Agencia Huánuco                                                   3,184.82                 
+6 4312020106010102       >> Recursos Propios >> Agencia Huánuco                                                           3,184.82
+7 141902070102           >> Capital >> Agencia Huánuco                                                                      449.32
+8 431202070102           >> Capital >> Agencia Huánuco                                                     449.32                 
+9 141902070103           >> Capital >> Agencia Pucallpa                                                  1,156.66                 
+10 4312020106010103       >> Recursos Propios >> Agencia Pucallpa                                                          1,156.66
+11 141902070104           >> Capital >> Agencia Calle Arequipa                                            1,434.19                 
+12 4312020106010104       >> Recursos Propios >> Agencia Calle Arequipa                                                    1,434.19
+13 141902070104           >> Capital >> Agencia Calle Arequipa                                                             1,897.41
+14 431202070104           >> Capital >> Agencia Calle Arequipa                                            1,897.41                 
+15 141902070106           >> Capital >> Agencia Yurimaguas                                                1,355.67                 
+16 4312020106010106       >> Recursos Propios >> Agencia Yurimaguas                                                        1,355.67
+17 141902070106           >> Capital >> Agencia Yurimaguas                                                                   417.52
+18 431202070106           >> Capital >> Agencia Yurimaguas                                                  417.52                 
+19 141902070107           >> Capital >> Agencia Tingo María                                               3,054.85                 
+20 4312020106010107       >> Recursos Propios >> Agencia Tingo María                                                       3,054.85
+21 141902070107           >> Capital >> Agencia Tingo María                                                                  461.99
+22 431202070107           >> Capital >> Agencia Tingo María                                                 461.99                 
+23 141902070110           >> Capital >> Agencia Tarapoto                                                  4,339.48                 
+24 4312020106010110       >> Recursos Propios >> Agencia Tarapoto                                                          4,339.48
+25 141902070110           >> Capital >> Agencia Tarapoto                                                                   1,288.63
+26 431202070110           >> Capital >> Agencia Tarapoto                                                  1,288.63                 
+27 141902070112           >> Capital >> Agencia Aguaytía                                                  1,007.61                 
+28 4312020106010112       >> Recursos Propios >> Agencia Aguaytía                                                          1,007.61
+29 141902070113           >> Capital >> Agencia Requena                                                     982.47                 
+30 4312020106010113       >> Recursos Propios >> Agencia Requena                                                             982.47
+31 141902070113           >> Capital >> Agencia Requena                                                                      663.38
+32 431202070113           >> Capital >> Agencia Requena                                                     663.38                 
+33 141902070124           >> Capital >> Agencia Cajamarca                                                 2,083.29                 
+34 4312020106010124       >> Recursos Propios >> Agencia Cajamarca                                                         2,083.29
+35 141902070124           >> Capital >> Agencia Cajamarca                                                                  1,167.81
+36 431202070124           >> Capital >> Agencia Cajamarca                                                 1,167.81                 
+37 141902070125           >> Capital >> Agencia Cerro de Pasco                                              168.54                 
+38 4312020106010125       >> Recursos Propios >> Agencia Cerro de Pasco                                                      168.54
+39 141902070125           >> Capital >> Agencia Cerro de Pasco                                                             2,960.06
+40 431202070125           >> Capital >> Agencia Cerro de Pasco                                            2,960.06                 
+41 141902070131           >> Capital >> Agencia Punchana                                                    947.46                 
+42 4312020106010131       >> Recursos Propios >> Agencia Punchana                                                            947.46
+43 141902070131           >> Capital >> Agencia Punchana                                                                   2,305.59
+44 431202070131           >> Capital >> Agencia Punchana                                                  2,305.59                 
+45 141902070133           >> Capital >> Agencia Minka                                                       176.42                 
+46 4312020106010133       >> Recursos Propios >> Agencia Minka                                                               176.42
+47 141902070133           >> Capital >> Agencia Minka                                                                        320.26
+48 431202070133           >> Capital >> Agencia Minka                                                       320.26                 
+49 141902070137           >> Capital >> Agencia San Juan                                                  3,818.16                 
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+50 4312020106010137       >> Recursos Propios >> Agencia San Juan                                                          3,818.16
+51 141902070137           >> Capital >> Agencia San Juan                                                                   5,109.87
+52 431202070137           >> Capital >> Agencia San Juan                                                  5,109.87                 
+53 141902070138           >> Capital >> Agencia Moyobamba                                                 1,044.44                 
+54 4312020106010138       >> Recursos Propios >> Agencia Moyobamba                                                         1,044.44
+55 141902070138           >> Capital >> Agencia Moyobamba                                                                    170.94
+56 431202070138           >> Capital >> Agencia Moyobamba                                                   170.94                 
+57 141902070139           >> Capital >> Agencia Tocache                                                      56.85                 
+58 4312020106010139       >> Recursos Propios >> Agencia Tocache                                                              56.85
+59 141902070140           >> Capital >> Of. Espec. Yarinacocha                                              401.32                 
+60 4312020106010140       >> Recursos Propios >> Oficina Especial Yarinacocha                                                401.32
+61 141902070140           >> Capital >> Of. Espec. Yarinacocha                                                               743.06
+62 431202070140           >> Capital >> Of. Espec. Yarinacocha                                              743.06                 
+63 141902070141           >> Capital >> Of. Espec. Pillco Marca                                           1,994.27                 
+64 4312020106010141       >> Recursos Propios >> Oficina Especial Pillco Marca                                             1,994.27
+65 141902070141           >> Capital >> Of. Espec. Pillco Marca                                                              402.99
+66 431202070141           >> Capital >> Of. Espec. Pillco Marca                                             402.99                 
+67 141902070142           >> Capital >> Agencia Aucayacu                                                  1,575.47                 
+68 4312020106010142       >> Recursos Propios >> Agencia Aucayacu                                                          1,575.47
+69 141902070142           >> Capital >> Agencia Aucayacu                                                                     154.52
+70 431202070142           >> Capital >> Agencia Aucayacu                                                    154.52                 
+71 141902070143           >> Capital >> Agencia Tarma                                                       932.16                 
+72 4312020106010143       >> Recursos Propios >> Agencia Tarma                                                               932.16
+73 141902070143           >> Capital >> Agencia Tarma                                                                        604.10
+74 431202070143           >> Capital >> Agencia Tarma                                                       604.10                 
+75 141902070144           >> Capital >> Agencia Nueva Cajamarca                                               5.16                 
+76 4312020106010144       >> Recursos Propios >> Agencia Nueva Cajamarca                                                       5.16
+77 141902070145           >> Capital >> Agencia Pichanaqui                                                   42.85                 
+78 4312020106010145       >> Recursos Propios >> Agencia Pichanaqui                                                           42.85
+79 141902070146           >> Capital >> AGENCIA SATIPO                                                      695.92                 
+80 4312020106010146       >> Recursos Propios >> AGENCIA SATIPO                                                              695.92
+81 141903070101           >> Capital >> Oficina Principal                                                 4,141.03                 
+82 4312030106010101       >> Recursos Propios >> Oficina Principal                                                         4,141.03
+83 141903070101           >> Capital >> Oficina Principal                                                                  1,502.60
+84 431203070101           >> Capital >> Oficina Principal                                                 1,502.60                 
+85 141903070102           >> Capital >> Agencia Huánuco                                                   4,445.34                 
+86 4312030106010102       >> Recursos Propios >> Agencia Huánuco                                                           4,445.34
+87 141903070102           >> Capital >> Agencia Huánuco                                                                    2,386.00
+88 431203070102           >> Capital >> Agencia Huánuco                                                   2,386.00                 
+89 141903070103           >> Capital >> Agencia Pucallpa                                                  4,157.49                 
+90 4312030106010103       >> Recursos Propios >> Agencia Pucallpa                                                          4,157.49
+91 141903070104           >> Capital >> Agencia Calle Arequipa                                            5,494.68                 
+92 4312030106010104       >> Recursos Propios >> Agencia Calle Arequipa                                                    5,494.68
+93 141903070104           >> Capital >> Agencia Calle Arequipa                                                             2,051.30
+94 431203070104           >> Capital >> Agencia Calle Arequipa                                            2,051.30                 
+95 141903070106           >> Capital >> Agencia Yurimaguas                                                2,134.63                 
+96 4312030106010106       >> Recursos Propios >> Agencia Yurimaguas                                                        2,134.63
+97 141903070106           >> Capital >> Agencia Yurimaguas                                                                 1,500.00
+98 431203070106           >> Capital >> Agencia Yurimaguas                                                1,500.00                 
+99 141903070107           >> Capital >> Agencia Tingo María                                                 617.73                 
+100 4312030106010107       >> Recursos Propios >> Agencia Tingo María                                                         617.73
+101 141903070110           >> Capital >> Agencia Tarapoto                                                  1,810.27                 
+102 4312030106010110       >> Recursos Propios >> Agencia Tarapoto                                                          1,810.27
+103 141903070110           >> Capital >> Agencia Tarapoto                                                                   3,734.21
+104 431203070110           >> Capital >> Agencia Tarapoto                                                  3,734.21                 
+105 141903070113           >> Capital >> Agencia Requena                                                     816.64                 
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+106 4312030106010113       >> Recursos Propios >> Agencia Requena                                                             816.64
+107 141903070113           >> Capital >> Agencia Requena                                                                    1,250.00
+108 431203070113           >> Capital >> Agencia Requena                                                   1,250.00                 
+109 141903070124           >> Capital >> Agencia Cajamarca                                                 4,623.97                 
+110 4312030106010124       >> Recursos Propios >> Agencia Cajamarca                                                         4,623.97
+111 141903070124           >> Capital >> Agencia Cajamarca                                                                  1,773.02
+112 431203070124           >> Capital >> Agencia Cajamarca                                                 1,773.02                 
+113 141903070125           >> Capital >> Agencia Cerro de Pasco                                            6,576.73                 
+114 4312030106010125       >> Recursos Propios >> Agencia Cerro de Pasco                                                    6,576.73
+115 141903070125           >> Capital >> Agencia Cerro de Pasco                                                               154.12
+116 431203070125           >> Capital >> Agencia Cerro de Pasco                                              154.12                 
+117 141903070131           >> Capital >> Agencia Punchana                                                    916.03                 
+118 4312030106010131       >> Recursos Propios >> Agencia Punchana                                                            916.03
+119 141903070131           >> Capital >> Agencia Punchana                                                                      58.93
+120 431203070131           >> Capital >> Agencia Punchana                                                     58.93                 
+121 141903070133           >> Capital >> Agencia Minka                                                    28,511.89                 
+122 4312030106010133       >> Recursos Propios >> Agencia Minka                                                            28,511.89
+123 141903070133           >> Capital >> Agencia Minka                                                                        576.25
+124 431203070133           >> Capital >> Agencia Minka                                                       576.25                 
+125 141903070137           >> Capital >> Agencia San Juan                                                     37.35                 
+126 4312030106010137       >> Recursos Propios >> Agencia San Juan                                                             37.35
+127 141903070137           >> Capital >> Agencia San Juan                                                                     991.68
+128 431203070137           >> Capital >> Agencia San Juan                                                    991.68                 
+129 141903070138           >> Capital >> Agencia Moyobamba                                                   426.39                 
+130 4312030106010138       >> Recursos Propios >> Agencia Moyobamba                                                           426.39
+131 141903070139           >> Capital >> Agencia Tocache                                                     650.15                 
+132 4312030106010139       >> Recursos Propios >> Agencia Tocache                                                             650.15
+133 141903070139           >> Capital >> Agencia Tocache                                                                      611.75
+134 431203070139           >> Capital >> Agencia Tocache                                                     611.75                 
+135 141903070140           >> Capital >> Of. Espec. Yarinacocha                                            3,353.01                 
+136 4312030106010140       >> Recursos Propios >> Oficina Especial Yarinacocha                                              3,353.01
+137 141903070141           >> Capital >> Of. Espec. Pillco Marca                                             389.67                 
+138 4312030106010141       >> Recursos Propios >> Oficina Especial Pillco Marca                                               389.67
+139 141903070141           >> Capital >> Of. Espec. Pillco Marca                                                              519.65
+140 431203070141           >> Capital >> Of. Espec. Pillco Marca                                             519.65                 
+141 141903070142           >> Capital >> Agencia Aucayacu                                                  2,487.91                 
+142 4312030106010142       >> Recursos Propios >> Agencia Aucayacu                                                          2,487.91
+143 141903070143           >> Capital >> Agencia Tarma                                                     1,285.35                 
+144 4312030106010143       >> Recursos Propios >> Agencia Tarma                                                             1,285.35
+145 141903070146           >> Capital >> AGENCIA SATIPO                                                       28.68                 
+146 4312030106010146       >> Recursos Propios >> AGENCIA SATIPO                                                               28.68
+147 141913070101           >> Capital >> Oficina Principal                                                16,084.91                 
+148 4312130106010101       >> Recursos Propios >> Oficina Principal                                                        16,084.91
+149 141913070101           >> Capital >> Oficina Principal                                                                 14,090.22
+150 431213070101           >> Capital >> Oficina Principal                                                14,090.22                 
+151 141913070102           >> Capital >> Agencia Huánuco                                                  13,076.32                 
+152 4312130106010102       >> Recursos Propios >> Agencia Huánuco                                                          13,076.32
+153 141913070102           >> Capital >> Agencia Huánuco                                                                    1,615.26
+154 431213070102           >> Capital >> Agencia Huánuco                                                   1,615.26                 
+155 141913070103           >> Capital >> Agencia Pucallpa                                                 22,463.24                 
+156 4312130106010103       >> Recursos Propios >> Agencia Pucallpa                                                         22,463.24
+157 141913070103           >> Capital >> Agencia Pucallpa                                                                   5,988.59
+158 431213070103           >> Capital >> Agencia Pucallpa                                                  5,988.59                 
+159 141913070104           >> Capital >> Agencia Calle Arequipa                                           10,042.70                 
+160 4312130106010104       >> Recursos Propios >> Agencia Calle Arequipa                                                   10,042.70
+161 141913070104           >> Capital >> Agencia Calle Arequipa                                                             2,779.83
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+162 431213070104           >> Capital >> Agencia Calle Arequipa                                            2,779.83                 
+163 141913070106           >> Capital >> Agencia Yurimaguas                                                6,759.27                 
+164 4312130106010106       >> Recursos Propios >> Agencia Yurimaguas                                                        6,759.27
+165 141913070107           >> Capital >> Agencia Tingo María                                               8,922.72                 
+166 4312130106010107       >> Recursos Propios >> Agencia Tingo María                                                       8,922.72
+167 141913070107           >> Capital >> Agencia Tingo María                                                                5,065.28
+168 431213070107           >> Capital >> Agencia Tingo María                                               5,065.28                 
+169 141913070110           >> Capital >> Agencia Tarapoto                                                 10,841.80                 
+170 4312130106010110       >> Recursos Propios >> Agencia Tarapoto                                                         10,841.80
+171 141913070110           >> Capital >> Agencia Tarapoto                                                                   1,526.29
+172 431213070110           >> Capital >> Agencia Tarapoto                                                  1,526.29                 
+173 141913070112           >> Capital >> Agencia Aguaytía                                                                   1,275.58
+174 4312130106010112       >> Recursos Propios >> Agencia Aguaytía                                         1,275.58                 
+175 141913070112           >> Capital >> Agencia Aguaytía                                                                     351.99
+176 431213070112           >> Capital >> Agencia Aguaytía                                                    351.99                 
+177 141913070113           >> Capital >> Agencia Requena                                                     717.52                 
+178 4312130106010113       >> Recursos Propios >> Agencia Requena                                                             717.52
+179 141913070113           >> Capital >> Agencia Requena                                                                    1,098.75
+180 431213070113           >> Capital >> Agencia Requena                                                   1,098.75                 
+181 141913070124           >> Capital >> Agencia Cajamarca                                                 4,742.37                 
+182 4312130106010124       >> Recursos Propios >> Agencia Cajamarca                                                         4,742.37
+183 141913070124           >> Capital >> Agencia Cajamarca                                                                  6,819.08
+184 431213070124           >> Capital >> Agencia Cajamarca                                                 6,819.08                 
+185 141913070125           >> Capital >> Agencia Cerro de Pasco                                            1,670.59                 
+186 4312130106010125       >> Recursos Propios >> Agencia Cerro de Pasco                                                    1,670.59
+187 141913070125           >> Capital >> Agencia Cerro de Pasco                                                             1,630.10
+188 431213070125           >> Capital >> Agencia Cerro de Pasco                                            1,630.10                 
+189 141913070131           >> Capital >> Agencia Punchana                                                  4,213.40                 
+190 4312130106010131       >> Recursos Propios >> Agencia Punchana                                                          4,213.40
+191 141913070131           >> Capital >> Agencia Punchana                                                                   5,133.52
+192 431213070131           >> Capital >> Agencia Punchana                                                  5,133.52                 
+193 141913070133           >> Capital >> Agencia Minka                                                     6,516.08                 
+194 4312130106010133       >> Recursos Propios >> Agencia Minka                                                             6,516.08
+195 141913070133           >> Capital >> Agencia Minka                                                                      3,404.44
+196 431213070133           >> Capital >> Agencia Minka                                                     3,404.44                 
+197 141913070137           >> Capital >> Agencia San Juan                                                                   3,273.06
+198 4312130106010137       >> Recursos Propios >> Agencia San Juan                                         3,273.06                 
+199 141913070137           >> Capital >> Agencia San Juan                                                                   8,746.14
+200 431213070137           >> Capital >> Agencia San Juan                                                  8,746.14                 
+201 141913070138           >> Capital >> Agencia Moyobamba                                                 7,941.89                 
+202 4312130106010138       >> Recursos Propios >> Agencia Moyobamba                                                         7,941.89
+203 141913070138           >> Capital >> Agencia Moyobamba                                                                    660.40
+204 431213070138           >> Capital >> Agencia Moyobamba                                                   660.40                 
+205 141913070139           >> Capital >> Agencia Tocache                                                   3,694.26                 
+206 4312130106010139       >> Recursos Propios >> Agencia Tocache                                                           3,694.26
+207 141913070139           >> Capital >> Agencia Tocache                                                                      705.28
+208 431213070139           >> Capital >> Agencia Tocache                                                     705.28                 
+209 141913070140           >> Capital >> Of. Espec. Yarinacocha                                            1,117.24                 
+210 4312130106010140       >> Recursos Propios >> Oficina Especial Yarinacocha                                              1,117.24
+211 141913070140           >> Capital >> Of. Espec. Yarinacocha                                                             2,623.62
+212 431213070140           >> Capital >> Of. Espec. Yarinacocha                                            2,623.62                 
+213 141913070141           >> Capital >> Of. Espec. Pillco Marca                                           5,724.15                 
+214 4312130106010141       >> Recursos Propios >> Oficina Especial Pillco Marca                                             5,724.15
+215 141913070141           >> Capital >> Of. Espec. Pillco Marca                                                            1,520.16
+216 431213070141           >> Capital >> Of. Espec. Pillco Marca                                           1,520.16                 
+217 141913070142           >> Capital >> Agencia Aucayacu                                                 20,961.96                 
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+218 4312130106010142       >> Recursos Propios >> Agencia Aucayacu                                                         20,961.96
+219 141913070142           >> Capital >> Agencia Aucayacu                                                                   1,703.63
+220 431213070142           >> Capital >> Agencia Aucayacu                                                  1,703.63                 
+221 141913070143           >> Capital >> Agencia Tarma                                                        45.54                 
+222 4312130106010143       >> Recursos Propios >> Agencia Tarma                                                                45.54
+223 141913070143           >> Capital >> Agencia Tarma                                                                        232.30
+224 431213070143           >> Capital >> Agencia Tarma                                                       232.30                 
+225 141913070145           >> Capital >> Agencia Pichanaqui                                                4,313.20                 
+226 4312130106010145       >> Recursos Propios >> Agencia Pichanaqui                                                        4,313.20
+227 141913070146           >> Capital >> AGENCIA SATIPO                                                                       421.92
+228 4312130106010146       >> Recursos Propios >> AGENCIA SATIPO                                             421.92                 
+229 141902070201           >> Intereses >> Oficina Principal                                               3,861.09                 
+230 4312020106010101       >> Recursos Propios >> Oficina Principal                                                         3,861.09
+231 141902070201           >> Intereses >> Oficina Principal                                                                1,976.85
+232 431202070201           >> Intereses >> Oficina Principal                                               1,976.85                 
+233 141902070202           >> Intereses >> Agencia Huánuco                                                 2,151.79                 
+234 4312020106010102       >> Recursos Propios >> Agencia Huánuco                                                           2,151.79
+235 141902070202           >> Intereses >> Agencia Huánuco                                                                    271.51
+236 431202070202           >> Intereses >> Agencia Huánuco                                                   271.51                 
+237 141902070203           >> Intereses >> Agencia Pucallpa                                                  727.44                 
+238 4312020106010103       >> Recursos Propios >> Agencia Pucallpa                                                            727.44
+239 141902070203           >> Intereses >> Agencia Pucallpa                                                                   188.31
+240 431202070203           >> Intereses >> Agencia Pucallpa                                                  188.31                 
+241 141902070204           >> Intereses >> Agencia Calle Arequipa                                          3,636.83                 
+242 4312020106010104       >> Recursos Propios >> Agencia Calle Arequipa                                                    3,636.83
+243 141902070204           >> Intereses >> Agencia Calle Arequipa                                                           1,934.71
+244 431202070204           >> Intereses >> Agencia Calle Arequipa                                          1,934.71                 
+245 141902070206           >> Intereses >> Agencia Yurimaguas                                                855.00                 
+246 4312020106010106       >> Recursos Propios >> Agencia Yurimaguas                                                          855.00
+247 141902070206           >> Intereses >> Agencia Yurimaguas                                                                 501.31
+248 431202070206           >> Intereses >> Agencia Yurimaguas                                                501.31                 
+249 141902070207           >> Intereses >> Agencia Tingo María                                               124.06                 
+250 4312020106010107       >> Recursos Propios >> Agencia Tingo María                                                         124.06
+251 141902070207           >> Intereses >> Agencia Tingo María                                                                106.37
+252 431202070207           >> Intereses >> Agencia Tingo María                                               106.37                 
+253 141902070210           >> Intereses >> Agencia Tarapoto                                                4,273.07                 
+254 4312020106010110       >> Recursos Propios >> Agencia Tarapoto                                                          4,273.07
+255 141902070210           >> Intereses >> Agencia Tarapoto                                                                   985.30
+256 431202070210           >> Intereses >> Agencia Tarapoto                                                  985.30                 
+257 141902070212           >> Intereses >> Agencia Aguaytía                                                   34.46                 
+258 4312020106010112       >> Recursos Propios >> Agencia Aguaytía                                                             34.46
+259 141902070213           >> Intereses >> Agencia Requena                                                    19.95                 
+260 4312020106010113       >> Recursos Propios >> Agencia Requena                                                              19.95
+261 141902070213           >> Intereses >> Agencia Requena                                                                    740.56
+262 431202070213           >> Intereses >> Agencia Requena                                                   740.56                 
+263 141902070224           >> Intereses >> Agencia Cajamarca                                               2,755.44                 
+264 4312020106010124       >> Recursos Propios >> Agencia Cajamarca                                                         2,755.44
+265 141902070224           >> Intereses >> Agencia Cajamarca                                                                2,477.89
+266 431202070224           >> Intereses >> Agencia Cajamarca                                               2,477.89                 
+267 141902070225           >> Intereses >> Agencia Cerro de Pasco                                          1,212.13                 
+268 4312020106010125       >> Recursos Propios >> Agencia Cerro de Pasco                                                    1,212.13
+269 141902070225           >> Intereses >> Agencia Cerro de Pasco                                                           1,374.60
+270 431202070225           >> Intereses >> Agencia Cerro de Pasco                                          1,374.60                 
+271 141902070231           >> Intereses >> Agencia Punchana                                                                   561.06
+272 4312020106010131       >> Recursos Propios >> Agencia Punchana                                           561.06                 
+273 141902070231           >> Intereses >> Agencia Punchana                                                                 3,087.51
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+274 431202070231           >> Intereses >> Agencia Punchana                                                3,087.51                 
+275 141902070233           >> Intereses >> Agencia Minka                                                   1,151.17                 
+276 4312020106010133       >> Recursos Propios >> Agencia Minka                                                             1,151.17
+277 141902070233           >> Intereses >> Agencia Minka                                                                      836.70
+278 431202070233           >> Intereses >> Agencia Minka                                                     836.70                 
+279 141902070237           >> Intereses >> Agencia San Juan                                                6,310.82                 
+280 4312020106010137       >> Recursos Propios >> Agencia San Juan                                                          6,310.82
+281 141902070237           >> Intereses >> Agencia San Juan                                                                10,512.60
+282 431202070237           >> Intereses >> Agencia San Juan                                               10,512.60                 
+283 141902070238           >> Intereses >> Agencia Moyobamba                                                 657.03                 
+284 4312020106010138       >> Recursos Propios >> Agencia Moyobamba                                                           657.03
+285 141902070238           >> Intereses >> Agencia Moyobamba                                                                   15.61
+286 431202070238           >> Intereses >> Agencia Moyobamba                                                  15.61                 
+287 141902070239           >> Intereses >> Agencia Tocache                                                                     78.55
+288 4312020106010139       >> Recursos Propios >> Agencia Tocache                                             78.55                 
+289 141902070239           >> Intereses >> Agencia Tocache                                                                      6.78
+290 431202070239           >> Intereses >> Agencia Tocache                                                     6.78                 
+291 141902070240           >> Intereses >> Of. Espec. Yarinacocha                                            479.51                 
+292 4312020106010140       >> Recursos Propios >> Oficina Especial Yarinacocha                                                479.51
+293 141902070240           >> Intereses >> Of. Espec. Yarinacocha                                                             442.98
+294 431202070240           >> Intereses >> Of. Espec. Yarinacocha                                            442.98                 
+295 141902070241           >> Intereses >> Of. Espec. Pillco Marca                                         2,383.17                 
+296 4312020106010141       >> Recursos Propios >> Oficina Especial Pillco Marca                                             2,383.17
+297 141902070241           >> Intereses >> Of. Espec. Pillco Marca                                                            293.47
+298 431202070241           >> Intereses >> Of. Espec. Pillco Marca                                           293.47                 
+299 141902070242           >> Intereses >> Agencia Aucayacu                                                  121.93                 
+300 4312020106010142       >> Recursos Propios >> Agencia Aucayacu                                                            121.93
+301 141902070242           >> Intereses >> Agencia Aucayacu                                                                   403.90
+302 431202070242           >> Intereses >> Agencia Aucayacu                                                  403.90                 
+303 141902070243           >> Intereses >> Agencia Tarma                                                     348.12                 
+304 4312020106010143       >> Recursos Propios >> Agencia Tarma                                                               348.12
+305 141902070243           >> Intereses >> Agencia Tarma                                                                      477.27
+306 431202070243           >> Intereses >> Agencia Tarma                                                     477.27                 
+307 141902070244           >> Intereses >> Agencia Nueva Cajamarca                                           344.82                 
+308 4312020106010144       >> Recursos Propios >> Agencia Nueva Cajamarca                                                     344.82
+309 141902070245           >> Intereses >> Agencia Pichanaqui                                                                  74.68
+310 4312020106010145       >> Recursos Propios >> Agencia Pichanaqui                                          74.68                 
+311 141902070246           >> Intereses >> AGENCIA SATIPO                                                    204.50                 
+312 4312020106010146       >> Recursos Propios >> AGENCIA SATIPO                                                              204.50
+313 141903070201           >> Intereses >> Oficina Principal                                                 255.44                 
+314 4312030106010101       >> Recursos Propios >> Oficina Principal                                                           255.44
+315 141903070201           >> Intereses >> Oficina Principal                                                                  814.00
+316 431203070201           >> Intereses >> Oficina Principal                                                 814.00                 
+317 141903070202           >> Intereses >> Agencia Huánuco                                                 2,018.87                 
+318 4312030106010102       >> Recursos Propios >> Agencia Huánuco                                                           2,018.87
+319 141903070202           >> Intereses >> Agencia Huánuco                                                                    247.48
+320 431203070202           >> Intereses >> Agencia Huánuco                                                   247.48                 
+321 141903070203           >> Intereses >> Agencia Pucallpa                                                   24.91                 
+322 4312030106010103       >> Recursos Propios >> Agencia Pucallpa                                                             24.91
+323 141903070204           >> Intereses >> Agencia Calle Arequipa                                          4,471.87                 
+324 4312030106010104       >> Recursos Propios >> Agencia Calle Arequipa                                                    4,471.87
+325 141903070204           >> Intereses >> Agencia Calle Arequipa                                                             702.21
+326 431203070204           >> Intereses >> Agencia Calle Arequipa                                            702.21                 
+327 141903070206           >> Intereses >> Agencia Yurimaguas                                                                 351.31
+328 4312030106010106       >> Recursos Propios >> Agencia Yurimaguas                                         351.31                 
+329 141903070206           >> Intereses >> Agencia Yurimaguas                                                                 229.94
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+330 431203070206           >> Intereses >> Agencia Yurimaguas                                                229.94                 
+331 141903070207           >> Intereses >> Agencia Tingo María                                               363.82                 
+332 4312030106010107       >> Recursos Propios >> Agencia Tingo María                                                         363.82
+333 141903070207           >> Intereses >> Agencia Tingo María                                                                228.56
+334 431203070207           >> Intereses >> Agencia Tingo María                                               228.56                 
+335 141903070210           >> Intereses >> Agencia Tarapoto                                                3,419.04                 
+336 4312030106010110       >> Recursos Propios >> Agencia Tarapoto                                                          3,419.04
+337 141903070210           >> Intereses >> Agencia Tarapoto                                                                   651.91
+338 431203070210           >> Intereses >> Agencia Tarapoto                                                  651.91                 
+339 141903070212           >> Intereses >> Agencia Aguaytía                                                                     9.77
+340 4312030106010112       >> Recursos Propios >> Agencia Aguaytía                                             9.77                 
+341 141903070213           >> Intereses >> Agencia Requena                                                   133.21                 
+342 4312030106010113       >> Recursos Propios >> Agencia Requena                                                             133.21
+343 141903070213           >> Intereses >> Agencia Requena                                                                    316.41
+344 431203070213           >> Intereses >> Agencia Requena                                                   316.41                 
+345 141903070224           >> Intereses >> Agencia Cajamarca                                               1,343.95                 
+346 4312030106010124       >> Recursos Propios >> Agencia Cajamarca                                                         1,343.95
+347 141903070224           >> Intereses >> Agencia Cajamarca                                                                2,974.06
+348 431203070224           >> Intereses >> Agencia Cajamarca                                               2,974.06                 
+349 141903070225           >> Intereses >> Agencia Cerro de Pasco                                                           1,102.59
+350 4312030106010125       >> Recursos Propios >> Agencia Cerro de Pasco                                   1,102.59                 
+351 141903070225           >> Intereses >> Agencia Cerro de Pasco                                                              25.74
+352 431203070225           >> Intereses >> Agencia Cerro de Pasco                                             25.74                 
+353 141903070231           >> Intereses >> Agencia Punchana                                                                    23.15
+354 4312030106010131       >> Recursos Propios >> Agencia Punchana                                            23.15                 
+355 141903070231           >> Intereses >> Agencia Punchana                                                                     3.88
+356 431203070231           >> Intereses >> Agencia Punchana                                                    3.88                 
+357 141903070233           >> Intereses >> Agencia Minka                                                  19,750.57                 
+358 4312030106010133       >> Recursos Propios >> Agencia Minka                                                            19,750.57
+359 141903070233           >> Intereses >> Agencia Minka                                                                      130.31
+360 431203070233           >> Intereses >> Agencia Minka                                                     130.31                 
+361 141903070237           >> Intereses >> Agencia San Juan                                                                   328.15
+362 4312030106010137       >> Recursos Propios >> Agencia San Juan                                           328.15                 
+363 141903070237           >> Intereses >> Agencia San Juan                                                                 2,140.51
+364 431203070237           >> Intereses >> Agencia San Juan                                                2,140.51                 
+365 141903070238           >> Intereses >> Agencia Moyobamba                                                 340.88                 
+366 4312030106010138       >> Recursos Propios >> Agencia Moyobamba                                                           340.88
+367 141903070239           >> Intereses >> Agencia Tocache                                                    53.03                 
+368 4312030106010139       >> Recursos Propios >> Agencia Tocache                                                              53.03
+369 141903070239           >> Intereses >> Agencia Tocache                                                                    180.19
+370 431203070239           >> Intereses >> Agencia Tocache                                                   180.19                 
+371 141903070240           >> Intereses >> Of. Espec. Yarinacocha                                            160.86                 
+372 4312030106010140       >> Recursos Propios >> Oficina Especial Yarinacocha                                                160.86
+373 141903070240           >> Intereses >> Of. Espec. Yarinacocha                                                              40.81
+374 431203070240           >> Intereses >> Of. Espec. Yarinacocha                                             40.81                 
+375 141903070241           >> Intereses >> Of. Espec. Pillco Marca                                                             21.19
+376 4312030106010141       >> Recursos Propios >> Oficina Especial Pillco Marca                               21.19                 
+377 141903070241           >> Intereses >> Of. Espec. Pillco Marca                                                            486.67
+378 431203070241           >> Intereses >> Of. Espec. Pillco Marca                                           486.67                 
+379 141903070242           >> Intereses >> Agencia Aucayacu                                                  205.66                 
+380 4312030106010142       >> Recursos Propios >> Agencia Aucayacu                                                            205.66
+381 141903070243           >> Intereses >> Agencia Tarma                                                                      107.63
+382 4312030106010143       >> Recursos Propios >> Agencia Tarma                                              107.63                 
+383 141903070245           >> Intereses >> Agencia Pichanaqui                                                                 208.06
+384 4312030106010145       >> Recursos Propios >> Agencia Pichanaqui                                         208.06                 
+385 141903070246           >> Intereses >> AGENCIA SATIPO                                                                       2.63
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+386 4312030106010146       >> Recursos Propios >> AGENCIA SATIPO                                               2.63                 
+387 141913070201           >> Intereses >> Oficina Principal                                               3,178.71                 
+388 4312130106010101       >> Recursos Propios >> Oficina Principal                                                         3,178.71
+389 141913070201           >> Intereses >> Oficina Principal                                                               11,870.18
+390 431213070201           >> Intereses >> Oficina Principal                                              11,870.18                 
+391 141913070202           >> Intereses >> Agencia Huánuco                                                 5,819.23                 
+392 4312130106010102       >> Recursos Propios >> Agencia Huánuco                                                           5,819.23
+393 141913070202           >> Intereses >> Agencia Huánuco                                                                    414.74
+394 431213070202           >> Intereses >> Agencia Huánuco                                                   414.74                 
+395 141913070203           >> Intereses >> Agencia Pucallpa                                                                   402.30
+396 4312130106010103       >> Recursos Propios >> Agencia Pucallpa                                           402.30                 
+397 141913070203           >> Intereses >> Agencia Pucallpa                                                                 3,293.51
+398 431213070203           >> Intereses >> Agencia Pucallpa                                                3,293.51                 
+399 141913070204           >> Intereses >> Agencia Calle Arequipa                                                           3,756.51
+400 4312130106010104       >> Recursos Propios >> Agencia Calle Arequipa                                   3,756.51                 
+401 141913070204           >> Intereses >> Agencia Calle Arequipa                                                           2,633.81
+402 431213070204           >> Intereses >> Agencia Calle Arequipa                                          2,633.81                 
+403 141913070206           >> Intereses >> Agencia Yurimaguas                                                406.13                 
+404 4312130106010106       >> Recursos Propios >> Agencia Yurimaguas                                                          406.13
+405 141913070207           >> Intereses >> Agencia Tingo María                                             7,073.57                 
+406 4312130106010107       >> Recursos Propios >> Agencia Tingo María                                                       7,073.57
+407 141913070207           >> Intereses >> Agencia Tingo María                                                              2,298.59
+408 431213070207           >> Intereses >> Agencia Tingo María                                             2,298.59                 
+409 141913070210           >> Intereses >> Agencia Tarapoto                                               11,812.81                 
+410 4312130106010110       >> Recursos Propios >> Agencia Tarapoto                                                         11,812.81
+411 141913070210           >> Intereses >> Agencia Tarapoto                                                                 2,648.59
+412 431213070210           >> Intereses >> Agencia Tarapoto                                                2,648.59                 
+413 141913070212           >> Intereses >> Agencia Aguaytía                                                2,723.84                 
+414 4312130106010112       >> Recursos Propios >> Agencia Aguaytía                                                          2,723.84
+415 141913070212           >> Intereses >> Agencia Aguaytía                                                                   219.98
+416 431213070212           >> Intereses >> Agencia Aguaytía                                                  219.98                 
+417 141913070213           >> Intereses >> Agencia Requena                                                                    413.41
+418 4312130106010113       >> Recursos Propios >> Agencia Requena                                            413.41                 
+419 141913070213           >> Intereses >> Agencia Requena                                                                     65.00
+420 431213070213           >> Intereses >> Agencia Requena                                                    65.00                 
+421 141913070224           >> Intereses >> Agencia Cajamarca                                              10,394.81                 
+422 4312130106010124       >> Recursos Propios >> Agencia Cajamarca                                                        10,394.81
+423 141913070224           >> Intereses >> Agencia Cajamarca                                                                8,318.46
+424 431213070224           >> Intereses >> Agencia Cajamarca                                               8,318.46                 
+425 141913070225           >> Intereses >> Agencia Cerro de Pasco                                          3,282.83                 
+426 4312130106010125       >> Recursos Propios >> Agencia Cerro de Pasco                                                    3,282.83
+427 141913070225           >> Intereses >> Agencia Cerro de Pasco                                                           2,527.86
+428 431213070225           >> Intereses >> Agencia Cerro de Pasco                                          2,527.86                 
+429 141913070231           >> Intereses >> Agencia Punchana                                                4,146.98                 
+430 4312130106010131       >> Recursos Propios >> Agencia Punchana                                                          4,146.98
+431 141913070231           >> Intereses >> Agencia Punchana                                                                 3,339.75
+432 431213070231           >> Intereses >> Agencia Punchana                                                3,339.75                 
+433 141913070233           >> Intereses >> Agencia Minka                                                                    1,294.56
+434 4312130106010133       >> Recursos Propios >> Agencia Minka                                            1,294.56                 
+435 141913070233           >> Intereses >> Agencia Minka                                                                    7,460.38
+436 431213070233           >> Intereses >> Agencia Minka                                                   7,460.38                 
+437 141913070237           >> Intereses >> Agencia San Juan                                                                    60.15
+438 4312130106010137       >> Recursos Propios >> Agencia San Juan                                            60.15                 
+439 141913070237           >> Intereses >> Agencia San Juan                                                                11,438.92
+440 431213070237           >> Intereses >> Agencia San Juan                                               11,438.92                 
+441 141913070238           >> Intereses >> Agencia Moyobamba                                               9,851.90                 
+====================================================================================================================================
+Itm C U E N T A   C O N T A B L E                                                                           DEBE            HABER
+    Codigo              Descripcion
+------------------------------------------------------------------------------------------------------------------------------------
+442 4312130106010138       >> Recursos Propios >> Agencia Moyobamba                                                         9,851.90
+443 141913070238           >> Intereses >> Agencia Moyobamba                                                                1,026.73
+444 431213070238           >> Intereses >> Agencia Moyobamba                                               1,026.73                 
+445 141913070239           >> Intereses >> Agencia Tocache                                                 2,055.09                 
+446 4312130106010139       >> Recursos Propios >> Agencia Tocache                                                           2,055.09
+447 141913070239           >> Intereses >> Agencia Tocache                                                                    104.01
+448 431213070239           >> Intereses >> Agencia Tocache                                                   104.01                 
+449 141913070240           >> Intereses >> Of. Espec. Yarinacocha                                          1,081.07                 
+450 4312130106010140       >> Recursos Propios >> Oficina Especial Yarinacocha                                              1,081.07
+451 141913070240           >> Intereses >> Of. Espec. Yarinacocha                                                             247.40
+452 431213070240           >> Intereses >> Of. Espec. Yarinacocha                                            247.40                 
+453 141913070241           >> Intereses >> Of. Espec. Pillco Marca                                                         15,595.85
+454 4312130106010141       >> Recursos Propios >> Oficina Especial Pillco Marca                           15,595.85                 
+455 141913070241           >> Intereses >> Of. Espec. Pillco Marca                                                            521.63
+456 431213070241           >> Intereses >> Of. Espec. Pillco Marca                                           521.63                 
+457 141913070242           >> Intereses >> Agencia Aucayacu                                                8,399.64                 
+458 4312130106010142       >> Recursos Propios >> Agencia Aucayacu                                                          8,399.64
+459 141913070242           >> Intereses >> Agencia Aucayacu                                                                 1,317.83
+460 431213070242           >> Intereses >> Agencia Aucayacu                                                1,317.83                 
+461 141913070243           >> Intereses >> Agencia Tarma                                                                       30.61
+462 4312130106010143       >> Recursos Propios >> Agencia Tarma                                               30.61                 
+463 141913070243           >> Intereses >> Agencia Tarma                                                                      156.79
+464 431213070243           >> Intereses >> Agencia Tarma                                                     156.79                 
+465 141913070244           >> Intereses >> Agencia Nueva Cajamarca                                         2,384.57                 
+466 4312130106010144       >> Recursos Propios >> Agencia Nueva Cajamarca                                                   2,384.57
+467 141913070245           >> Intereses >> Agencia Pichanaqui                                              1,318.11                 
+468 4312130106010145       >> Recursos Propios >> Agencia Pichanaqui                                                        1,318.11
+469 141913070246           >> Intereses >> AGENCIA SATIPO                                                                     181.95
+470 4312130106010146       >> Recursos Propios >> AGENCIA SATIPO                                             181.95                 
+------------------------------------------------------------------------------------------------------------------------------------
+E                                                                                                       624,506.96       624,506.96F
+====================================================================================================================================
+
+
+         ______________________                  ______________________         
+               Vo Bo Caja                          Vo Bo Contabilidad           
+   
+                                                  F,66  

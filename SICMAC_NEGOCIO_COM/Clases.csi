@@ -1,0 +1,19 @@
+[History]
+B0=Clases/NCredDoc/ImprimeCreditosVigentes
+B1=Clases/NCredDoc/ImprimeCreditosCancelados
+B2=Clases/NCredDoc/ImprimeSaldoCarteraVigente
+B3=Clases/DCredDoc/RecuperaCreditosVigentes
+B4=Clases/NCredDoc/ImprimeCreditosXUbicacionGeo
+B5=Clases/DCredDoc/RecuperaCreditosPorUbicacionGeo
+B6=Clases/DCredDoc/RecuperaCartaInvitacionCreditosParalelos
+B7=Clases/DCredDoc/RecuperaSaldoCarteraVigente
+B8=Clases/DCredDoc/RecuperaCreditosCanceladosConsaldo
+B9=Clases/DCredDoc/RecuperaCreditosDesembolsados
+B10=Clases/DCredDoc
+B11=Clases/NCredDoc
+[Workbench]
+0=15   Clases/DCredDoc8    DCredDoc9    CompClass1    01    0
+1=15   Clases/NCredDoc8    NCredDoc9    CompClass1    01    0
+2=15   Clases/NCredito8    NCredito9    CompClass1    01    0
+3=15   Clases/DCredito8    DCredito9    CompClass1    01    0
+4=16   Clases/DCreditos9    DCreditos9    CompClass1    01    0

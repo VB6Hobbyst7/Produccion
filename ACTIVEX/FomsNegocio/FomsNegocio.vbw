@@ -1,0 +1,16 @@
+frmBuscaPersona = 44, 58, 698, 479, , 66, 87, 720, 508, C
+TxtBuscar = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+FlexEdit = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+FlexPagePropiedades = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+PageColumnas = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmColPRetasacionVigenteDiferida = 88, 116, 742, 537, , 110, 145, 764, 566, C
+frmColPRetasacionConsulta = 132, 174, 786, 595, , 0, 0, 0, 0, C
+frmColPMiembrosRetasacion = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+IniciaForm = 0, 0, 654, 421, Z
+CodForms = 0, 0, 0, 0, C
+gApis = 0, 0, 0, 0, C
+gFunFlex = 0, 0, 0, 0, C
+modErrorHandling = 0, 0, 0, 0, C
+gGenerales = 0, 0, 0, 0, C
+gVarPublicas = 154, 203, 808, 624, 
+frmColPPreparacionRetasacionVigDif = 0, 0, 0, 0, C, 0, 0, 0, 0, C

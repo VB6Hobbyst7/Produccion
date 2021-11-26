@@ -1,0 +1,8 @@
+CAJA MUNICIPAL DE MAYNAS
+
+RAZÓN SOCIAL:<<empresa>>
+CÓDIGO CONVENIO:<<codigo>>
+NOMBRE CONVENIO:<<nombre>>
+ 
+   DNI                          APELLIDOS Y NOMBRES                                MONTO S/.
+-----------|--------------------------------------------------------------------|-----------

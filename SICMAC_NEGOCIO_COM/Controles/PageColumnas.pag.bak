@@ -1,0 +1,642 @@
+VERSION 5.00
+Begin VB.PropertyPage PageColumnas 
+   Caption         =   "Columnas"
+   ClientHeight    =   3855
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   6600
+   LockControls    =   -1  'True
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3855
+   ScaleWidth      =   6600
+   Begin VB.CommandButton cmdEditar 
+      Caption         =   "&Editar"
+      Height          =   345
+      Left            =   1395
+      TabIndex        =   9
+      Top             =   3210
+      Width           =   1215
+   End
+   Begin VB.CommandButton cmdCancelar 
+      Caption         =   "&Cancelar"
+      Height          =   345
+      Left            =   1395
+      TabIndex        =   12
+      Top             =   3210
+      Width           =   1215
+   End
+   Begin VB.CommandButton cmdNuevo 
+      Caption         =   "&Nuevo"
+      Height          =   345
+      Left            =   180
+      TabIndex        =   8
+      Top             =   3210
+      Width           =   1215
+   End
+   Begin VB.CommandButton cmdAceptar 
+      Caption         =   "&Aceptar"
+      Height          =   345
+      Left            =   180
+      TabIndex        =   11
+      Top             =   3210
+      Width           =   1215
+   End
+   Begin VB.CommandButton cmdEliminar 
+      Caption         =   "&Eliminar"
+      Height          =   345
+      Left            =   3015
+      TabIndex        =   10
+      Top             =   3225
+      Width           =   1215
+   End
+   Begin VB.TextBox txtFixedCols 
+      Height          =   330
+      Left            =   5235
+      MaxLength       =   6
+      TabIndex        =   1
+      Top             =   1545
+      Width           =   825
+   End
+   Begin VB.ListBox lstDatos 
+      Appearance      =   0  'Flat
+      BeginProperty Font 
+         Name            =   "Courier New"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   1080
+      Left            =   165
+      TabIndex        =   0
+      Top             =   420
+      Width           =   5955
+   End
+   Begin VB.Frame fradatos 
+      Caption         =   "DatosColumnas"
+      Enabled         =   0   'False
+      Height          =   1320
+      Left            =   150
+      TabIndex        =   13
+      Top             =   1830
+      Width           =   6015
+      Begin VB.ComboBox cboFormatoCol 
+         Height          =   315
+         Left            =   825
+         Style           =   2  'Dropdown List
+         TabIndex        =   4
+         Top             =   495
+         Width           =   1440
+      End
+      Begin VB.ComboBox cboTpoCtrl 
+         Enabled         =   0   'False
+         Height          =   315
+         Left            =   2025
+         Style           =   2  'Dropdown List
+         TabIndex        =   7
+         Top             =   930
+         Width           =   1440
+      End
+      Begin VB.ComboBox cboAlineacion 
+         Appearance      =   0  'Flat
+         Height          =   315
+         ItemData        =   "PageColumnas.pgx":0000
+         Left            =   3930
+         List            =   "PageColumnas.pgx":000D
+         Style           =   2  'Dropdown List
+         TabIndex        =   5
+         Top             =   495
+         Width           =   1845
+      End
+      Begin VB.TextBox txtAnchoCab 
+         Alignment       =   1  'Right Justify
+         Appearance      =   0  'Flat
+         Height          =   285
+         Left            =   3930
+         MaxLength       =   8
+         TabIndex        =   3
+         Top             =   150
+         Width           =   930
+      End
+      Begin VB.CheckBox chkEditable 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Editable?"
+         Height          =   225
+         Left            =   90
+         TabIndex        =   6
+         Top             =   960
+         Width           =   1035
+      End
+      Begin VB.TextBox txtNombrecab 
+         Appearance      =   0  'Flat
+         Height          =   285
+         Left            =   825
+         MaxLength       =   24
+         TabIndex        =   2
+         Top             =   180
+         Width           =   2205
+      End
+      Begin VB.Line Line1 
+         X1              =   15
+         X2              =   5985
+         Y1              =   870
+         Y2              =   870
+      End
+      Begin VB.Label Label11 
+         AutoSize        =   -1  'True
+         Caption         =   "Formato :"
+         Height          =   195
+         Left            =   75
+         TabIndex        =   25
+         Top             =   555
+         Width           =   660
+      End
+      Begin VB.Label Label8 
+         AutoSize        =   -1  'True
+         Caption         =   "Control:"
+         Height          =   195
+         Left            =   1425
+         TabIndex        =   22
+         Top             =   975
+         Width           =   540
+      End
+      Begin VB.Label Label3 
+         AutoSize        =   -1  'True
+         Caption         =   "Alinear :"
+         Height          =   195
+         Left            =   3210
+         TabIndex        =   16
+         Top             =   510
+         Width           =   570
+      End
+      Begin VB.Label Label2 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho : "
+         Height          =   195
+         Left            =   3210
+         TabIndex        =   15
+         Top             =   210
+         Width           =   600
+      End
+      Begin VB.Label Label1 
+         AutoSize        =   -1  'True
+         Caption         =   "Nombre :"
+         Height          =   195
+         Left            =   75
+         TabIndex        =   14
+         Top             =   225
+         Width           =   645
+      End
+   End
+   Begin VB.Label Label10 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000004&
+      BorderStyle     =   1  'Fixed Single
+      Caption         =   "Formato"
+      ForeColor       =   &H80000008&
+      Height          =   270
+      Left            =   5430
+      TabIndex        =   24
+      Top             =   165
+      Width           =   690
+   End
+   Begin VB.Label Label9 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000004&
+      BorderStyle     =   1  'Fixed Single
+      Caption         =   "Control"
+      ForeColor       =   &H80000008&
+      Height          =   270
+      Left            =   4755
+      TabIndex        =   23
+      Top             =   165
+      Width           =   690
+   End
+   Begin VB.Label lblFixedCols 
+      AutoSize        =   -1  'True
+      Caption         =   "Col. Fijas :"
+      Height          =   195
+      Left            =   4470
+      TabIndex        =   21
+      Top             =   1590
+      Width           =   720
+   End
+   Begin VB.Label Label5 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000004&
+      BorderStyle     =   1  'Fixed Single
+      Caption         =   "Ancho"
+      ForeColor       =   &H80000008&
+      Height          =   270
+      Left            =   2460
+      TabIndex        =   20
+      Top             =   165
+      Width           =   945
+   End
+   Begin VB.Label Label4 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000004&
+      BorderStyle     =   1  'Fixed Single
+      Caption         =   "Nombre Columna"
+      ForeColor       =   &H80000008&
+      Height          =   270
+      Left            =   165
+      TabIndex        =   19
+      Top             =   165
+      Width           =   2310
+   End
+   Begin VB.Label Label7 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000004&
+      BorderStyle     =   1  'Fixed Single
+      Caption         =   "Editar"
+      ForeColor       =   &H80000008&
+      Height          =   270
+      Left            =   4080
+      TabIndex        =   18
+      Top             =   165
+      Width           =   690
+   End
+   Begin VB.Label Label6 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000004&
+      BorderStyle     =   1  'Fixed Single
+      Caption         =   "Alinear"
+      ForeColor       =   &H80000008&
+      Height          =   270
+      Left            =   3390
+      TabIndex        =   17
+      Top             =   165
+      Width           =   705
+   End
+End
+Attribute VB_Name = "PageColumnas"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Dim lbCabecera As Boolean
+Dim lsColumnasAEditar As String
+Dim lsEncabezadosAlineacion As String
+Dim lsEncabezadosAnchos As String
+Dim lsEncabezadosNombres As String
+Dim lsControlesCol As String
+Dim lsFormatosCol As String
+Dim lnIndex As Integer
+Dim lbNuevo As Boolean
+
+Dim lnCols As Integer
+Const lnAnchoCol As Integer = 1200
+Private Sub cboFormatoCol_Change()
+Changed = True
+End Sub
+
+Private Sub cboFormatoCol_Click()
+Changed = True
+cboAlineacion.Enabled = True
+Select Case cboFormatoCol.ListIndex
+    Case 0, 1
+        cboAlineacion.ListIndex = 2
+    Case 2, 3
+        cboAlineacion.Enabled = False
+        cboAlineacion.ListIndex = 1
+End Select
+End Sub
+Private Sub cboTpoCtrl_Click()
+'If cboTpoCtrl.ListIndex = 0 And cboTpoCtrl.Enabled Then
+'    cboFormatoCol.Enabled = True
+'Else
+'    cboFormatoCol.Enabled = False
+'End If
+End Sub
+Private Sub chkEditable_Click()
+'    If chkEditable.Value = 0 Then
+'        cboFormatoCol.ListIndex = 0
+'    End If
+    cboTpoCtrl.Enabled = chkEditable.Value
+    cboTpoCtrl.ListIndex = 0
+End Sub
+Private Sub cmdCancelar_Click()
+lbNuevo = False
+HabilitaNuevo True
+lstDatos.SetFocus
+End Sub
+Private Sub cmdEditar_Click()
+If lstDatos.ListCount > 0 Then
+    HabilitaNuevo False
+    txtNombrecab.SetFocus
+    lbNuevo = False
+End If
+End Sub
+Private Sub cmdNuevo_Click()
+lbNuevo = True
+HabilitaNuevo False
+txtNombrecab.Text = ""
+txtAnchoCab.Text = lnAnchoCol
+chkEditable.Value = 0
+cboAlineacion.ListIndex = 0
+txtNombrecab.SetFocus
+End Sub
+Private Sub HabilitaNuevo(lbHab As Boolean)
+cmdNuevo.Visible = lbHab
+cmdeditar.Visible = lbHab
+cmdCancelar.Visible = Not lbHab
+cmdEliminar.Enabled = lbHab
+cmdAceptar.Visible = Not lbHab
+lstDatos.Enabled = lbHab
+fraDatos.Enabled = Not lbHab
+End Sub
+Private Sub lstDatos_Click()
+If lstDatos.ListCount > 0 Then
+    lnIndex = lstDatos.ListIndex
+    RefrescaDatos lnIndex
+End If
+End Sub
+Private Sub txtFixedCols_Change()
+    If Val(txtFixedCols) >= Val(lnCols) Then
+        txtFixedCols.Text = 1
+    End If
+    If Val(txtFixedCols) > 4 Then
+        txtFixedCols.Text = 1
+    End If
+    Changed = True
+End Sub
+Private Sub RefrescaDatos(pnIndex As Integer)
+Dim lsNombre As String * 25
+Dim lsAncho As String * 10
+Dim lsAlinear As String * 5
+Dim lsEditar As String * 5
+Dim lsControl As String * 5
+Dim lsFormatos As String * 5
+
+lsNombre = Trim(Mid(lstDatos.List(pnIndex), 1, 25))
+lsAncho = Trim(Mid(lstDatos.List(pnIndex), 26, 10))
+lsAlinear = Trim(Mid(lstDatos.List(pnIndex), 36, 5))
+lsEditar = Trim(Mid(lstDatos.List(pnIndex), 41, 5))
+lsControl = Trim(Mid(lstDatos.List(pnIndex), 46, 5))
+lsFormatos = Trim(Mid(lstDatos.List(pnIndex), 51, 5))
+
+txtNombrecab = Trim(lsNombre)
+txtAnchoCab = Val(lsAncho)
+cboFormatoCol.ListIndex = Val(lsFormatos)
+Select Case Trim(lsAlinear)
+    Case "C"
+        cboAlineacion.ListIndex = 0
+    Case "R"
+        cboAlineacion.ListIndex = 1
+    Case "L"
+        cboAlineacion.ListIndex = 2
+    Case Else
+        cboAlineacion.ListIndex = -1
+End Select
+chkEditable.Value = Val(lsEditar)
+cboTpoCtrl.ListIndex = Val(lsControl)
+End Sub
+Private Sub cmdAceptar_Click()
+Dim lItem As ListItem
+Dim TotalCol As Integer
+Dim lsNombre As String * 25
+Dim lsAncho As String * 10
+Dim lsAlinear As String * 5
+Dim lsEditar As String * 5
+Dim lsControl As String * 5
+Dim lsFormatos As String * 5
+fraDatos.Enabled = True
+If lbNuevo Then
+    If lstDatos.ListCount + 1 <= Val(txtFixedCols.Text) And chkEditable.Value = 1 Then
+        MsgBox "No se pueden editar columnas fijas", vbInformation, "Aviso"
+        chkEditable.SetFocus
+        Exit Sub
+    End If
+Else
+    If lstDatos.ListIndex + 1 <= Val(txtFixedCols.Text) And chkEditable.Value = 1 Then
+        MsgBox "No se pueden editar columnas fijas", vbInformation, "Aviso"
+        chkEditable.SetFocus
+        Exit Sub
+    End If
+End If
+lsNombre = txtNombrecab.Text
+If Len(Trim(txtAnchoCab)) = 0 Then txtAnchoCab = lnAnchoCol
+lsAncho = txtAnchoCab
+lsAlinear = Right(cboAlineacion, 1)
+lsEditar = chkEditable.Value
+lsControl = cboTpoCtrl.ListIndex
+lsFormatos = cboFormatoCol.ListIndex
+If lbNuevo Then
+    lstDatos.AddItem lsNombre & lsAncho & lsAlinear & lsEditar & lsControl & lsFormatos
+Else
+    If lstDatos.ListCount > 0 Then
+        lstDatos.List(lnIndex) = lsNombre & lsAncho & lsAlinear & lsEditar & lsControl & lsFormatos
+    End If
+End If
+HabilitaNuevo True
+lstDatos.SetFocus
+Changed = True
+End Sub
+Private Sub cmdEliminar_Click()
+If lstDatos.ListCount > 0 Then
+    If lstDatos.ListIndex <> -1 Then
+        lstDatos.RemoveItem lstDatos.ListIndex
+    End If
+Else
+    lstDatos.Clear
+End If
+lstDatos.SetFocus
+Changed = True
+End Sub
+Private Sub PropertyPage_ApplyChanges()
+    If CargaVariables = False Then Exit Sub
+    SelectedControls(0).ColumnasAEditar = lsColumnasAEditar
+    SelectedControls(0).EncabezadosAlineacion = lsEncabezadosAlineacion
+    SelectedControls(0).EncabezadosAnchos = lsEncabezadosAnchos
+    SelectedControls(0).EncabezadosNombres = lsEncabezadosNombres
+    SelectedControls(0).ListaControles = lsControlesCol
+    SelectedControls(0).FormatosEdit = lsFormatosCol
+    SelectedControls(0).Cols = lnCols
+    SelectedControls(0).FixedCols = Val(txtFixedCols.Text)
+    SelectedControls(0).FormaCabecera
+End Sub
+Private Sub PropertyPage_Initialize()
+txtAnchoCab = lnAnchoCol
+cboAlineacion.ListIndex = 2
+cboTpoCtrl.AddItem "0 - TextEdit"
+cboTpoCtrl.AddItem "1 - TextBuscar"
+cboTpoCtrl.AddItem "2 - TextFecha"
+cboTpoCtrl.AddItem "3 - Combo"
+cboTpoCtrl.AddItem "4 - Check"
+cboTpoCtrl.ListIndex = 0
+
+cboFormatoCol.AddItem "0 - General"
+cboFormatoCol.AddItem "1 - Sólo Letras"
+cboFormatoCol.AddItem "2 - Decimales"
+cboFormatoCol.AddItem "3 - Enteros"
+cboFormatoCol.AddItem "4 - Billetaje"
+cboFormatoCol.ListIndex = 0
+End Sub
+Private Sub PropertyPage_SelectionChanged()
+    txtFixedCols.Text = SelectedControls(0).FixedCols
+    lsColumnasAEditar = SelectedControls(0).ColumnasAEditar
+    lsEncabezadosAlineacion = SelectedControls(0).EncabezadosAlineacion
+    lsEncabezadosAnchos = SelectedControls(0).EncabezadosAnchos
+    lsEncabezadosNombres = SelectedControls(0).EncabezadosNombres
+    lsControlesCol = SelectedControls(0).ListaControles
+    lsFormatosCol = SelectedControls(0).FormatosEdit
+    lnCols = SelectedControls(0).Cols
+    CargaLista
+End Sub
+Private Sub txtAnchoCab_KeyPress(KeyAscii As Integer)
+KeyAscii = NumerosEnteros(KeyAscii)
+End Sub
+Private Function CargaVariables() As Boolean
+Dim i As Integer
+CargaVariables = False
+lsColumnasAEditar = ""
+lsEncabezadosAlineacion = ""
+lsEncabezadosAnchos = ""
+lsEncabezadosNombres = ""
+lsFormatosCol = ""
+lsControlesCol = ""
+If lstDatos.ListCount > 0 Then
+    lnCols = lstDatos.ListCount
+    If lnCols <= Val(txtFixedCols) Then
+        MsgBox "Nro de Columas debe ser mayor que el Nro de Columnas fijas", vbInformation, "Aviso"
+        Exit Function
+    End If
+    For i = 0 To lstDatos.ListCount - 1
+        lsEncabezadosNombres = lsEncabezadosNombres & Trim(Mid(lstDatos.List(i), 1, 25)) & "-"
+        lsEncabezadosAnchos = lsEncabezadosAnchos & Trim(Mid(lstDatos.List(i), 26, 10)) & "-"
+        lsEncabezadosAlineacion = lsEncabezadosAlineacion & Trim(Mid(lstDatos.List(i), 36, 5)) & "-"
+        lsColumnasAEditar = lsColumnasAEditar & IIf(Trim(Mid(lstDatos.List(i), 41, 5)) = "1", i, "X") & "-"
+        lsControlesCol = lsControlesCol & Trim(Mid(lstDatos.List(i), 46, 5)) & "-"
+        lsFormatosCol = lsFormatosCol & Trim(Mid(lstDatos.List(i), 51, 5)) & "-"
+    Next
+    lsEncabezadosNombres = Mid(lsEncabezadosNombres, 1, Len(lsEncabezadosNombres) - 1)
+    lsEncabezadosAnchos = Mid(lsEncabezadosAnchos, 1, Len(lsEncabezadosAnchos) - 1)
+    lsEncabezadosAlineacion = Mid(lsEncabezadosAlineacion, 1, Len(lsEncabezadosAlineacion) - 1)
+    lsColumnasAEditar = Mid(lsColumnasAEditar, 1, Len(lsColumnasAEditar) - 1)
+    lsControlesCol = Mid(lsControlesCol, 1, Len(lsControlesCol) - 1)
+    lsFormatosCol = Mid(lsFormatosCol, 1, Len(lsFormatosCol) - 1)
+Else
+    lnCols = 2
+End If
+CargaVariables = True
+End Function
+Private Sub CargaLista()
+Dim x As Integer
+Dim pCol As Integer
+Dim vPos As Integer
+Dim Item As ListItem
+Dim pEncabezado As String
+Dim pAnchoCol As String
+Dim pAlineaCol As String
+Dim pEditar As String
+Dim pControles As String
+Dim pFormatos As String
+
+Dim lEncabezado() As String * 25
+Dim lAnchoCol() As String * 10
+Dim lAlineaCol() As String * 5
+Dim lEditar() As Integer
+Dim lControles() As String * 5
+Dim lFormatos() As String * 5
+
+Dim lsNombre As String * 25
+Dim lsAncho As String * 10
+Dim lsAlinear As String * 5
+Dim lsEditar As String * 5
+Dim lsControles As String * 5
+Dim lsFormatos As String * 5
+
+pCol = lnCols
+lstDatos.Clear
+
+ReDim lEncabezado(pCol)
+ReDim lAnchoCol(pCol)
+ReDim lAlineaCol(pCol)
+ReDim lEditar(pCol)
+ReDim lControles(pCol)
+ReDim lFormatos(pCol)
+pEditar = lsColumnasAEditar
+pAlineaCol = lsEncabezadosAlineacion
+pAnchoCol = lsEncabezadosAnchos
+pEncabezado = lsEncabezadosNombres
+pControles = lsControlesCol
+pFormatos = lsFormatosCol
+
+If pCol - 1 = 1 And pEncabezado = "" Then Exit Sub
+    For x = 0 To pCol - 1
+        vPos = InStr(1, pEncabezado, "-", vbTextCompare)
+        lEncabezado(x) = Mid(pEncabezado, 1, IIf(vPos > 0, vPos - 1, Len(pEncabezado)))
+        If pEncabezado <> "" Then
+            pEncabezado = Mid(pEncabezado, IIf(vPos > 0, vPos + 1, Len(pEncabezado)))
+        End If
+    Next x
+    If Len(Trim(pAnchoCol)) > 0 Then
+        For x = 0 To pCol - 1
+            vPos = InStr(1, pAnchoCol, "-", vbTextCompare)
+            lAnchoCol(x) = Val(Mid(pAnchoCol, 1, IIf(vPos > 0, vPos - 1, Len(pAnchoCol))))
+            If pAnchoCol <> "" Then
+                pAnchoCol = Mid(pAnchoCol, IIf(vPos > 0, vPos + 1, Len(pAnchoCol)))
+            End If
+        Next x
+    End If
+    If Len(Trim(pEditar)) > 0 Then
+        For x = 0 To pCol - 1
+            vPos = InStr(1, pEditar, "-", vbTextCompare)
+            lEditar(x) = IIf(Val(Mid(pEditar, 1, IIf(vPos > 0, vPos - 1, Len(pEditar)))) > 0, 1, 0)
+            If pEditar <> "" Then
+                pEditar = Mid(pEditar, IIf(vPos > 0, vPos + 1, Len(pEditar)))
+            End If
+        Next x
+    End If
+    
+    If Len(Trim(pAlineaCol)) > 0 Then
+        For x = 0 To pCol - 1
+            vPos = InStr(1, pAlineaCol, "-", vbTextCompare)
+            lAlineaCol(x) = Mid(pAlineaCol, 1, IIf(vPos > 0, vPos - 1, Len(pAlineaCol)))
+            If pAlineaCol <> "" Then
+                pAlineaCol = Mid(pAlineaCol, IIf(vPos > 0, vPos + 1, Len(pAlineaCol)))
+            End If
+        Next x
+    End If
+    If Len(Trim(pControles)) > 0 Then
+        For x = 0 To pCol - 1
+            vPos = InStr(1, pControles, "-", vbTextCompare)
+            lControles(x) = Mid(pControles, 1, IIf(vPos > 0, vPos - 1, Len(pControles)))
+            If pControles <> "" Then
+                pControles = Mid(pControles, IIf(vPos > 0, vPos + 1, Len(pControles)))
+            End If
+        Next x
+    End If
+    
+    If Len(Trim(pFormatos)) > 0 Then
+        For x = 0 To pCol - 1
+            vPos = InStr(1, pFormatos, "-", vbTextCompare)
+            lFormatos(x) = Mid(pFormatos, 1, IIf(vPos > 0, vPos - 1, Len(pFormatos)))
+            If pFormatos <> "" Then
+                pFormatos = Mid(pFormatos, IIf(vPos > 0, vPos + 1, Len(pFormatos)))
+            End If
+        Next x
+    End If
+    
+    
+    lstDatos.Clear
+    For i = 0 To pCol - 1
+        lsNombre = lEncabezado(i)
+        lsAncho = lAnchoCol(i)
+        lsAlinear = lAlineaCol(i)
+        lsEditar = lEditar(i)
+        lsControles = lControles(i)
+        lsFormatos = lFormatos(i)
+        lstDatos.AddItem lsNombre & lsAncho & lsAlinear & lsEditar & lsControles & lsFormatos
+    Next
+End Sub
+

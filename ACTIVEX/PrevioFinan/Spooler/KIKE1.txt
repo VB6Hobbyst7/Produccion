@@ -1,0 +1,181 @@
+  CMAC-ICA                                                 10/06/2005-18:20:42
+                                                                        Pag. 001
+E                   REPORTE DETALLADO DE FLUJO DE CAJA GENERAL                   F
+E                          M O N E D A   N A C I O N A L                         F
+
+                        ( DEL 01/06/2005 AL 10/06/2005 )                       
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ Número de                           DOCUMENTOS                             CONCEPTO                     MOVIMIENTO              SALDOS
+ Movimiento                                                                                         DEBE            HABER              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+ESALDO DEL DIA ANTERIOR                                                                                                S/.    256,924.40F
+ 20050601-102124-PECD                                         DEPOSITO EN BANCO DE LA NACION                        999.20     255,925.20
+ 20050601-102347-PECD                                         DEPOSITO EN BANCO DE LA NACION                        499.60     255,425.60
+ 20050601-102548-PECD                                         DEPOSITO EN BANCO DE LA NACION                        999.20     254,426.40
+ 20050601-140912-MAVR                                         hab. agencia ica                                  100,000.00     154,426.40
+ 20050601-140931-MAVR                                         hab. en monedas para dep. en b       2,000.00                    156,426.40
+ 20050601-171404-PECD                                         compra de refrigerio para dire          10.05                    156,436.45
+ 20050601-171431-PECD                                         refrigerio fin de mes personal          14.10                    156,450.55
+ 20050601-173346-PECD  FAC-001-00003025         30/05/2005    por mantenimiento de motocicle                        353.00     156,097.55
+ 20050601-183303-PECD  RHP-001-00000061         31/05/2005    por limpieza de local principa                        300.00     155,797.55
+ 20050601-183326-PECD  FAC-002-00000114         27/05/2005    ANAQUELES PARA LA SECRETARIA D                        230.00     155,567.55
+ 20050601-183409-PECD  FAC-001-00005562         26/05/2005    INFORME N° 016-2005 CMI-SIS/IN                        436.00     155,131.55
+ 20050601-184502-PECD  RHP-001-00000070         31/05/2005    por limpieza del 1er y 2do pis                        600.00     154,531.55
+ 20050601-184654-PECD  RHP-001-00000155         31/05/2005    POR ASESORAMIENTO CONTABLE TRI                        700.00     153,831.55
+ 20050601-185312-MAVR  B/D-0000225              01/06/2005    deposito monedas                                    2,000.00     151,831.55
+
+ 20050602-101759-PECD  CRT-002                  02/06/2005    REUNION DE COMITE DIRECTIVO                           300.00     151,531.55
+ 20050602-115445-PECD                                         Implementación de Centro de Ne         364.00                    151,895.55
+ 20050602-131306-PECD  RHP-001-00000083         31/05/2005    POR LIMPIEZA DE LAS CAMIONETAS                        150.00     151,745.55
+ 20050602-132504-PECD  RHP-001-00000074         30/05/2005    ANFITRIONAJE EN LA DISCOTECA L                         60.00     151,685.55
+ 20050602-133349-PECD  RHP-001-00000008         20/05/2005    ANFITRIONAJE PARA EVENTO DE IN                         60.00     151,625.55
+ 20050602-171445-MAVR  B/D-0000032              02/06/2005    deposito monedas                                    2,000.00     149,625.55
+ 20050602-171641-MAVR                                         HAB MONEDAS                          2,000.00                    151,625.55
+ 20050602-171713-MAVR                                         HAB MONEDAS                          2,000.00                    153,625.55
+ 20050602-171837-MAVR  B/D-0000213              02/06/2005    deposito monedas                                    2,000.00     151,625.55
+ 20050602-172507-PECD  CRT-21437                02/06/2005    Reunion FEPCMAC                                       300.00     151,325.55
+ 20050602-172826-MAVR                                         hab age.ica                                       100,000.00      51,325.55
+ 20050602-184120-PECD  CRT-01                   02/06/2005    CURSO DE PCM (NORMATIVIDAD PUB                        200.00      51,125.55
+ 20050602-185319-PECD  CRT-02-06-2005           02/06/2005    Asesoría de Marketing                                 400.00      50,725.55
+ 20050602-191857-MAVR                                         hab caja chica                       5,000.00                     55,725.55
+
+ 20050603-110056-RPLM  CRT-0003                 03/06/2005    SEMINARIO TALLER: GESTION DE R                        400.00      55,325.55
+ 20050603-111614-RPLM  CRT-002                  03/06/2005    CURSO RIESGOS FINANCIEROS                             400.00      54,925.55
+ 20050603-111726-RPLM                                         Viáticos capacitación curso Ge         293.60                     55,219.15
+ 20050603-113030-RPLM                                         VIAJE A LIMA MARTES Y JUEVES D         198.70                     55,417.85
+ 20050603-114535-RPLM  REA-JVAC-00000003        03/06/2005    compra y pintado de 04 tachos                         300.00      55,117.85
+ 20050603-121009-RPLM  BV-001-00007780          31/05/2005    FOTOCOPIAS PARA CONSULTORIA EN                         23.80      55,094.05
+ 20050603-125842-RPLM  REA-MGGR-00000026        02/06/2005    Seminario " Aplicacion practic                        580.00      54,514.05
+ 20050603-130200-RPLM  CRT-0000314              03/06/2005    visita a agencia imperial y ch                        400.00      54,114.05
+ 20050603-130414-RPLM                                         viaticos, efectivo fue entrega         400.00                     54,514.05
+ 20050603-141828-RPLM  RHP-002-00000032         31/05/2005    SERVICIO PRESTADOS AL AREA DE                         465.20      54,048.85
+ 20050603-165119-RPLM  TCK-101-00021145         16/05/2005    COMBUSTIBLE PARA VEHICULO DE L                        305.00      53,743.85
+ 20050603-170437-RPLM                                         DESEMBOLSO DE CREDITO DE CREDI                        999.20      52,744.65
+ 20050603-171615-RPLM  FAC-010-00049158         18/05/2005    COMBUSTIBLE PARA VEHICULO DE L                        146.10      52,598.55
+ 20050603-175652-RPLM  RHP-001-00000003         02/06/2005    SERVICIO DE LIMPIEZA AG. PARCO                        300.00      52,298.55
+ 20050603-180248-RPLM  REA-MGGR-00000027        02/06/2005    Seminario " Cashmanagement"                           290.00      52,008.55
+ 20050603-181044-RPLM  FAC-002-00002058         30/05/2005    POR SUSCRIPCION A LA C.C.I.T.I                         50.00      51,958.55
+ 20050603-182313-RPLM                                         operación en tramite-reg. de v                        611.00      51,347.55
+ 20050603-182347-RPLM                                         Seminario el mercado del micro         611.00                     51,958.55
+  CMAC-ICA                                                 10/06/2005-18:20:45
+                                                                        Pag. 002
+E                   REPORTE DETALLADO DE FLUJO DE CAJA GENERAL                   F
+E                          M O N E D A   N A C I O N A L                         F
+
+                        ( DEL 01/06/2005 AL 10/06/2005 )                       
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ Número de                           DOCUMENTOS                             CONCEPTO                     MOVIMIENTO              SALDOS
+ Movimiento                                                                                         DEBE            HABER              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ 20050603-182829-RPLM  REA-MGGR-00000030        03/06/2005    Pasajes y alimentación de Expo                        150.00      51,808.55
+ 20050603-184447-MAVR                                         remesa a caja de agencia ica                       50,000.00       1,808.55
+ 20050603-190234-RPLM  CRT-0014                 03/06/2005    Curso de Certificacion Cisco                          400.00       1,408.55
+
+ 20050604-104138-RPLM  CRT-0036                 04/06/2005    VIAJE A NASCA PRUEBAS DEL  ARE                        200.00       1,208.55
+ 20050604-112206-RPLM  REA-MGGR-00000028        02/06/2005    Taller "Planeamiento y formula                         95.20       1,113.35
+ 20050604-115645-MAVR  CRT-03312005             04/06/2005    REMESA AGE. ICA                    200,000.00                    201,113.35
+ 20050604-132053-RPLM                                         remesa de agencia ica a caja g       5,000.00                    206,113.35
+
+ 20050606-093052-RPLM                                         Celebracion de los cumpleaños          167.65                    206,281.00
+ 20050606-095649-RPLM                                         VIAJE A NASCA PRUEBAS DEL  ARE         200.00                    206,481.00
+ 20050606-104232-RPLM  CRT-001                  06/06/2005    REUNIÓN DE TRABAJO EN LAS OFIC                        200.00     206,281.00
+ 20050606-112750-RPLM                                         DEPOSITO POR DISPOSICION DEL J                        600.00     205,681.00
+ 20050606-115054-RPLM  REA-RIAO-00000031        06/06/2005    Compras del botiquin para el c                        300.00     205,381.00
+ 20050606-122918-RPLM  CRT-0002                 06/06/2005    RECEPCION DE MOVILIARIO - AGEN                        200.00     205,181.00
+ 20050606-123646-MAVR                                         hab.age ica                                       100,000.00     105,181.00
+ 20050606-130736-RPLM                                         REG. DE DEVOLUCION DE CAJA CHI                        864.50     104,316.50
+ 20050606-165636-RPLM                                         desembolso de credito credicom                        999.20     103,317.30
+ 20050606-165827-RPLM                                         desembolso de credito de credi                      1,199.04     102,118.26
+ 20050606-170747-RPLM                                         REUNION DE COMITE DIRECTIVO            100.90                    102,219.16
+ 20050606-171250-RPLM  CRT-02                   06/06/2005    3 FORO LATINOAMERICANO DE SEGU                        200.00     102,019.16
+ 20050606-184412-RPLM                                         para habilitar agencia imperia      20,000.00                    122,019.16
+ 20050606-184440-RPLM                                         REMESA DE OF, ESPECIAL CAÑETE                      20,000.00     102,019.16
+
+ 20050607-095305-PECD                                         VIATICOS A LA CIUDAD DE NASCA           99.50                    102,118.66
+ 20050607-095345-PECD                                         Capacitacion - Analista Henry          204.00                    102,322.66
+ 20050607-095809-PECD  REA-CEMG-00000008        07/06/2005    Pago de Tsas Judiciales, medid                        693.00     101,629.66
+ 20050607-111511-PECD                                         Asesoría de Marketing                                  45.00     101,584.66
+ 20050607-111737-PECD  CRT-0004                 07/06/2005    SEMINARIO TALLER: GESTION DE R                        200.00     101,384.66
+ 20050607-112034-PECD                                         SEMINARIO TALLER: GESTION DE R         101.50                    101,486.16
+ 20050607-112135-PECD                                         SEMINARIO TALLER: GESTION DE R         195.20                    101,681.36
+ 20050607-114949-PECD                                         CURSO RIESGOS FINANCIEROS              261.50                    101,942.86
+ 20050607-115012-PECD  CRT-003                  07/06/2005    CURSO RIESGOS FINANCIEROS                             200.00     101,742.86
+ 20050607-115356-PECD  REA-JVAC-00000004        07/06/2005    pago consumo de energia electr                        145.00     101,597.86
+ 20050607-125237-PECD  FAC-001-00019301         28/05/2005    por mantenimiento de la camion                        723.55     100,874.31
+ 20050607-125537-PECD                                         REUNION DE DIRECTORIO                  132.00                    101,006.31
+ 20050607-131516-PECD  REA-VFMM-00000010        07/06/2005    REUNION DE TRABAJO DEL GERENTE                        150.00     100,856.31
+ 20050607-173325-PECD  CRT-03352005             07/06/2005    retiro caja general                100,000.00                    200,856.31
+ 20050607-173423-PECD                                         REMESA EN EFECTIVO DE BOVEDA A                    100,000.00     100,856.31
+ 20050607-175441-PECD                                         REUNION DE TRABAJO DEL GERENTE         150.00                    101,006.31
+ 20050607-175519-PECD  REA-PRRU-00000082        07/06/2005    COMPRA DE VIVERES PARA REFRIGE                        200.00     100,806.31
+ 20050607-181300-PECD  CRT-001                  07/06/2005    Asistir al Diplomado de Market                        400.00     100,406.31
+ 20050607-191540-PECD  CRT-002                  07/06/2005    DIPLOMADO DE SERVICIO Y ATENCI                        400.00     100,006.31
+ 20050607-193825-MAVR                                         REMESA EN EFECTIVO - HAB. C. C      10,000.00                    110,006.31
+
+ 20050608-091127-PECD                                         Visita a Chincha, establecer p         234.00                    110,240.31
+ 20050608-091206-PECD                                         Visita Agencia de Cañete, dia          178.50                    110,418.81
+ 20050608-091320-PECD                                         Reunion FEPCMAC                          2.70                    110,421.51
+ 20050608-095754-PECD  CRT-00251                08/06/2005    CURSO DE CAPACITACIÓN DE ATENC                        400.00     110,021.51
+  CMAC-ICA                                                 10/06/2005-18:20:46
+                                                                        Pag. 003
+E                   REPORTE DETALLADO DE FLUJO DE CAJA GENERAL                   F
+E                          M O N E D A   N A C I O N A L                         F
+
+                        ( DEL 01/06/2005 AL 10/06/2005 )                       
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ Número de                           DOCUMENTOS                             CONCEPTO                     MOVIMIENTO              SALDOS
+ Movimiento                                                                                         DEBE            HABER              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ 20050608-122723-PECD  CRT-00123                08/06/2005    VIAJE A LIMA DIPLOMADO DE SEGU                        400.00     109,621.51
+ 20050608-130347-PECD  CRT-01225                08/06/2005    Viaje con Gerente para inspècc                        200.00     109,421.51
+ 20050608-163339-PECD  REA-MGGR-00000034        06/06/2005    Taller Planeamiento y formulac                         95.20     109,326.31
+ 20050608-171458-PECD  CRT-011-2005-EF/76.      08/06/2005    charla sobre las pautas para l                        200.00     109,126.31
+ 20050608-173314-MAVR  CRT-33820005             08/06/2005    Retiro Caja General                200,000.00                    309,126.31
+ 20050608-182024-MAVR                                         hab.age.ica                                       100,000.00     209,126.31
+ 20050608-182651-PECD                                         DEV. SAN VICENTE - HAB. OF. MA      20,000.00                    229,126.31
+ 20050608-182801-PECD                                         REMESA HAB OF. MALA - DEV. AG.                     20,000.00     209,126.31
+ 20050608-183219-PECD  CHQ-08540520             06/06/2005    HAB. CON CHEQUE AGENCIA HUAMAN      30,000.00                    239,126.31
+ 20050608-183328-PECD                                         HAB. A AG. HUMANAGA CON CHEQUE                     30,000.00     209,126.31
+
+ 20050609-114524-PECD  CRT-0123                 09/06/2005    REUNION CON FUNCIONARIOS DE LA                        300.00     208,826.31
+ 20050609-114635-PECD  CHQ-08540519             06/06/2005    HAB. CON CHEQUE AGENCIA HUAMAN      30,000.00                    238,826.31
+ 20050609-114651-PECD  CHQ-08540521             06/06/2005    HAB. CON CHEQUE AGENCIA HUAMAN      30,000.00                    268,826.31
+ 20050609-114808-PECD                                         REMESA HAB. AG. HUMANGA CON CH                     60,000.00     208,826.31
+ 20050609-162503-PECD  CHQ-08540517             06/06/2005    HAB. DE CHEQUE A AGENCIA CAÑET      30,000.00                    238,826.31
+ 20050609-162526-PECD  CHQ-08540518             06/06/2005    HAB. DE CHEQUE AGENCIA CAÑETE       30,000.00                    268,826.31
+ 20050609-162643-PECD                                         REMESA HAB. A AG. CAÑETE CON C                     60,000.00     208,826.31
+ 20050609-162814-PECD                                         DEV. AG SAN VICENTE - HAB. OF       20,000.00                    228,826.31
+ 20050609-162906-PECD                                         REMESA HAB. OF. IMPERIAL - DEV                     20,000.00     208,826.31
+ 20050609-165455-PECD                                         DEPOSITO EN BCO DE LA NACION P                      1,998.40     206,827.91
+ 20050609-165655-PECD                                         DPOSITO EN BCO DE LA NACION PO                      1,498.80     205,329.11
+ 20050609-165916-PECD                                         DEPOSITO EN BCO DE LA NACION P                      1,199.05     204,130.06
+ 20050609-173630-PECD  FAC-001-00003892         09/05/2005    POR PROTESTOS DE PAGARES                            3,355.80     200,774.26
+ 20050609-174439-MAVR                                         REMESA EN EFECTIVO - HAB. C. C       5,000.00                    205,774.26
+ 20050609-175823-PECD  CRT-2                    09/06/2005    REUNION DE COMITE DIRECTIVO DE                        300.00     205,474.26
+ 20050609-191901-PECD                                         DEV. AG. SAN VICENTE - HAB. IM      30,000.00                    235,474.26
+ 20050609-191952-PECD                                         REMESA HAB. OF IMPERIAL - DEV                      30,000.00     205,474.26
+
+ 20050610-100257-PECD  CRT-6                    09/06/2005    viaje para asistir a seminario                        400.00     205,074.26
+ 20050610-100324-PECD  CRT-7                    09/06/2005    viaje para asistir a seminario                        400.00     204,674.26
+ 20050610-100740-PECD  CRT-0005                 10/06/2005    SEMINARIO TALLER: GESTIÓN DE R                        400.00     204,274.26
+ 20050610-110545-PECD  RHP-001-00000700         02/06/2005    DILIGENCIA DE REVISION DE PROC                        150.00     204,124.26
+ 20050610-133855-PECD  CRT-004                  10/06/2005    Capacitación Riesgos Financier                        400.00     203,724.26
+ 20050610-162831-PECD  FAC-002-00007610         31/05/2005    MATERIAL DE OFICINA PARA AG. I                        387.00     203,337.26
+ 20050610-164133-PECD                                         charla sobre las pautas para l                         40.50     203,296.76
+ 20050610-164457-PECD                                         Curso de Certificacion Cisco           361.00                    203,657.76
+ 20050610-164527-PECD                                         VIAJE A LA CIUDAD DE PUQUIO /           28.50                    203,686.26
+ 20050610-164605-PECD  CRT-00015                10/06/2005    CURSO DE CERTIFICACION CISCO                          400.00     203,286.26
+ 20050610-171356-PECD  TCK-101-00021469         30/05/2005    COMBUSTIBLE PARA VEHICULO DE L                        992.25     202,294.01
+ 20050610-172415-PECD                                         VIAJE A LIMA DIPLOMADO DE SEGU         181.10                    202,475.11
+ 20050610-175310-PECD  CHQ-08540522             06/06/2005    HAB. CON CHEQUE AGENCIA CAÑETE      30,000.00                    232,475.11
+ 20050610-175414-PECD                                         REMESA HAB. A AG. CAÑETE CON C                     30,000.00     202,475.11
+ 20050610-175504-PECD                                         DEV. AG. SAN VICENTE - HAB. OF      30,000.00                    232,475.11
+ 20050610-175554-PECD                                         REMESA HAB. OF IMPERIAL - DEV.                     30,000.00     202,475.11
+---------------------------------------------------------------------------------------------------------------------------------------------------
+E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              TOTALES  S/.     835,489.50     889,938.79F
+===================================================================================================================================================
+                                                  F,66  

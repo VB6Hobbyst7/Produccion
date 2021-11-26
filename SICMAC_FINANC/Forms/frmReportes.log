@@ -1,0 +1,39 @@
+Línea 91: la clase MSMask.MaskEdBox del control txtFechaDel no era una clase de control cargada.
+Línea 113: la clase MSMask.MaskEdBox del control txtFechaAl no era una clase de control cargada.
+Línea 284: la clase MSComctlLib.TreeView del control tvOpe no era una clase de control cargada.
+Línea 310: la clase MSComctlLib.ImageList del control imglstFiguras no era una clase de control cargada.
+Línea 735: la clase MSMask.MaskEdBox del control txtFecha no era una clase de control cargada.
+Línea 97: el nombre de la propiedad _ExtentX de txtFechaDel no es válido.
+Línea 98: el nombre de la propiedad _ExtentY de txtFechaDel no es válido.
+Línea 99: el nombre de la propiedad _Version de txtFechaDel no es válido.
+Línea 100: el nombre de la propiedad MaxLength de txtFechaDel no es válido.
+Línea 110: el nombre de la propiedad Mask de txtFechaDel no es válido.
+Línea 111: el nombre de la propiedad PromptChar de txtFechaDel no es válido.
+Línea 119: el nombre de la propiedad _ExtentX de txtFechaAl no es válido.
+Línea 120: el nombre de la propiedad _ExtentY de txtFechaAl no es válido.
+Línea 121: el nombre de la propiedad _Version de txtFechaAl no es válido.
+Línea 122: el nombre de la propiedad MaxLength de txtFechaAl no es válido.
+Línea 132: el nombre de la propiedad Mask de txtFechaAl no es válido.
+Línea 133: el nombre de la propiedad PromptChar de txtFechaAl no es válido.
+Línea 290: el nombre de la propiedad _ExtentX de tvOpe no es válido.
+Línea 291: el nombre de la propiedad _ExtentY de tvOpe no es válido.
+Línea 292: el nombre de la propiedad _Version de tvOpe no es válido.
+Línea 293: el nombre de la propiedad Indentation de tvOpe no es válido.
+Línea 294: el nombre de la propiedad LabelEdit de tvOpe no es válido.
+Línea 295: el nombre de la propiedad LineStyle de tvOpe no es válido.
+Línea 296: el nombre de la propiedad Style de tvOpe no es válido.
+Línea 297: el nombre de la propiedad ImageList de tvOpe no es válido.
+Línea 313: el nombre de la propiedad _ExtentX de imglstFiguras no es válido.
+Línea 314: el nombre de la propiedad _ExtentY de imglstFiguras no es válido.
+Línea 316: el nombre de la propiedad ImageWidth de imglstFiguras no es válido.
+Línea 317: el nombre de la propiedad ImageHeight de imglstFiguras no es válido.
+Línea 318: el nombre de la propiedad MaskColor de imglstFiguras no es válido.
+Línea 319: el nombre de la propiedad UseMaskColor de imglstFiguras no es válido.
+Línea 320: el nombre de la propiedad _Version de imglstFiguras no es válido.
+Línea 339: el nombre de la propiedad Images de imglstFiguras no es válido.
+Línea 741: el nombre de la propiedad _ExtentX de txtFecha no es válido.
+Línea 742: el nombre de la propiedad _ExtentY de txtFecha no es válido.
+Línea 743: el nombre de la propiedad _Version de txtFecha no es válido.
+Línea 744: el nombre de la propiedad MaxLength de txtFecha no es válido.
+Línea 754: el nombre de la propiedad Mask de txtFecha no es válido.
+Línea 755: el nombre de la propiedad PromptChar de txtFecha no es válido.

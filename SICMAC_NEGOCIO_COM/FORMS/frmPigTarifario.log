@@ -1,0 +1,2 @@
+Línea 25: la clase SICMACT.FlexEdit del control feTarifario no era una clase de control cargada.
+Línea 115: la clase SICMACT.EditMoney del control txtValor no era una clase de control cargada.

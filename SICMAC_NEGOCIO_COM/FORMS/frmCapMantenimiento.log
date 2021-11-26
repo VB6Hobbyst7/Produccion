@@ -1,0 +1,5 @@
+Línea 48: la clase SICMACT.FlexEdit del control grdReglas no era una clase de control cargada.
+Línea 209: la clase SICMACT.FlexEdit del control grdCliente no era una clase de control cargada.
+Línea 341: la clase SICMACT.TxtBuscar del control txtCtaAhoAboInt no era una clase de control cargada.
+Línea 472: la clase SICMACT.TxtBuscar del control txtInstitucion no era una clase de control cargada.
+Línea 858: la clase SICMACT.ActXCodCta del control txtCuenta no era una clase de control cargada.

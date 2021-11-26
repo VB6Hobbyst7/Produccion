@@ -1,0 +1,12 @@
+gVarPublicas = 110, 145, 690, 508, 
+gITF = 66, 87, 549, 450, 
+gTrama = 66, 87, 587, 433, Z
+frmPruebatrama = 110, 145, 649, 491, , 88, 116, 736, 462, C
+TxtBuscar = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmOperacionesInterCMACInicio = 22, 29, 527, 404, , 0, 0, 505, 375, C
+frmOperacionesInterCMAC = 44, 58, 549, 433, , 110, 145, 615, 520, C
+EditMoney = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ActXCodCta = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+FlexEdit = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmCapOpeCMACLlam = 66, 87, 469, 410, , 0, 0, 0, 0, C
+frmMovLavDinero = 0, 0, 0, 0, C, 0, 0, 0, 0, C

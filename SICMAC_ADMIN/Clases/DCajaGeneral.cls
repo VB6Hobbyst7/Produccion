@@ -1,0 +1,140 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
+END
+Attribute VB_Name = "DCajaGeneral"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Attribute VB_Ext_KEY = "SavedWithClassBuilder6" ,"Yes"
+Attribute VB_Ext_KEY = "Top_Level" ,"Yes"
+Option Explicit
+Dim vsServerCom As String
+Dim vsServerPers As String
+Dim vsConexion As String
+Dim vsFormatoFecha As String
+Dim oconect As DConecta
+Public Sub Inicio(ByVal psFormatoFecha As String)
+vsFormatoFecha = psFormatoFecha
+End Sub
+Public Function InsertaOpCajaGen(ByVal psRangoCod As String, ByVal pdFechaIng As Date, ByVal pnRangoEmiIni As Long, ByVal pnRangoEmiFin As Long, ByVal psEstadoRango As CGEstadosOp, ByVal psUltActualizacion As String, ByVal pnMoneda As Moneda, Optional pbEjectBacth As Boolean = False) As Integer
+Dim sql As String
+On Error GoTo InsertaOpCajaGenErr
+
+InsertaOpCajaGen = 1
+sql = "INSERT INTO OPCAJAGEN(cRangoCod, dFechaIng, nRangoEmiIni, nRangoEmiFin, cEstadoRango, cUltActualizacion, cMoneda) " _
+    & " VALUES ('" & psRangoCod & "','" & Format(pdFechaIng, vsFormatoFecha) & "'," & pnRangoEmiIni & "," & pnRangoEmiFin & ",'" & psEstadoRango & "','" & psUltActualizacion & "','" & pnMoneda & "')"
+
+If pbEjectBacth Then
+    oconect.AdicionaCmdBatch sql
+Else
+    oconect.Ejecutar sql
+End If
+InsertaOpCajaGen = 0
+Exit Function
+InsertaOpCajaGenErr:
+    Call RaiseError(MyUnhandledError, "DCajaGeneral:InsertaOpCajaGen")
+
+End Function
+Public Function InsertaOpDetCajaGen(ByVal psRangoCod As String, ByVal pnRangoIni As Long, ByVal pnRangoFin As Long, ByVal psEstado As CGEstadosOp, ByVal psDescripcion As String, ByVal psUltActualizacion As String, Optional pbEjectBacth As Boolean = False) As Integer
+Dim sql As String
+On Error GoTo InsertaOpDetCajaGenErr
+
+InsertaOpDetCajaGen = 1
+sql = "INSERT INTO OPCAJAGENDET(cRangoCod,nRangoIni,nRangoFin,cEstadoDet,cDescDet,cUltActualizacion) " _
+    & " VALUES ('" & psRangoCod & "'," & pnRangoIni & "," & pnRangoFin & ",'" & psEstado & "','" & Replace(psDescripcion, "'", "''") & "','" & psUltActualizacion & "')"
+
+If pbEjectBacth Then
+    oconect.AdicionaCmdBatch sql
+Else
+    oconect.Ejecutar sql
+End If
+InsertaOpDetCajaGen = 0
+Exit Function
+InsertaOpDetCajaGenErr:
+    Call RaiseError(MyUnhandledError, "DCajaGeneral:InsertaOpDetCajaGen")
+End Function
+Public Function EliminaOpCajaGen(ByVal psRangoCod As String, Optional pbEjectBacth As Boolean = False) As Integer
+Dim sql As String
+On Error GoTo EliminaOpCajaGenErr
+sql = "DELETE OPCAJAGEN WHERE cRangoCod= '" & psRangoCod & "'"
+EliminaOpCajaGen = 1
+If pbEjectBacth Then
+    oconect.AdicionaCmdBatch sql
+Else
+    oconect.Ejecutar sql
+End If
+EliminaOpCajaGen = 0
+
+Exit Function
+EliminaOpCajaGenErr:
+    Call RaiseError(MyUnhandledError, "DCajaGeneral:EliminaOpCajaGen")
+
+End Function
+Public Function EliminaOpDetCajaGen(ByVal psRangoCod As String, ByVal pnRangoIni As Long, ByVal pnRangoFin As Long, Optional pbEjectBacth As Boolean = False) As Integer
+Dim sql As String
+On Error GoTo EliminaOpDetCajaGenErr
+
+EliminaOpDetCajaGen = 1
+sql = "DELETE FROM OPCAJAGENDET WHERE cRangoCod='" & psRangoCod & "' AND nRangoIni=" & pnRangoIni & " AND nRangoFin=" & pnRangoFin
+
+If pbEjectBacth Then
+    oconect.AdicionaCmdBatch sql
+Else
+    oconect.Ejecutar sql
+End If
+EliminaOpDetCajaGen = 0
+
+
+Exit Function
+EliminaOpDetCajaGenErr:
+    Call RaiseError(MyUnhandledError, "DCajaGeneral:EliminaOpDetCajaGen ")
+
+End Function
+Public Function EjecutaBatch() As Integer
+    EjecutaBatch = oconect.EjecutarBatch
+End Function
+Private Sub Class_Initialize()
+    Dim oImp As DImpresoras
+    Set oImp = New DImpresoras
+    
+    oImpresora.Inicia oImp.GetImpreSetup(oImp.GetMaquina)
+    
+    Set oImp = Nothing
+
+Dim oIni As ClasIni
+Set oIni = New ClasIni
+vsServerCom = oIni.BaseComunes
+vsServerPers = oIni.BasePersonas
+Set oIni = Nothing
+
+Set oconect = New DConecta
+If oconect.AbreConexion = False Then
+    Call RaiseError(MyUnhandledError, "DCajaGeneral:Initialize Method. Error en Conexion a Base de datos")
+End If
+End Sub
+Private Sub Class_Terminate()
+oconect.CierraConexion
+Set oconect = Nothing
+End Sub
+Public Function ActualizaOpCajaGen(ByVal psRangoCod As String, ByVal pnRangoEmiIni As Long, ByVal pnRangoEmiFin As Long, ByVal psUltActualizacion As String, Optional pbEjectBacth As Boolean = False) As Integer
+Dim sql As String
+On Error GoTo ActualizaOpCajaGenErr
+
+ActualizaOpCajaGen = 1
+sql = "UPDATE OPCajaGen SET nRangoEmiIni=" & pnRangoEmiIni & ",nRangoEmiFin=" & pnRangoEmiFin & ", cUltActualizacion='" & psUltActualizacion & "' WHERE cRangoCod='" & psRangoCod & "'"
+If pbEjectBacth Then
+    oconect.AdicionaCmdBatch sql
+Else
+    oconect.Ejecutar sql
+End If
+ActualizaOpCajaGen = 0
+Exit Function
+ActualizaOpCajaGenErr:
+    Call RaiseError(MyUnhandledError, "DCajaGeneral:ActualizaOpCajaGen ")
+End Function

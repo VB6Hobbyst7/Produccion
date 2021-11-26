@@ -1,0 +1,3 @@
+Línea 59: la clase SICMACT.EditMoney del control txtTasa no era una clase de control cargada.
+Línea 88: la clase SICMACT.FlexEdit del control grdCliente no era una clase de control cargada.
+Línea 143: la clase SICMACT.ActXCodCta del control txtCuenta no era una clase de control cargada.

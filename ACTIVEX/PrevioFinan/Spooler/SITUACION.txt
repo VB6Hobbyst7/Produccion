@@ -1,0 +1,149 @@
+CMAC-MAYNAS                                                                     04/01/2007-20:20:34            Pag. 001
+                                                                        
+E                                      B A L A N C E    D E    S I T U A C I O N   (HISTORICO)                                     F
+                                                      C O N S O L I D A D O                                                       
+
+                                                  ( DEL 01/03/2007 AL 31/03/2007)                                                 F
+
+ =============================================================================================================================================
+  CUENTA                                                                         SALDO                    MOVIMIENTO                  SALDO   
+  CONTABLE         D E S C R I P C I O N                                         INICIAL    ----------------------------------      ACUMULADO 
+                                                                                                    DEBE            HABER             M.N.    
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+( I ) ACTIVO Y SALDOS DEUDORES 
+-------------------------------
+
+ 11        DISPONIBLE                                                      23,069,598.08    91,992,652.57    92,858,244.78    22,204,005.87 
+ 13        INVERSIONES NEGOCIABLES                                          2,596,346.77         4,200.10     1,959,121.54       641,425.33 
+ 14        CREDITOS                                                       107,805,129.38    40,484,105.97    36,855,127.18   111,434,108.17 
+ 15        CUENTAS POR COBRAR                                                 810,152.06       358,486.43       689,540.38       479,098.11 
+ 16        BIENES REALIZABLES, RECIBIDOS EN PAGO, ADJUDICADOS Y FUERA D       429,438.19             0.00             0.00       429,438.19 
+ 17        INVERSIONES    PERMANENTES                                       1,141,913.56             0.00             0.00     1,141,913.56 
+ 18        INMUEBLES, MOBILIARIO Y EQUIPO                                   4,382,562.36       148,102.40        70,431.16     4,460,233.60 
+ 19        OTROS ACTIVOS                                                    3,140,400.93     3,767,691.59       643,288.58     6,264,803.94 
+ 41        GASTOS FINANCIEROS                                               1,418,844.61       845,320.38        46,786.82     2,217,378.17 
+ 42        GASTOS POR SERVICIOS FINANCIEROS                                     9,655.15        11,437.07             3.28        21,088.94 
+ 43        PROVISIONES PARA DESVALORIZACIÓN E INCOBRABILIDAD                  819,440.96       424,168.49       283,940.85       959,668.60 
+ 44        DEPRECIACION DE INMUEBLES, MOBILIARIO Y                            217,409.17        65,682.21             0.00       283,091.38 
+ 45        GASTOS DE  ADMINISTRACIÓN                                        2,373,740.51     1,183,589.42       172,822.34     3,384,507.59 
+ 65        GASTOS  DE  EJERCICIOS  ANTERIORES                                   9,319.69         2,005.50             0.00        11,325.19 
+ 67        DISTRIBUCION  LEGAL  DE  LA  RENTA NETA                             78,990.57             0.00             0.00        78,990.57 
+ 68        IMPUESTO A LA RENTA                                                450,246.27             0.00             0.00       450,246.27 
+ 71        CONTINGENTES DEUDORAS                                            1,640,221.93         9,700.00        13,997.63     1,635,924.30 
+
+               TOTAL ACTIVO Y SALDOS DEUDORES                             150,393,410.19   139,297,142.13   133,593,304.54   156,097,247.78 
+
+
+( II ) CUENTAS DE ORDEN DEUDORAS 
+---------------------------------
+
+ 81        CUENTAS DE ORDEN DEUDORAS                                      155,365,068.59     9,268,697.68    14,323,196.70   150,310,569.57 
+ 83        CONTRA CUENTA DE CUENTAS DE ORDEN ACREEDORAS                   428,797,858.80    50,922,475.75    48,559,067.77   431,161,266.78 
+
+               TOTAL CUENTAS DE ORDEN DEUDORAS                            584,162,927.39    60,191,173.43    62,882,264.47   581,471,836.35 
+  CMAC-MAYNAS                                                                     04/01/2007-20:20:35            Pag. 002
+                                                                        
+E                                      B A L A N C E    D E    S I T U A C I O N   (HISTORICO)                                     F
+                                                      C O N S O L I D A D O                                                       
+
+                                                  ( DEL 01/03/2007 AL 31/03/2007)                                                 F
+
+ =============================================================================================================================================
+  CUENTA                                                                         SALDO                    MOVIMIENTO                  SALDO   
+  CONTABLE         D E S C R I P C I O N                                         INICIAL    ----------------------------------      ACUMULADO 
+                                                                                                    DEBE            HABER             M.N.    
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+( III ) PASIVO Y SALDOS ACREEDORES
+-----------------------------------
+
+ 21        OBLIGACIONES CON EL PUBLICO                                     81,573,144.25    38,730,353.40    40,639,513.64    83,482,304.49 
+ 23        Depósitos de Empresas del Sistema Financ                        10,074,635.37     2,545,464.27     1,486,922.84     9,016,093.94 
+ 24        ADEUDOS Y OBLIGACIONES FINANCIERAS A COR                         8,068,062.76    10,874,563.96     4,740,436.20     1,933,935.00 
+ 25        CUENTAS POR PAGAR                                                1,791,526.15       853,030.80       966,630.55     1,905,125.90 
+ 26        ADEUDOS Y OBLIGACIONES FINANCIERAS A LAR                        16,149,818.28       637,515.00     2,528,244.57    18,040,547.85 
+ 27        PROVISIONES                                                         42,820.55         4,747.12         3,895.58        41,969.01 
+ 29        OTROS  PASIVOS                                                   2,299,440.06    15,278,241.89    20,590,588.91     7,611,787.08 
+ 31        CAPITAL SOCIAL                                                  11,680,624.51             0.00             0.00    11,680,624.51 
+ 32        CAPITAL ADICIONAL                                                  106,325.11             0.00             0.00       106,325.11 
+ 33        RESERVAS                                                         3,822,439.03             0.00             0.00     3,822,439.03 
+ 38        RESULTADOS ACUMULADOS                                            6,716,130.64             0.00             0.00     6,716,130.64 
+ 51        INGRESOS FINANCIEROS                                             5,631,157.28       585,966.13     4,141,785.51     9,186,976.66 
+ 52        INGRESOS  POR  SERVICIOS  FINANCIEROS                               67,126.32             0.00       105,535.03       172,661.35 
+ 62        INGRESOS EXTRAORDINARIOS                                           132,220.46             0.00             0.00       132,220.46 
+ 64        INGRESOS DE EJERCICIOS ANTERIORES                                  597,717.49             0.00        14,464.96       612,182.45 
+ 72        CONTINGENTES   ACREEDORAS                                        1,640,221.93        13,997.63         9,700.00     1,635,924.30 
+
+               TOTAL PASIVO Y SALDOS ACREEDORES                           150,393,410.19    69,523,880.20    75,227,717.79   156,097,247.78 
+
+
+( IV ) CUENTAS DE ORDEN ACREEDORAS
+-----------------------------------
+
+ 82        CONTRA CUENTA DE CUENTAS DE ORDEN DEUDORAS                     155,365,068.59    11,996,053.04     6,941,554.02   150,310,569.57 
+ 84        CUENTAS DE ORDEN ACREEDORAS                                    428,797,858.80    65,094,183.71    67,457,591.69   431,161,266.78 
+
+               TOTAL CUENTAS DE ORDEN ACREEDORAS                          584,162,927.39    77,090,236.75    74,399,145.71   581,471,836.35
+
+E               TOTAL GENERAL     DEBE  :   346,102,432.51
+                                 HABER :   346,102,432.51F
+  CMAC-MAYNAS                                                                     04/01/2007-20:20:35            Pag. 003
+                                                                        
+E                                      B A L A N C E    D E    S I T U A C I O N   (HISTORICO)                                     F
+                                                      C O N S O L I D A D O                                                       
+
+                                                  ( DEL 01/03/2007 AL 31/03/2007)                                                 F
+
+ =============================================================================================================================================
+  CUENTA                                                                         SALDO                    MOVIMIENTO                  SALDO   
+  CONTABLE         D E S C R I P C I O N                                         INICIAL    ----------------------------------      ACUMULADO 
+                                                                                                    DEBE            HABER             M.N.    
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+                       CALCULO DE LA UTILIDAD (HISTORICA)                       
+                                  (CONSOLIDADO)                                  
+                       -----------------------------------                       
+
+
+
+
+
+     UTILIDAD ACUMULADA AL 28/02/2007        :     1,050,574.62
+     UTILIDAD DEL MES DE 03/2007             :     2,176,406.43
+                                             --------------------
+     UTILIDAD ACUMULADA AL 31/03/2007        :     3,226,981.05
+     R.E.I. 2007                             :             0.00
+                                             ====================
+     UTILIDAD ANTES DE IMPUESTO              :     3,226,981.05
+     PARTICIPACION LABORAL                   :       -78,990.57
+     IMPUESTO A LA RENTA                     :      -450,246.27
+                                             --------------------
+     UTILIDAD(PERDIDA) NETA AL 31/03/2007    :     2,697,744.21
+                                             ====================
+
+
+                    CONSTANCIA DE CUADRE DE BALANCE
+                            (CONSOLIDADO)          
+                    -----------------------------------
+
+
+     ACTIVO                                     147,055,026.77
+     PASIVO                                                         122,031,763.27
+     PATRIMONIO                                                     22,325,519.29
+     UTILIDAD (PERDIDA) NETA                                         2,697,744.21
+                                               --------------------------------------
+                                               147,055,026.77       147,055,026.77
+                                               --------------------------------------
+     DIFERENCIA                                          0.00                                                  F,66  

@@ -1,0 +1,5 @@
+[History]
+B0=ProgressBar/frmProgress/Form_Load
+B1=ProgressBar/frmProgress/Progress
+B2=ProgressBar/frmProgress/Inicio
+B3=ProgressBar/frmProgress/SpawnThread
