@@ -298,7 +298,7 @@ Dim pMatMenuPer As Variant
     Call oAcceso.CargarLogin_NEW(Trim(lblUsu.Caption), Trim(TxtClave.Text), bInterconexCorrecta, bClaveIncorrecta, rsITF, rsVar, psServerName, psDBName, psCadConexion, _
                               pMatMenuPer, bTieneAlgunPermiso, bTienePermisoRetiroSinFirma, bIniciarNuevoDia, gRsOpeF2, gRsExtornos, gRsOpeCMACRecep, gRsOpeCMACLlam, gRsOpeRepo, 1)
     
-
+	'ESTO ES UNA PRUEBA DEL PODER DE GITHUB
     'Set oAcceso = Nothing
     
     'AGREGADO POR ARLO 20170331
@@ -551,7 +551,7 @@ Private Sub Form_Load()
     End If
     Set oImp = Nothing
     
-    lblUsu.Caption = UCase(ObtenerUsuarioCliente) 'UCase(oAcceso.ObtenerUsuario)
+    lblUsu.Caption = "LIPA" 'UCase(ObtenerUsuarioCliente) 'UCase(oAcceso.ObtenerUsuario)
     
     Set oAcceso = New COMDPersona.UCOMAcceso
     
